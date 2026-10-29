@@ -12,7 +12,19 @@
 
 ## 安装
 
-下载发布的补丁 ZIP，或使用本仓库的完整内容。退出游戏后，在 Windows PowerShell 中运行：
+### 解压覆盖安装
+
+[下载解压覆盖补丁 ZIP（约 5.1 MB）](https://github.com/CrystalVapor/CubeWarper-zhCN-i18n/raw/refs/heads/main/downloads/CubeWarper-zh_CN-Bilingual-Overlay-2026-10-12.zip) · [SHA-256](downloads/CubeWarper-zh_CN-Bilingual-Overlay-2026-10-12.zip.sha256)
+
+1. 退出游戏，备份实例的 `config/ftbquests`、`kubejs` 和 `patchouli_books`。
+2. 将 ZIP 全部内容直接解压到整合包根目录，覆盖同名文件；`config`、`kubejs`、`resourcepacks` 等目录应与 `mods` 处于同一层。
+3. 启动游戏并选择简体中文。在资源包菜单中启用两个汉化资源包，将 `CubeWarper-Chinese-Bilingual` 放在已选列表最上方，`Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip` 紧随其下。
+
+此安装方式无需运行脚本。压缩包内直接包含游戏相对路径，资源包启用与排序通过游戏菜单完成。若已有较新的自动汉化 ZIP，解压时可保留本地同名文件。详细步骤和恢复方式见 [解压覆盖安装说明](docs/OVERLAY-INSTALL.md)。
+
+### 脚本安装
+
+使用脚本安装包或本仓库的完整内容。退出游戏后，在 Windows PowerShell 中运行：
 
 ```powershell
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Install-Patch.ps1 -GameDirectory "你的 Cube Warper 实例目录"
@@ -28,7 +40,15 @@ Python 3.10 或更高版本，无第三方依赖：
 python tools/build_release.py
 ```
 
-生成文件位于 `dist/`。构建过程检查全部 payload 文件的 SHA-256，并验证生成 ZIP 的内容和 CRC。
+生成脚本安装包和解压覆盖包，均保存在 `dist/`。构建过程检查全部 payload 文件的 SHA-256，验证 ZIP 内容、CRC，并实际解压覆盖包逐文件核对。
+
+更新仓库中的直接下载文件：
+
+```powershell
+python tools/build_release.py --publish-overlay
+```
+
+此命令将已验证的覆盖包及校验文件复制到 `downloads/`。GitHub Actions 也会构建两种安装包，可在对应工作流运行页面下载构建产物。
 
 ## 维护译文
 
