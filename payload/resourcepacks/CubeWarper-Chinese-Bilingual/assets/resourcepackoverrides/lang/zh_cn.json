@@ -1,0 +1,11 @@
+{
+  "packAction.copyId.description": "按住 %1$s 复制（Hold %1$s to copy）",
+  "packAction.copyId.success": "已复制！（Copied!）",
+  "packAction.copyId.title": "复制资源包 ID（Copy Pack Id）",
+  "packAction.reloadSettings.description": "按住 %1$s 重新加载（Hold %1$s to reload）",
+  "packAction.reloadSettings.success": "已重新加载！（Reloaded!）",
+  "packAction.reloadSettings.title": "重新加载设置（Reload Settings）",
+  "packAction.toggleDebug.description": "按住 %1$s 切换（Hold %1$s to toggle）",
+  "packAction.toggleDebug.success": "已切换！（Toggled!）",
+  "packAction.toggleDebug.title": "切换资源包 ID 显示（Toggle Pack Ids）"
+}

@@ -1,0 +1,273 @@
+{
+	autofocus_id: "30A0ACC1C6D738A8"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_0"
+	group: ""
+	icon: "kubejs:vector_operator_basic"
+	id: "7216CC03FDC70704"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["登上六面体，按下红色大按钮！&r（Board the Hexahedron and press the big red button!&r）"]
+			icon: "kubejs:launch_button"
+			id: "30A0ACC1C6D738A8"
+			rewards: [{
+				id: "585E03F8815FFB85"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "&o按下红色大按钮&r（&oPressing the Big Red Button&r）"
+			tasks: [{
+				dimension: "hexahedron:hexahedron_graveyard"
+				id: "4DCBD79A3064C0F9"
+				title: "按下红色大按钮&r（Press the Big Red Button&r）"
+				type: "dimension"
+			}]
+			title: "开始旅程&r（Getting Started&r）"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["30A0ACC1C6D738A8"]
+			description: [
+				"在这个奇异的新维度中，你可以找到旧式矢量算子。&r（In this strange new dimension you can find Old Vector Operators.&r）"
+				"将它们放在六面体内部的三个插座上，即可前往新的维度。&r（Placing them onto the three plugs inside the Hexahedron will allow you to travel to new dimensions.&r）"
+				""
+				"每个旧式矢量算子&r（Each of the Old Vector Operators &r）"
+				"都会使数值加 1。例如，连续放置两个算子就会将你送往维度 2。&r（adds +1. So for example, two in a row will send you to dimension 2.&r）"
+				""
+				"{image:kubejs:textures/questbook/book_images/vectors.png width:154 height:122 align:center}"
+			]
+			id: "43823F2E6C3DD6A1"
+			rewards: [{
+				id: "265ACAB0D1BDA723"
+				item: "kubejs:emergency_fuses"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "&o看看它会带你去哪里&r（&oSee Where it Takes you&r）"
+			tasks: [{
+				id: "67B3C3C64DD71B42"
+				item: "kubejs:vector_operator_basic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["30A0ACC1C6D738A8"]
+			description: [
+				"按住默认的 &o波浪号&r键（~），即可同时挖掘大量相邻且类型相同的方块。&r（While holding the default &otilde&r key (~) you can mine a lot of adjacent blocks at once as long as they are of the same type. &r）"
+				""
+				"这个实用工具可以减少任务中的重复劳动。&r（This is quite a handy tool that prevents tasks from becoming to grindy.&r）"
+				""
+				"你可以在控制设置的 FTB Ultimine 分类中重新绑定该按键。&r（You can rebind this key in the controls menu under \"FTB Ultimine\".&r）"
+			]
+			icon: {
+				Count: 1
+				id: "clanginghowl:extraterrestrial_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "722B22AF736527D1"
+			subtitle: "&o这里提供连锁挖掘&r（&oYes there is Veinminer&r）"
+			tasks: [{
+				id: "61ABF0B11CAED1DA"
+				title: "我要挖掘所有方块！&r（I will Break all the Things!&r）"
+				type: "checkmark"
+			}]
+			title: "挖掘一切&r（Excavate all the Things&r）"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30A0ACC1C6D738A8"]
+			description: [
+				"使用 FTB 地图可以强制加载区块，使设施在你离开所在区域后仍能运行。&r（Using the FTB map you can force load chunks so that setups work even when you are not currently present in that specific area.&r）"
+				""
+				"点击物品栏界面左上角的第二个地图图标，即可认领区块。&r（Simply click the second map icon in the top left of your inventory screen. There you will be able to claim chunks.&r）"
+				""
+				"在地图上按住 Shift 并右键点击已加载的区块，即可强制加载它们。&r（You can shift right-click on loaded chunks on the map to force load them.&r）"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:filled_map"
+				tag: {
+					map: 0
+				}
+			}
+			id: "186BE3D50FBAC8D8"
+			subtitle: "&o加载视野之外的区块&r（&oLoading what you are not Observing&r）"
+			tasks: [{
+				id: "307755245B1A4BD4"
+				title: "区块将保持加载&r（The Chunks will be Loaded&r）"
+				type: "checkmark"
+			}]
+			title: "加载区块&r（Loading Chunks&r）"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30A0ACC1C6D738A8"]
+			description: [
+				"阿卡什宝典收录了你所需的全部指南书。&r（The Akashic Tome contains all the guidebooks you will ever need.&r）"
+				""
+				"如果不确定某项操作的方式，请查阅对应模组的指南书。&r（If you are ever unsure on how to do something, make sure to check the guidebook of the corresponding mod.&r）"
+				""
+				"将宝典变为某本指南书后，左键点击即可将其还原为阿卡什宝典。&r（Once you have morphed The Tome into one of the guidebooks you can Left-click it to transform it back into the Akashic Tome.&r）"
+			]
+			icon: "akashictome:tome"
+			id: "11650877F274EF55"
+			rewards: [{
+				id: "0892E30AA70323DA"
+				item: {
+					Count: 1
+					id: "akashictome:tome"
+					tag: {
+						"akashictome:data": {
+							actuallyadditions: {
+								Count: 1b
+								id: "actuallyadditions:booklet"
+							}
+							ae2: {
+								Count: 1b
+								id: "ae2:guide"
+							}
+							botania: {
+								Count: 1b
+								id: "botania:lexicon"
+							}
+							forestry: {
+								Count: 1b
+								id: "forestry:foresters_manual"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.forestry.foresters_manual\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.forestry.foresters_manual\"}]}"
+									}
+								}
+							}
+							ftbquests: {
+								Count: 1b
+								id: "ftbquests:book"
+							}
+							immersiveengineering: {
+								Count: 1b
+								id: "immersiveengineering:manual"
+							}
+							malum: {
+								Count: 1b
+								id: "malum:encyclopedia_arcana"
+							}
+							patchouli: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "patchouli:ritual_circle"
+								}
+							}
+							tconstruct: {
+								Count: 1b
+								id: "tconstruct:puny_smelting"
+							}
+							tconstruct_0: {
+								Count: 1b
+								id: "tconstruct:mighty_smelting"
+								tag: {
+									"akashictome:definedMod": "tconstruct_0"
+								}
+							}
+							tconstruct_1: {
+								Count: 1b
+								id: "tconstruct:tinkers_gadgetry"
+								tag: {
+									"akashictome:definedMod": "tconstruct_1"
+								}
+							}
+							tconstruct_2: {
+								Count: 1b
+								id: "tconstruct:materials_and_you"
+								tag: {
+									"akashictome:definedMod": "tconstruct_2"
+								}
+							}
+							tconstruct_3: {
+								Count: 1b
+								id: "tconstruct:fantastic_foundry"
+								tag: {
+									"akashictome:definedMod": "tconstruct_3"
+								}
+							}
+							tconstruct_4: {
+								Count: 1b
+								id: "tconstruct:encyclopedia"
+								tag: {
+									"akashictome:definedMod": "tconstruct_4"
+								}
+							}
+						}
+						"akashictome:is_morphing": 1b
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&o知识就是力量&r（&oKnowlege is Power&r）"
+			tasks: [{
+				id: "2A1B1F6C6EC3CF19"
+				title: "交出图书馆&r（Hand over the Library&r）"
+				type: "checkmark"
+			}]
+			title: "阿卡什宝典&r（The Akashic Tome&r）"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["30A0ACC1C6D738A8"]
+			description: [
+				"考虑到整合包的运行机制，建议将渲染距离控制在 12 个区块以内。&r（Because of the nature of this modpack, it is best to not push your render distance beyond 12 chunks.&r）"
+				""
+				"这项建议主要适用于六面体移动到全新维度的过程。&r（This goes mainly for when the Hexahedron is changing its location to a fully new dimension.&r）"
+			]
+			icon: "supplementaries:slice_map"
+			id: "31BF68FFC2949A89"
+			tasks: [{
+				id: "45EFC8C5811E8689"
+				title: "已了解&r（Understood&r）"
+				type: "checkmark"
+			}]
+			title: "谨慎加载区块&r（Load Chunks with care&r）"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["30A0ACC1C6D738A8"]
+			description: [
+				"如果六面体发生意外故障，执行下列命令可以解决许多问题：&r（If the Hexahedron breaks down in some unintended way, you can resolve a lot of problems by executing the following command:&r）"
+				""
+				"/function hexahedron:hexahedron_rebuild"
+				""
+				"该命令会重建六面体内部的技术组件。&r（This will reconstruct the technical bits inside the Hexahedron. &r）"
+				"你的基地将完整保留。&r（Your base will remain fully intact.&r）"
+			]
+			icon: "minecraft:command_block_minecart"
+			id: "04D761E4AC9E2FAA"
+			tasks: [{
+				id: "08B8E387F3E0FB06"
+				title: "已了解&r（Understood&r）"
+				type: "checkmark"
+			}]
+			title: "紧急情况处理&r（In Case of Emergency&r）"
+			x: -4.5d
+			y: 1.5d
+		}
+	]
+	title: "第 0 章&r（Chapter 0&r）"
+}

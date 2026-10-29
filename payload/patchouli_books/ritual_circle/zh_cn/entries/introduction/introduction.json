@@ -1,0 +1,19 @@
+{
+  "name": "引言（Introduction）",
+  "icon": "alexscaves:desolate_dagger",
+  "category": "patchouli:ritual",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "alexscaves:desolate_dagger",
+      "title": "黑暗祭坛（The Dark Shrine）",
+      "text": "维度 64，又被称为腐肉-485，其中有一座能够引导极大量黑暗能量的祭坛。$(br2)这个结构由八根围成圆形的石柱与一根中央石柱组成。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Dark Shrine",
+      "text": "Inside of dimension 64, also known to some as Carrion-485, there exists a shrine that is capable of channelling an insane amount of dark energy. $(br2)This construct consists of 8 pillars standing in a circle around one central pillar."
+    }
+  ]
+}

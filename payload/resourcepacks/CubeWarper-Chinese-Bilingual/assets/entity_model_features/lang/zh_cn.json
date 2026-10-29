@@ -1,0 +1,19 @@
+{
+  "entity_model_features.config.allowed_cem": "允许的模型（Allowed models）",
+  "entity_model_features.config.allowed_cem.all": "全部（All）",
+  "entity_model_features.config.allowed_cem.known_only": "仅已知模型（主要为原版 / OptiFine）（Known only (Mostly Vanilla / OptiFine)）",
+  "entity_model_features.config.allowed_cem.tooltip": "设置 EMF 尝试处理的模型。注意：此判断存在局限，部分模组直接使用原版命名空间 ID，EMF 对此难以处理。（Determines what models EMF will try to interact with. Note: this is not perfect, some mods just use the vanilla namespace ids and there is little EMF can do about it）",
+  "entity_model_features.config.allowed_cem.unknown_only": "仅未知模型（主要为模组模型）（Unknown only (Mostly Modded)）",
+  "entity_model_features.config.armor_hack": "盔甲跟随自定义动画（Armor copies custom animations）",
+  "entity_model_features.config.armor_hack.tooltip": "在 1.21.9 及更高版本中，盔甲不再自动跟随基础模型的自定义动画，此选项恢复此前的行为。（In 1.21.9+ armor no longer naturally copies the custom animations of the base model, this replicates that old behaviour.）",
+  "entity_model_features.config.asmmaths": "编译动画数学表达式（Compiled animation math）",
+  "entity_model_features.config.asmmaths.logASM": "会产生大量日志，通常仅在开发者要求提供此类日志时需要启用。（Will cause log spam, you probably don't need this unless the dev asked you to provide a log with this.）",
+  "entity_model_features.config.asmmaths.tooltip": "通常建议开启此选项。\n关闭后，动画系统会使用计算开销更大的表达式树，这种方式可能更适合调试。（You almost always want this ON.\nWhen disabled the animation system will defer to a more computationally expensive expression tree, which can be more useful for debugging.）",
+  "entity_model_features.config.export_rotations": "导出旋转值（Export rotations）",
+  "entity_model_features.config.export_rotations.tooltip": "导出的 jem 模型通常应省略旋转值，因为模型会继承原版部件的旋转值\n 不过，部分模型编辑器可能需要包含这些值\n 此选项会在导出的 jem 文件中包含旋转值（exported jem models should not include the rotation values as they will inherit these from the vanilla parts\n however some model editors may like to have these values included\n this option will include them in the exported jem files）",
+  "entity_model_features.config.logASM": "记录已编译数学表达式的状态（Log compiled math state）",
+  "entity_model_features.config.parrot_shoulder_animate": "肩部鹦鹉跟随玩家动画（Parrot shoulder follows player animations）",
+  "entity_model_features.config.parrot_shoulder_animate.tooltip": "默认使肩部鹦鹉的位置自动跟随玩家动画。此行为与 `parrot_left` 和 `parrot_right` 附着点不同，因为这些附着点不会旋转。（Will automatically make parrot shoulder position follow the animated player position by default, this is not equivalent to the `parrot_left` and `parrot_right` attachment points as these will not rotate.）",
+  "entity_model_features.config.sulfur_cube_block": "硫磺立方体内部方块默认动画（Sulfur Cube block default animation）",
+  "entity_model_features.config.sulfur_cube_block.tooltip": "默认自动为硫磺立方体内部方块添加动画，相当于在模型的 'cube' 部件中设置偏移为 0,0,0 的 'sulfur_cube_block' 附着点。（Will automatically make Sulfur Cube internal blocks animate by default, this is equivalent to having a 'sulfur_cube_block' attachment in the model's 'cube' part with offset 0,0,0.）"
+}

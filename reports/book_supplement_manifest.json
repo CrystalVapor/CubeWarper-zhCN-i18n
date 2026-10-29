@@ -1,0 +1,83 @@
+[
+  {
+    "source_archive": "mods\\ImmersiveEngineering-1.20.1-10.2.0-183.jar",
+    "source_path": "assets/immersiveengineering/manual/en_us/dyes.txt",
+    "output_path": "assets/immersiveengineering/manual/zh_cn/dyes.txt",
+    "english_retained": "following pages"
+  },
+  {
+    "source_archive": "mods\\ImmersiveEngineering-1.20.1-10.2.0-183.jar",
+    "source_path": "assets/immersiveengineering/manual/en_us/clinker_brick.txt",
+    "output_path": "assets/immersiveengineering/manual/zh_cn/clinker_brick.txt",
+    "english_retained": "following pages"
+  },
+  {
+    "source_archive": "mods\\ImmersiveEngineering-1.20.1-10.2.0-183.jar",
+    "source_path": "assets/immersiveengineering/manual/en_us/electromagnet.txt",
+    "output_path": "assets/immersiveengineering/manual/zh_cn/electromagnet.txt",
+    "english_retained": "following pages"
+  },
+  {
+    "source_archive": "mods\\ImmersivePosts-1.20.1-4.3.0-15.jar",
+    "source_path": "assets/immersiveposts/manual/en_us/postbase.txt",
+    "output_path": "assets/immersiveposts/manual/zh_cn/postbase.txt",
+    "english_retained": "following pages"
+  },
+  {
+    "source_archive": "mods\\ImmersivePosts-1.20.1-4.3.0-15.jar",
+    "source_path": "assets/immersiveposts/manual/en_us/posts.txt",
+    "output_path": "assets/immersiveposts/manual/zh_cn/posts.txt",
+    "english_retained": "following pages"
+  },
+  {
+    "source_archive": "mods\\ImmersivePosts-1.20.1-4.3.0-15.jar",
+    "source_path": "assets/immersiveposts/manual/en_us/usage.txt",
+    "output_path": "assets/immersiveposts/manual/zh_cn/usage.txt",
+    "english_retained": "following pages"
+  },
+  {
+    "source_archive": "mods\\TConstruct-1.20.1-3.11.2.166.jar",
+    "source_path": "assets/tconstruct/book/mighty_smelting/en_us/tools/designing.json",
+    "output_path": "assets/tconstruct/book/mighty_smelting/zh_cn/tools/designing.json",
+    "english_retained": "following pages"
+  },
+  {
+    "source_archive": "mods\\TConstruct-1.20.1-3.11.2.166.jar",
+    "source_path": "assets/tconstruct/book/mighty_smelting/en_us/tools/tips.json",
+    "output_path": "assets/tconstruct/book/mighty_smelting/zh_cn/tools/tips.json",
+    "english_retained": "following pages"
+  },
+  {
+    "source_archive": "mods\\TConstruct-1.20.1-3.11.2.166.jar",
+    "source_path": "assets/tconstruct/book/tinkers_gadgetry/en_us/exploration/cobalt_shard.json",
+    "output_path": "assets/tconstruct/book/tinkers_gadgetry/zh_cn/exploration/cobalt_shard.json",
+    "english_retained": "following pages"
+  },
+  {
+    "source_archive": "mods\\TConstruct-1.20.1-3.11.2.166.jar",
+    "source_path": "assets/tconstruct/book/mighty_smelting/en_us/tools/tanks.json",
+    "output_path": "assets/tconstruct/book/mighty_smelting/zh_cn/tools/tanks.json",
+    "english_retained": "following pages"
+  },
+  {
+    "source_archive": "mods\\TConstruct-1.20.1-3.11.2.166.jar",
+    "source_path": "assets/tconstruct/book/tinkers_gadgetry/en_us/exploration/cobalt_ore.json",
+    "output_path": "assets/tconstruct/book/tinkers_gadgetry/zh_cn/exploration/cobalt_ore.json",
+    "english_retained": "following pages"
+  },
+  {
+    "output_path": "assets/tconstruct/book/mighty_smelting/zh_cn/sections/tools.json",
+    "purpose": "Chinese-only localized section index with English continuation pages referencing original jar resource paths"
+  },
+  {
+    "output_path": "assets/tconstruct/book/tinkers_gadgetry/zh_cn/sections/exploration.json",
+    "purpose": "Chinese-only localized section index with English continuation pages referencing original jar resource paths"
+  },
+  {
+    "source_archive": "mods\\forestry-1.20.1-2.11.1.jar",
+    "source_path": "assets/forestry/patchouli_books/foresters_manual/en_us/entries/core/circuit_board.json",
+    "output_path": "assets/forestry/patchouli_books/foresters_manual/zh_cn/entries/core/circuit_board.json",
+    "english_retained": "same title field",
+    "purpose": "Single direct literal; language-key references remain unchanged"
+  }
+]

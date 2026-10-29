@@ -1,0 +1,10 @@
+{
+  "block.tconstruct.cinderslime_block.tooltip": "可用于建造信标基座（Can be used as beacon base）",
+  "block.tconstruct.slimesteel_block.tooltip": "可用于建造信标基座（Can be used as beacon base）",
+  "block.tconstruct.steel_block.tooltip": "可用于建造信标基座（Can be used as beacon base）",
+  "key.tconstruct.ctrl": "按住Ctrl（Ctrl）",
+  "key.tconstruct.shift": "按住Shift（Shift）",
+  "modifier.tconstruct.blast_protection.flavor": "哎呀！（Aw man!）",
+  "modifier.tconstruct.headlight": "头灯（Headlight）",
+  "modifier.tconstruct.the_one_probe": "检测器（The One Probe）"
+}

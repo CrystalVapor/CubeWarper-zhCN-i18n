@@ -1,0 +1,11 @@
+{
+  "imm_ptl.command.night_vision": "夜视（Night Vision）",
+  "imm_ptl.command.reset_shape": "重置传送门形状（Reset the portal shape）",
+  "imm_ptl.command.sculpt": "雕刻传送门（Sculpt the portal）",
+  "imm_ptl.command_desc.reset_shape": "将传送门形状重置为默认矩形（Resets the portal shape to the default rectangular shape）",
+  "imm_ptl.command_desc.sculpt": "根据与传送门相交的方块雕刻其形状（Sculpts the portal shape by the blocks that it's intersecting with）",
+  "imm_ptl.command_desc.show_wiki": "探索精彩功能（Discover cool features）",
+  "imm_ptl.peripheral_tooltip": "沉浸式传送门扩展（Immersive Portals Peripherals）",
+  "imm_ptl.sculpted": "传送门雕刻完成。减少面积：%1$s  原始面积：%2$s  当前面积：%3$s（Portal Sculpted. Area Reduced: %1$s  Area Before: %2$s  Area After: %3$s）",
+  "imm_ptl.sculpting_in_progress": "正在雕刻传送门……（Running portal sculpting...）"
+}

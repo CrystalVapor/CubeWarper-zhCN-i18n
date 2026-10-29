@@ -1,0 +1,34 @@
+[
+  {
+    "file": "config\\ftbquests\\quests\\chapters\\chapter_0.snbt",
+    "translated_fields": 37
+  },
+  {
+    "file": "config\\ftbquests\\quests\\chapters\\chapter_1.snbt",
+    "translated_fields": 30
+  },
+  {
+    "file": "config\\ftbquests\\quests\\chapters\\chapter_2.snbt",
+    "translated_fields": 76
+  },
+  {
+    "file": "config\\ftbquests\\quests\\chapters\\chapter_3.snbt",
+    "translated_fields": 124
+  },
+  {
+    "file": "config\\ftbquests\\quests\\chapters\\chapter_4.snbt",
+    "translated_fields": 81
+  },
+  {
+    "file": "config\\ftbquests\\quests\\chapters\\chapter_5.snbt",
+    "translated_fields": 104
+  },
+  {
+    "file": "config\\ftbquests\\quests\\chapters\\chapter_6.snbt",
+    "translated_fields": 22
+  },
+  {
+    "file": "config\\ftbquests\\quests\\chapters\\chapter_8.snbt",
+    "translated_fields": 102
+  }
+]

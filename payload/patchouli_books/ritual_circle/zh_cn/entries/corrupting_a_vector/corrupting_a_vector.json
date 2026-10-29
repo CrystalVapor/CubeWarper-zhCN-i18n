@@ -1,0 +1,31 @@
+{
+  "name": "腐化矢量算子（Corrupting a Vector）",
+  "icon": "kubejs:vector_operator_eye",
+  "category": "patchouli:ritual",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "kubejs:vector_operator_eye",
+      "title": "腐化矢量算子（Corrupting a Vector）",
+      "text": "这个仪式会将绯红之眼囚禁在矢量算子内部，使算子腐化。$(br2)它的用途尚待探索……"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Corrupting a Vector",
+      "text": "This ritual will corrupt a Vector Operator by trapping a Crimson Eye inside of it. $(br2)The applications for this are unexplored..."
+    },
+    {
+      "type": "patchouli:ritual",
+      "input1": "kubejs:crimson_eye",
+      "input2": "kubejs:supercomputer",
+      "input3": "kubejs:supercomputer",
+      "input4": "kubejs:supercomputer",
+      "input5": "alexscaves:forsaken_idol",
+      "input6": "alexscaves:forsaken_idol",
+      "input7": "kubejs:modular_reactor",
+      "input8": "kubejs:modular_reactor",
+      "input9": "kubejs:vector_operator_empty"
+    }
+  ]
+}

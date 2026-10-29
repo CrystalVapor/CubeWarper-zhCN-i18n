@@ -1,0 +1,55 @@
+使用方法（How to Use）
+
+<&usage1>你需要准备工程师锤和选定的材料。
+
+完整的可用材料列表请参阅<link;immersiveposts:posts;此处;start>。<np>
+
+<&usage2>随后手持选定的材料右键点击底座，即可形成上图所示的结构。
+
+注意：材料类型必须始终保持一致！例如，木制立柱只接受§o防腐木栅栏§r。<np>
+
+<&usage3>之后也可以右键点击立柱本身进行加高，这样更容易看清当前高度。
+
+很方便吧？<np>
+
+<&usage4>若要添加宽度为 1 格的横臂，手持工程师锤在所需侧面和高度右键点击即可。右键点击横臂所在的立柱侧面可以移除横臂，也可以用斧头将其破坏。
+
+§n注意：若有方块阻挡，横臂将无法出现。§r<np>
+
+<&usage5>右键点击横臂本身，可以在 1 格宽和 2 格宽之间切换。
+
+与 1 格宽横臂相同，空间不足时无法切换。<np>
+
+<&usage6>1 格宽横臂检测到下方存在方块时会倒置，§o即使§r上方已经有方块也是如此。
+
+出于§o稳定性§r考虑，2 格宽横臂§l无法§r倒置。<np>
+
+<&usage7>§n立柱支臂§r
+
+在侧面放置非实体方块，例如连接器或继电器，会出现小型支臂，使附着的方块看起来有支撑。<np>
+
+<&usage8>§n水平桁架§r
+
+将两根立柱对齐，两者之间至少留出 1 格空隙，最多为 <config;i;maxTrussLength> 格。
+
+潜行时手持工程师锤右键点击立柱内侧即可添加桁架。使用相同操作可以移除已有桁架。<np>
+
+English original
+
+You're going to need the hammer and a material of your choice.
+See <link;immersiveposts:posts;this;start> for a detailed list of things able to be used.<np>
+Then with your chosen material in hand right-click the base with it and it should look like what's being shown in the image above.
+Note: It always has to be of the same type! A wooden post for example only accepts §oTreated Wood Fences§r nothing else!<np>
+From here you can also right-click the post itself which makes it easier to see how high you've already made it.
+Isn't that neat?<np>
+Now, to get the 1-Wide arm you simply right-click with your hammer in hand at the desired side and height. To remove it right-click the side of the post the arm is on. (Or break it with an axe)
+§nNote: It won't appear if there is a block in the way.§r<np>
+Right-clicking the arm itself will turn it into a 2-Wide arm and vise-versa.
+Like with the 1-Wide, if there isn't enough space it will not change.<np>
+The one 1-Wide Arm flips up-side-down if it detects any block below it, §oeven§r if there is already one above it.
+For §ostability§r reasons, the 2-Wide Arm however can §lnot§r flip up-side-down.<np>
+§nPost Arm§r
+Placing non-solid blocks on the sides (Like connectors/relays) makes these cute little arms appear, making sure whatever you attached doesn't look like it's floating in the air.<np>
+§nHorizontal Truss§r
+Line up two posts with at least 1 block (up to <config;i;maxTrussLength>) of empty space in between.
+Sneak + Right-click with the hammer on inner side of them. Do the same if you want to remove an already existing truss.

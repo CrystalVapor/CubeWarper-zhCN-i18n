@@ -1,0 +1,21 @@
+可延长立柱（Extendable Post）
+
+向天空延伸。（The Sky's the Limit.）
+
+<&postbase>用作自定义尺寸立柱的底座。
+
+（使用方法请参阅<link;immersiveposts:usage;§1使用说明§r;start>。）
+
+手持方块右键点击即可伪装底座，使其显示为该方块的外观。<np>
+
+潜行时右键点击可移除伪装。
+
+仅可使用实体且不透明的方块作为伪装。<np>
+
+English original
+
+Used as the start of the custom-sized posts.
+(See <link;immersiveposts:usage;§1Usage§r;start> on how to use it.)
+The base can be hidden simply by holding a block in your hand, right-clicking, and it will pretend to be that block.<np>
+Sneak + right-click removes the cover.
+It only accepts solid and opaque blocks as cover, however.

@@ -1,0 +1,7 @@
+{
+  "fabric-registry-sync-v0.unknown-remote.footer": "以及另外 %1$d 项……（And %1$d more...）",
+  "fabric-registry-sync-v0.unknown-remote.subtitle.1": "这通常由客户端和服务器的模组不一致导致。（This is usually caused by a mismatched mod set between the client and server.）",
+  "fabric-registry-sync-v0.unknown-remote.subtitle.2": " 详情请查看客户端日志。\n以下注册表条目命名空间可能与此有关：\n\n（ See the client logs for more details.\nThe following registry entry namespaces may be related:\n\n）",
+  "fabric-registry-sync-v0.unknown-remote.title.plural": "收到了 %1$d 个此客户端无法识别的注册表条目。\n（Received %1$d registry entries that are unknown to this client.\n）",
+  "fabric-registry-sync-v0.unknown-remote.title.singular": "收到了一个此客户端无法识别的注册表条目。\n（Received a registry entry that is unknown to this client.\n）"
+}

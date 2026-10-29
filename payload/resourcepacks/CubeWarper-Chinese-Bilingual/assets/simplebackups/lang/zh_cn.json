@@ -1,0 +1,9 @@
+{
+  "simplebackups.backup_finished": "备份完成，用时 %1$s (%2$s | %3$s)（Backup completed in %1$s (%2$s | %3$s)）",
+  "simplebackups.backup_started": "备份已开始……（Backup started...）",
+  "simplebackups.backups_paused": "备份已暂停（Backups paused）",
+  "simplebackups.commands.finished": "备份合并成功（Merging backups completed successfully）",
+  "simplebackups.commands.is_merging": "合并操作正在进行中（A merge operation is already in progress）",
+  "simplebackups.commands.only_modified": "当前备份范围包含未修改的文件，请检查配置文件（Not only modified files are being backed up, please check your configuration file）",
+  "simplebackups.not_enough_space": "磁盘空间不足，无法创建备份。已中止！（Not enough space on disk to create backup. Aborted!）"
+}

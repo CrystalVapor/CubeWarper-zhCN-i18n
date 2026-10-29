@@ -1,0 +1,9 @@
+{
+  "config.defaultoptions.defaultDifficulty": "默认难度（Default Difficulty）",
+  "config.defaultoptions.defaultDifficulty.tooltip": "新建世界默认选择的难度。（The default difficulty selected for newly created worlds.）",
+  "config.defaultoptions.defaultResourcePacks": "默认资源包（Default Resource Packs）",
+  "config.defaultoptions.defaultResourcePacks.tooltip": "首次运行时默认启用的资源包 ID。（Resource pack IDs to have enabled by default on the first run.）",
+  "config.defaultoptions.lockDifficulty": "锁定难度（Lock Difficulty）",
+  "config.defaultoptions.lockDifficulty.tooltip": "设为 true 时，新世界的难度将锁定为指定的默认值。玩家需要外部工具才能解除锁定！这可能不是一个好主意，我不建议这样做。我为什么要添加这个选项？（Set to true if the difficulty for new world's should be locked to the specific default. This cannot be unlocked by players without external tools! Probably a bad idea. I don't recommend. Why am I adding this option?）",
+  "config.defaultoptions.title": "默认选项（Default Options）"
+}

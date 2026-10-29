@@ -1,0 +1,14 @@
+{
+  "block.mantle.retextured.id": "纹理 ID：%1$s（Texture ID: %1$s）",
+  "command.mantle.hunger.add.multiple": "已为 %1$d 名玩家增加 %2$d 点饥饿值（Gave %1$d players +%2$d hunger）",
+  "command.mantle.hunger.add.single": "已为 %1$s 增加 %2$d 点饥饿值（Gave %1$s +%2$d hunger）",
+  "command.mantle.hunger.set.multiple": "已将 %1$d 名玩家的饥饿值设为 %2$d（Set %1$d players' hunger to %2$d）",
+  "command.mantle.hunger.set.single": "已将 %1$s 的饥饿值设为 %2$d（Set %1$s's hunger to %2$d）",
+  "command.mantle.hunger.subtract.multiple": "已为 %1$d 名玩家减少 %2$d 点饥饿值（Gave %1$d players -%2$d hunger）",
+  "command.mantle.hunger.subtract.single": "已为 %1$s 减少 %2$d 点饥饿值（Gave %1$s -%2$d hunger）",
+  "command.mantle.key.wrong_registry": "资源键 '%1$s' 应属于注册表 '%2$s'。（Expected resource key '%1$s' to belong to registry '%2$s'.）",
+  "command.mantle.remove.failed_save": "无法在 '%1$s' 保存 JSON。（Failed to save JSON at '%1$s'.）",
+  "command.mantle.remove_data.biome_modifier.success": "已移除生物群系修饰器 '%1$s'，耗时 %2$s 秒。运行 /reload 以激活位于 %3$s 的资源包（Successfully removed biome modifier '%1$s' in %2$s seconds. Run /reload to activate pack at %3$s）",
+  "command.mantle.remove_data.structure.success": "已清空结构集合 '%1$s'，耗时 %2$s 秒。运行 /reload 以激活位于 %3$s 的资源包（Successfully emptied structure set '%1$s' in %2$s seconds. Run /reload to activate pack at %3$s）",
+  "config.mantle.enableFluidFogFix": "启用流体雾效修复（Enable Fluid Fog Fix）"
+}

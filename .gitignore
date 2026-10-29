@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+dist/
+.venv/
+.cube-warper-localization-backups/
+localization/extracted/
+localization/all_pairs.json
+localization/all_pairs.tsv
+localization/effective_zh_cn.json
+localization/missing_zh_cn.json
+localization/missing_summary.json
+localization/conflicts.json
+localization/language_inventory.json
+localization/namespace_english_sources.json
+localization/archive_install_tests/
+localization/distribution_test/

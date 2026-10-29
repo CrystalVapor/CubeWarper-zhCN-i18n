@@ -1,0 +1,12 @@
+{
+  "jei.config.client.bookmarkList.buttonNavigationVisibility": "导航按钮可见性（Navigation Visibility）",
+  "jei.config.client.ingredientList.buttonNavigationVisibility": "导航按钮可见性（Navigation Visibility）",
+  "jei.config.client.advanced.recipeSyncWarningEnabled": "配方同步警告（Recipe Sync Warning）",
+  "jei.config.client.advanced.recipeSyncWarningEnabled.description": "服务器未向 JEI 提供同步配方时显示聊天警告（例如原版服务器或未安装 JEI 的服务器）。（Show a chat warning when the server doesn't provide synced recipes to JEI (e.g. vanilla servers, or servers without JEI installed).）",
+  "jei.config.client.bookmarkList.buttonNavigationVisibility.description": "顶部翻页按钮的可见性。使用 AUTO_HIDE，仅在存在多页时显示。（Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.）",
+  "jei.config.client.ingredientList.buttonNavigationVisibility.description": "顶部翻页按钮的可见性。使用 AUTO_HIDE，仅在存在多页时显示。（Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.）",
+  "jei.config.debug.debug.crashingTestItemsEnabled": "启用崩溃测试物品（Enable Crashing Test Items）",
+  "jei.config.debug.debug.crashingTestItemsEnabled.description": "向 JEI 添加会故意引发崩溃的物品，以协助调试 JEI。（Adds ingredients to JEI that intentionally crash, to help debug JEI.）",
+  "jei.message.missing.recipes.from.server": "JEI 缺少配方。请在服务器安装 JEI，以便向客户端同步配方。（JEI is missing recipes. Please install JEI on the server to sync recipes to the client.）",
+  "key.jei.recipeForward": "下一个配方（Next Recipe）"
+}

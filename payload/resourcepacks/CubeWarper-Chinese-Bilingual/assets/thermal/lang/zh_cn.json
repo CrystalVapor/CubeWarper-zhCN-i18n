@@ -1,0 +1,7 @@
+{
+  "death.attack.basalz_projectile": "%1$s 的世界被震碎了！（%1$s had their world rocked!）",
+  "death.attack.blitz_projectile": "%1$s 被闪电启迪，悲惨身亡！（%1$s was tragically enlightened!）",
+  "death.attack.blizz_projectile": "%1$s 遭遇了冰冷的命运！（%1$s met a frigid fate!）",
+  "item.thermal.dynamo_lapidary": "核能发电机（Nuclear Dynamo）",
+  "block.thermal.dynamo_lapidary": "核能发电机（Nuclear Dynamo）"
+}

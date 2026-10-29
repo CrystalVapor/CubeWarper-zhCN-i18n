@@ -1,0 +1,9 @@
+{
+  "final_zip": "CubeWarper-zh_CN-Bilingual-Patch-2026-10-12.zip",
+  "payload_files_hash_checked": 145,
+  "original_files_restored": 26,
+  "powershell_install": "passed",
+  "powershell_restore": "passed",
+  "resource_order": "passed",
+  "test_directory": "localization/archive_install_tests/20261012-001858-238467"
+}

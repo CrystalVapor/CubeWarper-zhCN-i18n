@@ -1,0 +1,10 @@
+{
+  "death.attack.bramble": "%1$s 被刺穿而死（%1$s was punctured to death）",
+  "death.attack.bramble.player": "%1$s 在试图逃离 %2$s 时被荆棘缠住了（%1$s got caught in bramble whilst trying to escape %2$s）",
+  "death.attack.fumarole": "%1$s 被活活蒸熟了（%1$s was steamed alive）",
+  "death.attack.fumarole.player": "%1$s 因 %2$s 而享受了一场致命的蒸汽浴（%1$s took a fatal steam bath due to %2$s）",
+  "item.biomesoplenty.music_disc_wanderer.desc": "Tim Rurkowski - 漫游者（Tim Rurkowski - Wanderer）",
+  "subtitles.block.flesh_tendon.drip": "血液滴落（Blood drips）",
+  "subtitles.block.pus_bubble.pop": "脓液气泡破裂（Pus Bubble pops）",
+  "subtitles.block.spider_egg.break": "蜘蛛卵破裂（Spider Egg breaks）"
+}

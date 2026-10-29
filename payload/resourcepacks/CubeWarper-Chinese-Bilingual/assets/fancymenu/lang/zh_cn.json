@@ -1,0 +1,13 @@
+{
+  "fancymenu.actions.script_editor.shortcuts.a": "任（A）",
+  "fancymenu.editor.shortcuts.a": "任（A）",
+  "fancymenu.actions.screens.finish.no_action_selected": "§x请先选择一个操作！§r（§xYou need to select an action first!§r）",
+  "fancymenu.actions.show_toast.default_title": "FancyMenu 提示消息（FancyMenu Toast）",
+  "fancymenu.buddy.achievement.reward": "+%1$s 经验（+%1$s XP）",
+  "fancymenu.decoration_overlays.buddy": "伙伴（Buddy）",
+  "fancymenu.elements.browser.rinku_failed.line_1": "浏览器初始化失败！（Browser initialization failed!）",
+  "fancymenu.elements.browser.rinku_failed.line_2": "请查看游戏日志了解详情。（Check the game log for details.）",
+  "fancymenu.elements.browser.rinku_initializing.line_1": "浏览器正在启动……（Browser is starting...）",
+  "fancymenu.elements.browser.rinku_initializing.line_2": "正在等待 Rinku 完成初始化。（Waiting for Rinku to finish initializing.）",
+  "fancymenu.ui.filechooser.create_folder.default_name": "新建文件夹（new_folder）"
+}

@@ -1,0 +1,177 @@
+{
+  "actuallyadditions": {
+    "booklet.actuallyadditions.chapter.engineer_house.text.2": "<i>     初代机器",
+    "booklet.actuallyadditions.chapter.esd": "物品分配器"
+  },
+  "aeinfinitybooster": {
+    "item_group.aeinfinitybooster.tab": "AE 无限增幅器"
+  },
+  "aewireless": {
+    "config.jade.plugin_aewireless.block_entity_tooltip": "连接方块信息"
+  },
+  "botania": {
+    "botania.subtitle.way": "歌声吟唱",
+    "flightBar.height": "天翼族之冠飞行能量条高度",
+    "item.botania.record_gaia_1.desc": "Kain Vinosec - 忍受空虚",
+    "item.botania.record_gaia_2.desc": "Kain Vinosec - 为宁静而战"
+  },
+  "citadel": {
+    "book.citadel_book.hover_text_pillager_example": "实体链接是小巧可爱的按钮！",
+    "book.citadel_book.link_example": "链接示例",
+    "book.citadel_book.root": "Citadel 手册！！！",
+    "citadel.follower.citadel": "空间站",
+    "citadel.follower.citadel_gray": "空间站（灰色）",
+    "citadel.follower.citadel_red": "空间站（红色）",
+    "citadel.follower.none": "无",
+    "citadel.gui.cape_type": "类型：",
+    "citadel.gui.capes": "披风自定义",
+    "citadel.gui.capes_option": "披风自定义……",
+    "citadel.gui.no_cape": "无模组披风",
+    "citadel.gui.orbit_dist": "旋转距离",
+    "citadel.gui.orbit_height": "旋转高度",
+    "citadel.gui.orbit_speed": "旋转速度",
+    "citadel.gui.patreon_customization": "Citadel Patreon 赞助者自定义",
+    "citadel.gui.patreon_rewards_option": "Citadel Patreon 赞助者自定义……",
+    "citadel.gui.reset": "重置",
+    "item.citadel.citadel_book": "Citadel 手册",
+    "item.citadel.effect_item": "药水效果",
+    "item.citadel.fancy_item": "精美物品",
+    "item.citadel.icon_item": "图标物品"
+  },
+  "cloth-config2": {
+    "text.cloth-config.testing.2": "Cloth Config 维基"
+  },
+  "cofh_core": {
+    "death.attack.cofh.knife": "%1$s 被 %2$s 用刀刺死了！",
+    "death.attack.cofh.knife.item": "%1$s 被 %2$s 使用 %3$s 刺死了！"
+  },
+  "configured": {
+    "key.categories.configured": "模组配置"
+  },
+  "controlling": {
+    "options.sortAZ": "A→Z 升序",
+    "options.sortZA": "Z→A 降序"
+  },
+  "create": {
+    "advancement.create.extendo_grip": "弹——跳！",
+    "create.generic.daytime.am": "上午",
+    "create.generic.daytime.pm": "下午",
+    "create.generic.unit.ticks": "刻",
+    "create.track_signal.mode_controlled_by_computer": "信号模式由计算机控制",
+    "tag.item.create.casing": "机壳"
+  },
+  "createdieselgenerators": {
+    "createdieselgenerators.ponder.burner.text_4": "此外，还可以用红石信号驱动燃烧器，使其燃烧得更快"
+  },
+  "creativecore": {
+    "gui.ingredient.latest": "最近使用的材料：",
+    "minecraft.blocks": "方块",
+    "minecraft.blocks.counting": "%s 个方块"
+  },
+  "dustrial_decor": {
+    "death.attack.sting.player": "{Player} 被刺死了"
+  },
+  "enderio": {
+    "block.enderio.aversion_obelisk": "排斥方尖碑",
+    "gui.enderio.conduit_probe.message.copied": "已复制数据：%s",
+    "gui.enderio.conduit_probe.message.pasted": "已粘贴数据：%s",
+    "gui.enderio.conduit_probe.mode.switched": "导管探针模式已切换为 %s",
+    "item.enderio.conduit.chemical.multi": "允许在同一条管线中传输多种化学品",
+    "item.enderio.conduit_probe": "导管探针",
+    "item.enderio.entity_filter": "灵魂过滤器",
+    "keybinding.enderio.probe_mode": "切换探针模式",
+    "tooltip.enderio.conduit.fluid.multi": "允许在同一条管线中传输多种流体",
+    "tooltip.enderio.conduit.fluid.rate": "传输速率 %s mB/t",
+    "tooltip.enderio.conduit_probe.mode": "模式：%s",
+    "tooltip.enderio.conduit_probe.mode.contains_copied": "包含已复制的导管数据：",
+    "tooltip.enderio.conduit_probe.mode.copy_paste": "复制/粘贴",
+    "tooltip.enderio.conduit_probe.mode.probe": "探测"
+  },
+  "expatternprovider": {
+    "block.extendedae.assembler_matrix_crafter": "装配矩阵合成核心",
+    "block.extendedae.assembler_matrix_frame": "装配矩阵框架",
+    "block.extendedae.assembler_matrix_pattern": "装配矩阵样板核心",
+    "block.extendedae.assembler_matrix_speed": "装配矩阵加速核心",
+    "block.extendedae.assembler_matrix_wall": "装配矩阵壁板",
+    "emi.extendedae.text.success_chance": "成功概率：%s",
+    "gui.extendedae.assembler_matrix": "装配矩阵",
+    "gui.extendedae.assembler_matrix.cancel": "停止所有合成任务并退回材料",
+    "gui.extendedae.assembler_matrix.pattern": "仅接受合成样板",
+    "gui.extendedae.assembler_matrix.threads": "运行中的任务：%s",
+    "gui.extendedae.assembler_matrix.tooltip": "搜索样板",
+    "gui.extendedae.ex_pattern_access_terminal.search_mode": "切换搜索模式",
+    "gui.extendedae.ex_pattern_access_terminal.search_mode.01": "当前：输出",
+    "gui.extendedae.ex_pattern_access_terminal.search_mode.02": "当前：输入",
+    "gui.extendedae.ex_pattern_access_terminal.search_mode.03": "当前：输入与输出",
+    "gui.extendedae.ex_pattern_access_terminal.tooltip.04": "按输入、输出或样板供应器名称搜索。",
+    "item.extendedae.entro_shard": "熵变碎片"
+  },
+  "findme": {
+    "key.findme.category": "物品定位",
+    "key.findme.pull_one": "从附近容器中抽取 1 个物品",
+    "key.findme.pull_stack": "从附近容器中抽取 1 组物品"
+  },
+  "ftbchunks": {
+    "ftbchunks.team_prop_defaults": "队伍属性默认值",
+    "ftbchunks.team_prop_defaults.def_fake_player_ids": "按 ID 允许模拟玩家",
+    "ftbchunks.team_prop_defaults.def_named_fake_players": "具名模拟玩家"
+  },
+  "jei": {
+    "jei.config.client.advanced.recipeSyncWarningEnabled": "配方同步警告",
+    "jei.config.client.advanced.recipeSyncWarningEnabled.description": "服务器未向 JEI 提供同步配方时显示聊天警告（例如原版服务器或未安装 JEI 的服务器）。",
+    "jei.config.client.bookmarkList.buttonNavigationVisibility.description": "顶部翻页按钮的可见性。使用 AUTO_HIDE，仅在存在多页时显示。",
+    "jei.config.client.ingredientList.buttonNavigationVisibility.description": "顶部翻页按钮的可见性。使用 AUTO_HIDE，仅在存在多页时显示。",
+    "jei.config.debug.debug.crashingTestItemsEnabled": "启用崩溃测试物品",
+    "jei.config.debug.debug.crashingTestItemsEnabled.description": "向 JEI 添加会故意引发崩溃的物品，以协助调试 JEI。",
+    "jei.message.missing.recipes.from.server": "JEI 缺少配方。请在服务器安装 JEI，以便向客户端同步配方。",
+    "key.jei.recipeForward": "下一个配方"
+  },
+  "mantle": {
+    "block.mantle.retextured.id": "纹理 ID：%s",
+    "command.mantle.hunger.add.multiple": "已为 %d 名玩家增加 %d 点饥饿值",
+    "command.mantle.hunger.add.single": "已为 %s 增加 %d 点饥饿值",
+    "command.mantle.hunger.set.multiple": "已将 %d 名玩家的饥饿值设为 %d",
+    "command.mantle.hunger.set.single": "已将 %s 的饥饿值设为 %d",
+    "command.mantle.hunger.subtract.multiple": "已为 %d 名玩家减少 %d 点饥饿值",
+    "command.mantle.hunger.subtract.single": "已为 %s 减少 %d 点饥饿值",
+    "command.mantle.key.wrong_registry": "资源键 '%s' 应属于注册表 '%s'。",
+    "command.mantle.remove.failed_save": "无法在 '%s' 保存 JSON。",
+    "command.mantle.remove_data.biome_modifier.success": "已移除生物群系修饰器 '%s'，耗时 %s 秒。运行 /reload 以激活位于 %s 的资源包",
+    "command.mantle.remove_data.structure.success": "已清空结构集合 '%s'，耗时 %s 秒。运行 /reload 以激活位于 %s 的资源包",
+    "config.mantle.enableFluidFogFix": "启用流体雾效修复"
+  },
+  "megacells": {
+    "block.megacells.sky_bronze_block": "陨石青铜块",
+    "block.megacells.sky_osmium_block": "陨石锇块",
+    "gui.tooltips.megacells.NotInstalled": "未安装 %s。",
+    "item.megacells.sky_bronze_ingot": "陨石青铜锭",
+    "item.megacells.sky_osmium_ingot": "陨石锇锭"
+  },
+  "mekanism": {
+    "constants.mekanism.recipe_warning": "检测到 Mekanism 配方中存在损坏的标签，请查看服务器日志了解详情。这会导致部分配方缺失，机器也可能无法接收预期的材料。"
+  },
+  "moonlight": {
+    "tooltip.moonlight.media.partner_server": "需要服务器？可通过 %s 获取"
+  },
+  "particlerain": {
+    "text.autoconfig.prettyrain.option.doRainParticles.@PrefixText": "§l启用或禁用各项效果",
+    "text.autoconfig.prettyrain.option.doRainSounds.@PrefixText": "§l声音选项",
+    "text.autoconfig.prettyrain.option.maxParticleAmount.@PrefixText": "§l性能选项",
+    "text.autoconfig.prettyrain.option.rain.@PrefixText": "§l粒子选项",
+    "text.autoconfig.prettyrain.option.renderVanillaWeather.@PrefixText": "§l兼容性选项"
+  },
+  "supplementaries": {
+    "block.supplementaries.pancake.desc": "Hlzfss - 松饼音乐",
+    "item.supplementaries.music_disc_heave_ho.desc": "Hlzfss - 嘿哟！",
+    "painting.supplementaries.bombs.title": "炸弹",
+    "supplementaries.virtual_resourcepack.description": "动态运行时资源",
+    "supplementaries.virtual_resourcepack.title": "虚拟资源包"
+  },
+  "thermal_dynamics": {
+    "info.thermal.energy_limiter_attachment.2": "按住 §e§oShift§r 和/或 §e§oCtrl§r 可精细调整数量。"
+  },
+  "thermal_foundation": {
+    "block.thermal.rubberwood_hanging_sign": "橡胶木悬挂式告示牌",
+    "block.thermal.rubberwood_wall_hanging_sign": "墙上的橡胶木悬挂式告示牌"
+  }
+}

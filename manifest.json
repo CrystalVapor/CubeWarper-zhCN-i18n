@@ -1,0 +1,586 @@
+{
+  "version": "2026-10-12",
+  "minecraft": "1.20.1",
+  "files": {
+    "config/ftbquests/quests/chapters/chapter_0.snbt": {
+      "sha256": "cf38d20460486368624e8611d5ee11c41daebe8e9e35b941cd3602f1f762e8a9",
+      "bytes": 8999
+    },
+    "config/ftbquests/quests/chapters/chapter_1.snbt": {
+      "sha256": "662ab2749cc5a746a0bfd6d3f6968983c4097c4179bb9b52aa6cd18b8d25ca0f",
+      "bytes": 9254
+    },
+    "config/ftbquests/quests/chapters/chapter_2.snbt": {
+      "sha256": "1c4e80540abdbca482ca793819c0b767c0808358034d4064c54d8551c717de12",
+      "bytes": 24539
+    },
+    "config/ftbquests/quests/chapters/chapter_3.snbt": {
+      "sha256": "8a797f782a80a4c17b8d073f478fd7484a9abaf5898bcb879d0db54070aa0dd3",
+      "bytes": 34194
+    },
+    "config/ftbquests/quests/chapters/chapter_4.snbt": {
+      "sha256": "aabeebdb9dab3cfd0948d58a6cc989c850ff9b642485639939f2eb8db66fa14c",
+      "bytes": 32331
+    },
+    "config/ftbquests/quests/chapters/chapter_5.snbt": {
+      "sha256": "72a1a7312c6b27e1b3210097c22dcadfef9c39e4e9d13c0aff24d5c43fb55548",
+      "bytes": 35420
+    },
+    "config/ftbquests/quests/chapters/chapter_6.snbt": {
+      "sha256": "edb0a3eac8d91bae5fb8fe6dac74396158c83a02607635229358a54f35e04efb",
+      "bytes": 7040
+    },
+    "config/ftbquests/quests/chapters/chapter_8.snbt": {
+      "sha256": "ebc6d825ca247fb8473ddb159b95c2b5a093e34b41225c34f242c4933a399eb7",
+      "bytes": 29998
+    },
+    "kubejs/assets/kubejs/textures/exploration_team_1/day_12.txt": {
+      "sha256": "b8561ca9cc446f717513780c57d1a412f4cc4390be0bf2cc2e4a28c2a7bd50ac",
+      "bytes": 1415
+    },
+    "kubejs/client_scripts/tooltips.js": {
+      "sha256": "60fcfc046452fa627c304f23a26de656228217d54f50108b46a666b12be17770",
+      "bytes": 4803
+    },
+    "kubejs/client_scripts/zz_cube_warper_zh_cn.js": {
+      "sha256": "a249b36bb5af38b871ef0350ec9648126f8944d26cb51e3b63178186c2b3ec94",
+      "bytes": 14003
+    },
+    "kubejs/data/hexahedron/functions/effects/missing_start.mcfunction": {
+      "sha256": "8133221129b85bf74e8cd0e9aab2f3aad8e9a73603be6a833f460c6288fd6fb9",
+      "bytes": 970
+    },
+    "kubejs/data/hexahedron/functions/first_init/old/blindfold.mcfunction": {
+      "sha256": "9e81a0130812648a5375d4d9c9b253321d843ca5c3d82111374017ed8f8d2a95",
+      "bytes": 319
+    },
+    "kubejs/data/hexahedron/functions/hexahedron_rebuild.mcfunction": {
+      "sha256": "f3db3a757a4cae0ed109e863e30c4b1a8c1e9ba50e0484e7968e8f06775afc09",
+      "bytes": 2467
+    },
+    "kubejs/data/hexahedron/functions/processors/travel_actionbar.mcfunction": {
+      "sha256": "abb00c4a0f2d5fab88f295b732d4bfc882c55b3f164b7283cdbeaf579890b4f7",
+      "bytes": 2267
+    },
+    "kubejs/server_scripts/!main/commandblock_check.js": {
+      "sha256": "af7a3adf97a2fe5c0a762cdcffc5a95864d75d7a9b840c73170dc9765c9d987f",
+      "bytes": 1052
+    },
+    "patchouli_books/ritual_circle/book.json": {
+      "sha256": "de611627f62d99db767d866d13a3158303c7d380076531fe0978789c2a8d0f4f",
+      "bytes": 329
+    },
+    "patchouli_books/ritual_circle/zh_cn/categories/ritual.json": {
+      "sha256": "2355aca3ccb67691ffe3d3eaa4e38879f6aa72ea336442f2bc17360d3245ada6",
+      "bytes": 145
+    },
+    "patchouli_books/ritual_circle/zh_cn/entries/bringing_forth_the_missing/bringing_forth_the_missing.json": {
+      "sha256": "dcc8223840f49fb5e1d9d62ad2666437d918af183333837183a9f2e3e9044723",
+      "bytes": 1465
+    },
+    "patchouli_books/ritual_circle/zh_cn/entries/corrupting_a_vector/corrupting_a_vector.json": {
+      "sha256": "be81413fd6155e951fb20bc2cec8061792214f36835a8525ce6a92e9891e01cf",
+      "bytes": 1141
+    },
+    "patchouli_books/ritual_circle/zh_cn/entries/introduction/introduction.json": {
+      "sha256": "ecc9d2d2f5f4ea50826ad3910e11cc1efca98429796a00a5537927d4a4ea2607",
+      "bytes": 836
+    },
+    "patchouli_books/ritual_circle/zh_cn/entries/recapturing_consciousness/recapturing_consciousness.json": {
+      "sha256": "219686a17519d7f0e8a2714f32b742c215a2f3cae44b11f94aa08ab5703c7ee2",
+      "bytes": 1304
+    },
+    "patchouli_books/ritual_circle/zh_cn/entries/summoning_darkness/summoning_darkness.json": {
+      "sha256": "e9eba5451f5621371ed5f6e0fbd1d91c27f0c0b5527b5bbc07cd1c36bcea95de",
+      "bytes": 1167
+    },
+    "patchouli_books/ritual_circle/zh_cn/templates/ritual.json": {
+      "sha256": "f8983cc63bad775777c5b984140e9aef3147af987fb4f54e47fa21690b45bb0d",
+      "bytes": 1199
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/actuallyadditions/lang/zh_cn.json": {
+      "sha256": "9d838a389e10c10b384cb2a924ac9701c88a888ea9a776071eadef3d3efade9b",
+      "bytes": 8562
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/ae2/lang/zh_cn.json": {
+      "sha256": "5bbd1d68c3c1b2622c89133e5cf28341370a372b548bf0966db66a3b727409bf",
+      "bytes": 2376
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/aeinfinitybooster/lang/zh_cn.json": {
+      "sha256": "cdadb418ff291698acbff93292c0b13907acc730689cf6999a8ef5f985e5f625",
+      "bytes": 91
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/aewireless/lang/zh_cn.json": {
+      "sha256": "85ae79b5dd9d6eec35e531a659a220d870f3e21b44f31bbdc2bb5555c6ecddf8",
+      "bytes": 107
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/alexscaves/lang/zh_cn.json": {
+      "sha256": "f12f07ecc6cb871a89dd039c79a2f5b95541af933da124f5ed9e182d80ca569c",
+      "bytes": 888
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/appflux/lang/zh_cn.json": {
+      "sha256": "06611dbee097eaab04dc781c764bf07e723aa15ee1134a36f287669240e9e412",
+      "bytes": 3342
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/baguettelib/lang/zh_cn.json": {
+      "sha256": "d2d2b220a3381afb14800c21d4748349f32e2164daea237b0ed6dd7e8ca5b5b7",
+      "bytes": 222
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/balm/lang/zh_cn.json": {
+      "sha256": "b2131f4f0d790b4cae35d96314cd1bfe1a869571d878f8b2302bae8437f900f2",
+      "bytes": 2625
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/betterf3/lang/zh_cn.json": {
+      "sha256": "ee1333141c280be012e769dd43d497612853df9bdfd390e8925c5af25ab46e73",
+      "bytes": 58
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/biomesoplenty/lang/zh_cn.json": {
+      "sha256": "fa91f1dcb31a71a8a93635d8eacea88504f7a48d460f31029dbda871a7e8e0da",
+      "bytes": 796
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/botania/lang/zh_cn.json": {
+      "sha256": "ba7295dfbaeb570247ff0551e649cccf01f22ef9ca77396993c19eddab3043e6",
+      "bytes": 6916
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/brewinandchewin/lang/zh_cn.json": {
+      "sha256": "4ed816463ba260bd880f7531ca9d2b3aef0ba9e06c87acf3db9ba94cde71a2cb",
+      "bytes": 78
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/caverns_and_chasms/lang/zh_cn.json": {
+      "sha256": "c2a5ac9d5b8ec50efcd1559450d6c3586a9b603abc56e8cb840cee8063afe813",
+      "bytes": 1624
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/certain_questing_additions/lang/zh_cn.json": {
+      "sha256": "9d911e8a23af035041ffb66a7d38ca34c212cdabc5d4138de526becd342b91ce",
+      "bytes": 2880
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/chimes/lang/zh_cn.json": {
+      "sha256": "0ac8a4566c923874aab986068d19b7df671d54d082cc58224876f2ed6f9e4d36",
+      "bytes": 79
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/citadel/lang/zh_cn.json": {
+      "sha256": "866aef88e9684cc35a56ef27991f851ff17704ceb4a742ab837a8b8d4e3e3caf",
+      "bytes": 1679
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/clanginghowl/lang/zh_cn.json": {
+      "sha256": "d65d9addb3a78a1bf9e8ff0f2b3ef7f5ffd2d611c65e2ba0d06ec18acc86e5d0",
+      "bytes": 40524
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/cloth-config2/lang/zh_cn.json": {
+      "sha256": "fb0730bc4bf0fca08865fbe233bc8b802a6792cb10236dadf3c9d37c3d225c53",
+      "bytes": 85
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/cobblegen/lang/zh_cn.json": {
+      "sha256": "fcc4ca47dd1d901b0bbe0a50a09f88b1ca1dacf913fc3461871e682f6b330dd5",
+      "bytes": 1024
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/cofh_core/lang/zh_cn.json": {
+      "sha256": "f22e133430515bd8df095556cdfa14680e87228745928461402c8dff11d7953c",
+      "bytes": 218
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/command_executor_block/lang/zh_cn.json": {
+      "sha256": "3ef67d7d52f5bc7e18742cc18068cfaf3540544f0bf44328b5fbda895b27aca7",
+      "bytes": 113
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/configuration/lang/zh_cn.json": {
+      "sha256": "d7c443e903f092cb2fc52bdab65cbdfb245642fa2122ed4add01b3d179fbfa21",
+      "bytes": 3768
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/configured/lang/zh_cn.json": {
+      "sha256": "3fe7cb00ea10faabbdeaccb9418e8e08d6501b4a8cc0960c3bf76bd4d22dc47a",
+      "bytes": 69
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/continuity/lang/zh_cn.json": {
+      "sha256": "0a2c167a463a0f63595409e29fd70741aeda804473e9b76c212386e6ceedae7d",
+      "bytes": 461
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/controlling/lang/zh_cn.json": {
+      "sha256": "53a173e283cdc90b26973a36fa5a04e958417260f4b8d4d0db8cce976ba344a3",
+      "bytes": 99
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/create/lang/zh_cn.json": {
+      "sha256": "1a84327fd966dbb05b1826910d186458d84df00588c725dfc532651782e80cd2",
+      "bytes": 2758
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/create_alex_power/lang/zh_cn.json": {
+      "sha256": "730105b2cffa62efcbffbbd11bd04ee9463d732da058472e6cf10919d7e1f3f3",
+      "bytes": 75
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/create_alexscaves_compat/lang/zh_cn.json": {
+      "sha256": "64289286ab23a7be873653a130162ac48ef19f76518126d9790ca697f38fa02e",
+      "bytes": 877
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/createdieselgenerators/lang/zh_cn.json": {
+      "sha256": "1bc66f0833c15c8f13cd4015db843532e48bafb9bd5320ef6f2e30fcfd282fef",
+      "bytes": 383
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/createutilities/lang/zh_cn.json": {
+      "sha256": "88dca16f95e320f8bb1b91054690313e825cc318b3f5b454568b7844746e73d5",
+      "bytes": 540
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/creativecore/lang/zh_cn.json": {
+      "sha256": "99388e0cb94c469db0a548c6629d488356d9144d2e095142752bf93af836aed8",
+      "bytes": 200
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/darkerdepths/lang/zh_cn.json": {
+      "sha256": "e7f4cf108e8bcd04fc78cb153d591de6077062a23ca638947943983aade50ece",
+      "bytes": 4554
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/defaultoptions/lang/zh_cn.json": {
+      "sha256": "f0bd21ed8c3ef564deb7f8fd276fe52a0a5a81d6b5b9e6ad80fde83201c07dd3",
+      "bytes": 1152
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/delightfulcreators/lang/zh_cn.json": {
+      "sha256": "09f31bd8b8d6ab3f95c8117054e08f73c2ae13dd69ead57ed7a8554e1db4f02e",
+      "bytes": 10345
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/dustrial_decor/lang/zh_cn.json": {
+      "sha256": "724178c4e1ef32bbd6cb6357eb572f1d18e5ba006e484b1acb1882d3177f9515",
+      "bytes": 97
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/endergetic/lang/zh_cn.json": {
+      "sha256": "1162a577567c1d33612d6b9b4d8b772016726e866da07866c4887ce1602d6b2a",
+      "bytes": 2389
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/enderio/lang/zh_cn.json": {
+      "sha256": "e046873a1976a9e5a206d47ac1aee0870b8400a0d5cefc9378cfe14c56ba7986",
+      "bytes": 1452
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/entity_model_features/lang/zh_cn.json": {
+      "sha256": "d834726918c329656f1ad053a4b791446d1b3d069ace7ccb69de8deb4239ede2",
+      "bytes": 3804
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/entity_texture_features/lang/zh_cn.json": {
+      "sha256": "cdffca6c5f58608c53f7fbda38b4c0ad871ccf80ebb6e2c3fee324a277e16be2",
+      "bytes": 2075
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/environmental/lang/zh_cn.json": {
+      "sha256": "cbe16c66e93836eb3a6409bbcd7b9211b5a03a173852f56920316a4fc0087ac7",
+      "bytes": 3972
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/expatternprovider/lang/zh_cn.json": {
+      "sha256": "00090f7b6ddcea32bb7c8eea3685dc855f5969743698b722c9a767812976fa35",
+      "bytes": 1857
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/exposure/lang/zh_cn.json": {
+      "sha256": "a1fb0eec4aa24bfbe191f54870c9f1dd87a2fe222cda7b73612532fc747b54dd",
+      "bytes": 115
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/extremesoundmuffler/lang/zh_cn.json": {
+      "sha256": "4d06075b702ec23d39080f636965ea66fab825a5272bff2c90138797eb958bb6",
+      "bytes": 888
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/fabric-registry-sync-v0/lang/zh_cn.json": {
+      "sha256": "e0faf2ddf5f8c228ff1a2fd493695bfea452fee6cc1cbec72b816c7fac8d64ea",
+      "bytes": 961
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/fancymenu/lang/zh_cn.json": {
+      "sha256": "9d8bd964ad7ff9dd6195c9e5729f301a39ac8e1109459b604477452568510cf9",
+      "bytes": 1098
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/farmersdelight/lang/zh_cn.json": {
+      "sha256": "3db18c5d81b10179e89c52305892d0288075e7509d2456ae25d8c6fe60c3e305",
+      "bytes": 3145
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/fastbench/lang/zh_cn.json": {
+      "sha256": "9e60a68472bae37e8ee336e1c9197194b163011aa816443f33738634fa897822",
+      "bytes": 541
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/findme/lang/zh_cn.json": {
+      "sha256": "a8b9bb7b3fa9092e6784275a4c6242bb62ac68a1c38238f98902c2fcd8d6435b",
+      "bytes": 277
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/firefly_bush_backport/lang/zh_cn.json": {
+      "sha256": "11923a4c9e867fa2b74c0c6b65385555ae675015c159cdcfb583e2a6cf984f7f",
+      "bytes": 293
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/flywheel/lang/zh_cn.json": {
+      "sha256": "005d5c4e9936d8ca26acf16c44a6e89bfe2c0ee8184aee0a746d13eef3bcf400",
+      "bytes": 1352
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/forestry/lang/zh_cn.json": {
+      "sha256": "7538505aae361f25cbaceb094f6c1c0531cfc7dd239c586845a5f75406ca946a",
+      "bytes": 37540
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/forestry/patchouli_books/foresters_manual/zh_cn/entries/core/circuit_board.json": {
+      "sha256": "ed57e1e511b89ba929eb9a252af9993726db5dd9814263c96d3d70c806944146",
+      "bytes": 685
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/framework/lang/zh_cn.json": {
+      "sha256": "cb00593123b4d0a83293f66884a6a72c8a94387a91a974e811f7dc4d5018ba59",
+      "bytes": 131
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/ftbchunks/lang/zh_cn.json": {
+      "sha256": "d8f6f4c3f912569efd36fbb4b84a70292a40c1e7b0db23e86179287f02b4c6ff",
+      "bytes": 1444
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/ftblibrary/lang/zh_cn.json": {
+      "sha256": "4897c3ddc1b25ed3bcc6465f3af5f9449236aefffec1780878aeec3f78a93a42",
+      "bytes": 3072
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/ftbquests/lang/zh_cn.json": {
+      "sha256": "b7592e82d18ea4426a3cb2d989bb7c065fc90b4433a59b47e58abaf56f8a44e7",
+      "bytes": 6105
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/ftbteams/lang/zh_cn.json": {
+      "sha256": "69cc9e0c81db872892b2b3f4c45b6c9fcdf76d79f36a9f155d94ec940fa18fd8",
+      "bytes": 140
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/ftbultimine/lang/zh_cn.json": {
+      "sha256": "480e35ed99d4c58be50ecd856d0b769674142bd615b3e36491bb4a34b40d441e",
+      "bytes": 5859
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/fusion/lang/zh_cn.json": {
+      "sha256": "6f44a3f06e95ac6f990169441ed6debb0173028801f514a28b515466503a3201",
+      "bytes": 1021
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/geckolib/lang/zh_cn.json": {
+      "sha256": "4e2232d37ab8a6cfdd21153a9b5b95559d9a4652a6701dec10d204035575814a",
+      "bytes": 2438
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/guideme/lang/zh_cn.json": {
+      "sha256": "b7c607bff295df5515eca517beef7a2e7d764c9da52edfba34e5d0c464f004e5",
+      "bytes": 2910
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/immersive_portals/lang/zh_cn.json": {
+      "sha256": "f435bd1f4959f7c02c00b2bba2387ea2031fdf496d4a231d5ce9bf6322b72dbb",
+      "bytes": 1001
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/immersiveengineering/lang/zh_cn.json": {
+      "sha256": "9679ca926e6418e5314786e71aa3abeca712d027dcb9ce665f762d3ebde9ceea",
+      "bytes": 4114
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/immersiveengineering/manual/zh_cn/clinker_brick.txt": {
+      "sha256": "1103a141013d0593dfc7dfadd65c24f8f2fe467f44d6131acf96302d8151e122",
+      "bytes": 1365
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/immersiveengineering/manual/zh_cn/dyes.txt": {
+      "sha256": "c991e83bd0b19ae50adce78549fe312e6acbd1f367f3c557997c1d340c614da8",
+      "bytes": 1670
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/immersiveengineering/manual/zh_cn/electromagnet.txt": {
+      "sha256": "f35a4ca8c1e286e77ae712a93ff801b750412ab944375c54909255dc6e92bf52",
+      "bytes": 939
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/immersivepetroleum/lang/zh_cn.json": {
+      "sha256": "df8162eba6c51302c8a08dfd8f61b59db258da511d31a52131a7259d8f68a338",
+      "bytes": 996
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/immersiveposts/lang/zh_cn.json": {
+      "sha256": "abb00350277f0e6f7cbf1de60aeda791e0461acf00c264b14a5cb3e27726a4b4",
+      "bytes": 1729
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/immersiveposts/manual/zh_cn/postbase.txt": {
+      "sha256": "3516fa2c096d2c281ce80c7806910c7fd7c9ef1e4d74f55526a2889bd2e6d04f",
+      "bytes": 781
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/immersiveposts/manual/zh_cn/posts.txt": {
+      "sha256": "515957138a4bd39b8a68b48a150507e6cbaf4264b34fbd9659414a7541d8e833",
+      "bytes": 2551
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/immersiveposts/manual/zh_cn/usage.txt": {
+      "sha256": "07ac3a3a4a5146d0996b732d06f52a0941206f8cb847fe1a39b263ff5c9ec218",
+      "bytes": 3201
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/incision/lang/zh_cn.json": {
+      "sha256": "a3e95be0f1c5722e994ab5379b00e7250740bb64cb3d2d5dbc84a6108d379700",
+      "bytes": 13237
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/infernalexp/lang/zh_cn.json": {
+      "sha256": "c84cdf4a71ac2d19fc812eb07255ced3aebdca74f13a17c4a315a2bf19d5fcd0",
+      "bytes": 16133
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/jade/lang/zh_cn.json": {
+      "sha256": "61b13ceaef0f37e1bbab7ec0f130f6fef0c3e94a1a90582a4c9e37408f76f804",
+      "bytes": 2605
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/jei/lang/zh_cn.json": {
+      "sha256": "05c60e7cf46abd20538d60bac45fbc7cc3504788a18a6dfdb484e5d61fbe1ecc",
+      "bytes": 1817
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/jeimultiblocks/lang/zh_cn.json": {
+      "sha256": "777395fcec907318b22828bc49e5e17293d99f07f1c139e9b4be2a18a38ef254",
+      "bytes": 224
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/kubejs/lang/zh_cn.json": {
+      "sha256": "6890f62b679c7e6924e1f4acb52c6e8baa207bcabdfbc79433fb69c1bb4dedde",
+      "bytes": 8826
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/lodestone/lang/zh_cn.json": {
+      "sha256": "4d9b53dd2e0f092c41d3912ebe6533cecd1898ce0cc2b508b271f7d97aea41ef",
+      "bytes": 3893
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/malum/lang/zh_cn.json": {
+      "sha256": "53aed07958f5afb7fa5e1cf12c3846b11d3a68b79ec8e4659e22a11b4e250cca",
+      "bytes": 2064
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/manafluid/lang/zh_cn.json": {
+      "sha256": "9a683ccbd12c5a47557d23fc856710cf4c6439f32d13586f5d0c94517126ea69",
+      "bytes": 182
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/mantle/lang/zh_cn.json": {
+      "sha256": "0300c4c27408a93083a908e48f191e47d3d0bb176d87c38ec0f3a1603ae53bae",
+      "bytes": 1669
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/megacells/lang/zh_cn.json": {
+      "sha256": "ed8709d7e53de864e68d3a3f6e45655d2400446efa62a4447ba831dc9865b226",
+      "bytes": 405
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/mekanism/lang/zh_cn.json": {
+      "sha256": "a347d9f73e2598a9c58cb26850c8faacc94ebc39da759fd6a2b21d1ffc496c63",
+      "bytes": 583
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/merequester/lang/zh_cn.json": {
+      "sha256": "a36bedef25f3870a1c4fec6761f0afa749291b4ea6bd5bd85620fcc3c671efbf",
+      "bytes": 71
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/miners_delight/lang/zh_cn.json": {
+      "sha256": "3458776d45adf69ebc63518f2a0e4e3a2a0e172eb8648fcc92b9535c5ef34ce8",
+      "bytes": 5555
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/modernfix/lang/zh_cn.json": {
+      "sha256": "d00a64f780f102435699efa7fdd3ece31b898c7132efe22829a5fb50372c6410",
+      "bytes": 8758
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/moonlight/lang/zh_cn.json": {
+      "sha256": "95f3a01a56ffcbb33016a2412e5523bb862dc9f5ba4fa41e1e4192ae1fc9b323",
+      "bytes": 197
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/moreoverlays/lang/zh_cn.json": {
+      "sha256": "b3e189621bef41e5ccc0406223c1b4c824763c2c1177ded81955a8bea0570137",
+      "bytes": 2924
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/moyai/lang/zh_cn.json": {
+      "sha256": "b240ea49c8f9d7b55066601f9a0def06b48781873600b5b0874af40b19b66a6b",
+      "bytes": 612
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/neapolitan/lang/zh_cn.json": {
+      "sha256": "68c2d026dca45a629d95ab9aea0d4ac967b677c2fb2e4f96462ff5d378b527d3",
+      "bytes": 553
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/particlerain/lang/zh_cn.json": {
+      "sha256": "f3cd2eb0ad91c207fc3657a62eaa6b215dc0c1dd684caf613cad308727165da3",
+      "bytes": 9251
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/pehkui/lang/zh_cn.json": {
+      "sha256": "3b88f85c9aa1d415db45d4e0ff941243cfb4ee7375f0bdf1c68f9752a0211dd1",
+      "bytes": 15698
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/ponder/lang/zh_cn.json": {
+      "sha256": "b1870149cdb9d91a2939b206a5d53de8e2abc26c324854587b7d21ee0b8f81e5",
+      "bytes": 4449
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/resourcepackoverrides/lang/zh_cn.json": {
+      "sha256": "77435882cdbaa189e0df1733b5847a844980fd0eacce3e7495dc8e18f62b6bb1",
+      "bytes": 712
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/simplebackups/lang/zh_cn.json": {
+      "sha256": "bd35ceaef05387e2d8c88206cd0ebbe6351a6ac79460e7198d2c716f37fb1a5c",
+      "bytes": 859
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/soundofrain/lang/zh_cn.json": {
+      "sha256": "24d5b488fc0a2142714f066e727d3463923e8158cfb7916c2cf37dc859815310",
+      "bytes": 1035
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/storagedrawers/lang/zh_cn.json": {
+      "sha256": "433e2590692cbce28cf9ee2478ac35a788bbb086fc01b5d65a7f4ff2a218a6f0",
+      "bytes": 4174
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/supplementaries/lang/zh_cn.json": {
+      "sha256": "bbce2a456d218b97107397846fc8bed3de6f651c3d162878fbfc38897816895c",
+      "bytes": 466
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/tconstruct/book/mighty_smelting/zh_cn/sections/tools.json": {
+      "sha256": "45b33470e58d07bcf3cb626e7cbcf667bd3e2e3634d162dd8fdd68e1e09ca1ba",
+      "bytes": 1236
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/tconstruct/book/mighty_smelting/zh_cn/tools/designing.json": {
+      "sha256": "956eefa3015b99b3bff5ab044edeeb0735253e919d227b03385b471a4e69f2f2",
+      "bytes": 841
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/tconstruct/book/mighty_smelting/zh_cn/tools/tanks.json": {
+      "sha256": "54b7d52ca6018cde9ef543a98ee3972f4bf16a6c6740b4e669d11e3a360ec42d",
+      "bytes": 458
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/tconstruct/book/mighty_smelting/zh_cn/tools/tips.json": {
+      "sha256": "057cf5f7b341badc36ed9b96b9b5ee894995aec9179a0bd01746643c1a0b9a4e",
+      "bytes": 667
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/tconstruct/book/tinkers_gadgetry/zh_cn/exploration/cobalt_ore.json": {
+      "sha256": "6e9b4091b74617f7caeada12b543a16dd53b236b8f36f1ffe4111a1670df8e4c",
+      "bytes": 372
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/tconstruct/book/tinkers_gadgetry/zh_cn/exploration/cobalt_shard.json": {
+      "sha256": "783a9387898f6fd3ceadc3e4d8acd12fd5ee020a67f919f58bb635ec659a014f",
+      "bytes": 265
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/tconstruct/book/tinkers_gadgetry/zh_cn/sections/exploration.json": {
+      "sha256": "277fb7ff51a1acb4279a2df79bbbee875428e080cc90f77587c0fc83de68fb28",
+      "bytes": 2389
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/tconstruct/lang/zh_cn.json": {
+      "sha256": "8348fd1a9792736867a30cc6db6e89fb0ab7c85132b91d7a536499b8ae624381",
+      "bytes": 646
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/terrablender/lang/zh_cn.json": {
+      "sha256": "a4530fd9d560ae5c55bf343adf299ed9214171eb3673c25e5dbabbf085c5446f",
+      "bytes": 249
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/thermal/lang/zh_cn.json": {
+      "sha256": "b72ab07e8ed5af7d707660705ba78471e8b4358105d8bf3bdad95dedb573e327",
+      "bytes": 475
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/thermal_dynamics/lang/zh_cn.json": {
+      "sha256": "9eae32f0fcd06ca0b09a48b1a9f139c3b94ac1e8b64bcaed8956c1a14510f964",
+      "bytes": 4586
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/thermal_foundation/lang/zh_cn.json": {
+      "sha256": "00fb53ecd2b401374139bb937524b6418434ae1e6f9bdda43c0f3e476601a1e1",
+      "bytes": 286
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/tiab/lang/zh_cn.json": {
+      "sha256": "924a85abd0fff87b635db4e9fb97353b53db0ef86e5032a2ffb2d31521dadc81",
+      "bytes": 66
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/titanium/lang/zh_cn.json": {
+      "sha256": "b601475817578679ea8c1c7cbf2ff981a85f60718d0191c3132a5c09f04be0e1",
+      "bytes": 2801
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/undergarden/lang/zh_cn.json": {
+      "sha256": "547e59b58ad11e9fc831559bf8f5ea46979b1f3115da59a1d62875610282c99e",
+      "bytes": 496
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/untagged_mobs/lang/zh_cn.json": {
+      "sha256": "470ee752625ba9603a542ff5251404ff2e41a2fa975b82814616d7d3d11f4267",
+      "bytes": 72635
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/unusual_furniture/lang/zh_cn.json": {
+      "sha256": "17ee1ef55121e75e11a25efe73aa7756b845f697de03a4c0cb8377983b5eeda7",
+      "bytes": 23736
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/vista/lang/zh_cn.json": {
+      "sha256": "ebd2f65794e8ca4b99e8e8f08a23ece4f5018a30c18246269979e7bdc0f4d390",
+      "bytes": 234
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/waterdripsound/lang/zh_cn.json": {
+      "sha256": "53b5a6eba79e3b90e28b6a5fcd71941fb027fbee2bc40e82df8fbe5c0e1b78ea",
+      "bytes": 583
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/windswept/lang/zh_cn.json": {
+      "sha256": "3bbfe9728693c947eaf4108279ffbabae9b7bd57764b429c55d99e9f8efc81bb",
+      "bytes": 759
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/assets/yet_another_config_lib_v3/lang/zh_cn.json": {
+      "sha256": "65319ff161240996b05eb6b030f21756e48af68f989562f1d07499a08a51068f",
+      "bytes": 232
+    },
+    "resourcepacks/CubeWarper-Chinese-Bilingual/pack.mcmeta": {
+      "sha256": "624dd358eff72b6cf8dff204ec05225c664ebb18360de1821233637a6d792384",
+      "bytes": 134
+    },
+    "resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.20.1.zip": {
+      "sha256": "46b8d2589d6e7055c84b0aa81d6e54a9f535c50562f5bcf274887f59bc01865c",
+      "bytes": 5424090
+    }
+  }
+}

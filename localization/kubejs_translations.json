@@ -1,0 +1,636 @@
+{
+  "kubejs": {
+    "block.kubejs.vector_operator_empty": {
+      "english": "§fEmpty Vector Operator",
+      "chinese": "§f空白矢量算子"
+    },
+    "block.kubejs.vector_operator_eye": {
+      "english": "§4§l§kUnknown§r§4§l Vector Operator",
+      "chinese": "§4§l§k未知§r§4§l矢量算子"
+    },
+    "block.kubejs.vector_operator_infinite_empty": {
+      "english": "§8§lBroken Vector Operator",
+      "chinese": "§8§l损坏的矢量算子"
+    },
+    "block.kubejs.vector_operator_infinite": {
+      "english": "§f§lInfinity Vector Operator",
+      "chinese": "§f§l无限矢量算子"
+    },
+    "block.kubejs.crimson_eye": {
+      "english": "§cCrimson Eye",
+      "chinese": "§c绯红之眼"
+    },
+    "block.kubejs.hexahedron_filling": {
+      "english": "Hexahedron",
+      "chinese": "六面体"
+    },
+    "block.kubejs.warping_frame": {
+      "english": "Warping Frame",
+      "chinese": "跃迁框架"
+    },
+    "block.kubejs.stacked_warping_frame": {
+      "english": "Warping Frame Slab",
+      "chinese": "跃迁框架台阶"
+    },
+    "block.kubejs.warping_frame_platform": {
+      "english": "Warping Frame Platform",
+      "chinese": "跃迁框架平台"
+    },
+    "block.kubejs.warping_frame_rusted_half": {
+      "english": "Rusted Warping Frame",
+      "chinese": "锈蚀的跃迁框架"
+    },
+    "block.kubejs.warping_frame_rusted": {
+      "english": "Rusted Warping Frame",
+      "chinese": "锈蚀的跃迁框架"
+    },
+    "block.kubejs.warping_frame_rusted_end": {
+      "english": "Rusted Warping Frame",
+      "chinese": "锈蚀的跃迁框架"
+    },
+    "block.kubejs.warping_frame_rusted_half_end": {
+      "english": "Rusted Warping Frame",
+      "chinese": "锈蚀的跃迁框架"
+    },
+    "block.kubejs.warping_vent": {
+      "english": "Warping Vent",
+      "chinese": "跃迁通风口"
+    },
+    "block.kubejs.warping_vent_rusted_half": {
+      "english": "Rusted Warping Vent",
+      "chinese": "锈蚀的跃迁通风口"
+    },
+    "block.kubejs.warping_vent_rusted": {
+      "english": "Rusted Warping Vent",
+      "chinese": "锈蚀的跃迁通风口"
+    },
+    "block.kubejs.crimson_statue": {
+      "english": "Crimson Statue",
+      "chinese": "绯红雕像"
+    },
+    "block.kubejs.eye_pillar": {
+      "english": "Eye Pillar",
+      "chinese": "眼球立柱"
+    },
+    "block.kubejs.ancient_bricks": {
+      "english": "Ancient Bricks",
+      "chinese": "远古石砖"
+    },
+    "block.kubejs.ancient_bricks_stairs": {
+      "english": "Ancient Brick Stairs",
+      "chinese": "远古石砖楼梯"
+    },
+    "block.kubejs.ancient_bricks_slab": {
+      "english": "Ancient Brick Slab",
+      "chinese": "远古石砖台阶"
+    },
+    "block.kubejs.ancient_bricks_wall": {
+      "english": "Ancient Brick Wall",
+      "chinese": "远古石砖墙"
+    },
+    "block.kubejs.ancient_runes": {
+      "english": "Ancient Runes",
+      "chinese": "远古符文"
+    },
+    "block.kubejs.chiseled_ancient_bricks": {
+      "english": "Chiseled Ancient Bricks",
+      "chinese": "雕纹远古石砖"
+    },
+    "block.kubejs.lightning_plinth": {
+      "english": "Lightning Plinth",
+      "chinese": "闪电基座"
+    },
+    "block.kubejs.half_frame_bottom": {
+      "english": "Bottom of a Machine Frame",
+      "chinese": "机器框架底部"
+    },
+    "block.kubejs.half_frame_top": {
+      "english": "Top of a Machine Frame",
+      "chinese": "机器框架顶部"
+    },
+    "block.kubejs.soul_cube": {
+      "english": "Soul Cube",
+      "chinese": "灵魂立方体"
+    },
+    "block.kubejs.ancient_core": {
+      "english": "Ancient Redstone Core",
+      "chinese": "远古红石核心"
+    },
+    "block.kubejs.emergency_fuses": {
+      "english": "Emergency Fuses",
+      "chinese": "应急保险丝"
+    },
+    "block.kubejs.coin_pile_gold": {
+      "english": "Gold Coins",
+      "chinese": "金币"
+    },
+    "block.kubejs.coin_bag_gold": {
+      "english": "Bag of Gold Coins",
+      "chinese": "金币袋"
+    },
+    "block.kubejs.nuke_open": {
+      "english": "Opened Nuclear Bomb",
+      "chinese": "打开的核弹"
+    },
+    "block.kubejs.computer": {
+      "english": "Computer",
+      "chinese": "计算机"
+    },
+    "block.kubejs.supercomputer": {
+      "english": "Supercomputer",
+      "chinese": "超级计算机"
+    },
+    "block.kubejs.recaptured_consciousness": {
+      "english": "Recaptured Consciousness",
+      "chinese": "重新捕获的意识"
+    },
+    "block.kubejs.recaptured_consciousness_empty": {
+      "english": "Consciousness Container",
+      "chinese": "意识容器"
+    },
+    "block.kubejs.modular_reactor": {
+      "english": "Modular Reactor",
+      "chinese": "模块化反应堆"
+    },
+    "block.kubejs.modular_reactor_empty": {
+      "english": "Empty Modular Reactor",
+      "chinese": "空模块化反应堆"
+    },
+    "block.kubejs.vector_tuner": {
+      "english": "Vector Tuner",
+      "chinese": "矢量调谐器"
+    },
+    "block.kubejs.block_shiny_ingot": {
+      "english": "§eBlock of Shiny Ingot",
+      "chinese": "§e闪亮锭块"
+    },
+    "block.kubejs.engineering_light_empty": {
+      "english": "Light Engineering Frame",
+      "chinese": "轻型工程框架"
+    },
+    "block.kubejs.engineering_heavy_empty": {
+      "english": "Heavy Engineering Frame",
+      "chinese": "重型工程框架"
+    },
+    "block.kubejs.warping_interface": {
+      "english": "Warping Interface",
+      "chinese": "跃迁接口"
+    },
+    "block.kubejs.warping_interface_running": {
+      "english": "Warping Interface",
+      "chinese": "跃迁接口"
+    },
+    "block.kubejs.warping_interface_cracked": {
+      "english": "Broken Warping Interface",
+      "chinese": "损坏的跃迁接口"
+    },
+    "block.kubejs.warping_disc_drive": {
+      "english": "Warping Exhaust",
+      "chinese": "跃迁排气口"
+    },
+    "block.kubejs.warping_controls": {
+      "english": "Warping Controls",
+      "chinese": "跃迁控制器"
+    },
+    "block.kubejs.launch_button": {
+      "english": "Launch Button",
+      "chinese": "启动按钮"
+    },
+    "block.kubejs.launch_button_pressed": {
+      "english": "Launch Button",
+      "chinese": "启动按钮"
+    },
+    "block.kubejs.warping_controls_pressed": {
+      "english": "Warping Controls",
+      "chinese": "跃迁控制器"
+    },
+    "block.kubejs.time_warper": {
+      "english": "Time Warper",
+      "chinese": "时间跃迁器"
+    },
+    "block.kubejs.eye_breaker": {
+      "english": "Eye Breaker",
+      "chinese": "眼球破碎器"
+    },
+    "block.kubejs.vector_operator_basic": {
+      "english": "§f§lOld Vector Operator",
+      "chinese": "§f§l古旧矢量算子"
+    },
+    "block.kubejs.vector_operator_charged": {
+      "english": "§e§lCharged Vector Operator",
+      "chinese": "§e§l充能矢量算子"
+    },
+    "block.kubejs.vector_operator_fluix": {
+      "english": "§5§lFluix Vector Operator",
+      "chinese": "§5§l福鲁伊克斯矢量算子"
+    },
+    "block.kubejs.vector_operator_nuclear": {
+      "english": "§a§lNuclear Vector Operator",
+      "chinese": "§a§l核能矢量算子"
+    },
+    "block.kubejs.vector_operator_blaze": {
+      "english": "§6§lBlazing Vector Operator",
+      "chinese": "§6§l烈焰矢量算子"
+    },
+    "block.kubejs.vector_operator_lightning": {
+      "english": "§b§lLightning Vector Operator",
+      "chinese": "§b§l闪电矢量算子"
+    },
+    "block.kubejs.eye_closed": {
+      "english": "Crimson Eye",
+      "chinese": "绯红之眼"
+    },
+    "block.kubejs.eye_open": {
+      "english": "Crimson Eye",
+      "chinese": "绯红之眼"
+    },
+    "block.kubejs.eye_stage_1": {
+      "english": "Crimson Eye",
+      "chinese": "绯红之眼"
+    },
+    "block.kubejs.eye_stage_2": {
+      "english": "Crimson Eye",
+      "chinese": "绯红之眼"
+    },
+    "block.kubejs.eye_stage_3": {
+      "english": "Crimson Eye",
+      "chinese": "绯红之眼"
+    },
+    "block.kubejs.eye_stage_4": {
+      "english": "Crimson Eye",
+      "chinese": "绯红之眼"
+    },
+    "item.kubejs.error_cube": {
+      "english": "Error Cube",
+      "chinese": "错误立方体"
+    },
+    "item.kubejs.bottled_lightning": {
+      "english": "Lightning in a Bottle",
+      "chinese": "瓶装闪电"
+    },
+    "item.kubejs.crowbar": {
+      "english": "Crowbar",
+      "chinese": "撬棍"
+    },
+    "item.kubejs.unbaked_guano_blast_brick": {
+      "english": "Unbaked Guano Blast Brick",
+      "chinese": "未烧制的鸟粪高炉砖"
+    },
+    "item.kubejs.guano_blast_brick": {
+      "english": "Guano Blast Brick",
+      "chinese": "鸟粪高炉砖"
+    },
+    "item.kubejs.cooling_unit": {
+      "english": "Cooling Unit",
+      "chinese": "冷却单元"
+    },
+    "item.kubejs.alpha_particles": {
+      "english": "Alpha Particles",
+      "chinese": "α粒子"
+    },
+    "item.kubejs.empty_shell": {
+      "english": "Empty Shell",
+      "chinese": "空弹壳"
+    },
+    "item.kubejs.energized_redstone": {
+      "english": "Energized Redstone",
+      "chinese": "充能红石"
+    },
+    "item.kubejs.soul_fuse": {
+      "english": "Soul Tube",
+      "chinese": "灵魂管"
+    },
+    "item.kubejs.portal_lantern": {
+      "english": "Recall Tube",
+      "chinese": "召回管"
+    },
+    "item.kubejs.shiny_ingot": {
+      "english": "§eShiny Ingot",
+      "chinese": "§e闪亮锭"
+    },
+    "item.kubejs.plastic": {
+      "english": "Plastic",
+      "chinese": "塑料"
+    },
+    "item.kubejs.circuitboard_empty": {
+      "english": "Empty Circuit Board",
+      "chinese": "空白电路板"
+    },
+    "item.kubejs.circuitboard": {
+      "english": "High-Tech Circuit Board",
+      "chinese": "高科技电路板"
+    },
+    "item.kubejs.peeking_circuit": {
+      "english": "Peeking Circuit",
+      "chinese": "窥探电路"
+    },
+    "item.kubejs.seeking_circuit": {
+      "english": "Seeking Circuit",
+      "chinese": "寻踪电路"
+    },
+    "item.kubejs.grains_of_infinity": {
+      "english": "Grains of Infinity",
+      "chinese": "无限粉"
+    },
+    "item.kubejs.party_popper": {
+      "english": "Party Popper",
+      "chinese": "派对礼炮"
+    },
+    "item.kubejs.tiny_party_popper": {
+      "english": "Tiny Confetti Popper",
+      "chinese": "迷你彩纸礼炮"
+    },
+    "item.kubejs.adilette": {
+      "english": "Adilette",
+      "chinese": "阿迪拖鞋"
+    },
+    "item.kubejs.chocolate_chip": {
+      "english": "Chocolate Chip",
+      "chinese": "巧克力碎"
+    },
+    "fluid.kubejs.solder_fluid": {
+      "english": "Solder Alloy",
+      "chinese": "焊料合金"
+    },
+    "block.kubejs.solder_fluid": {
+      "english": "Solder Alloy",
+      "chinese": "焊料合金"
+    },
+    "item.kubejs.solder_fluid_bucket": {
+      "english": "Solder Alloy Bucket",
+      "chinese": "焊料合金桶"
+    },
+    "fluid_type.kubejs.solder_fluid": {
+      "english": "Solder Alloy",
+      "chinese": "焊料合金"
+    },
+    "block.kubejs.cobblestone_ancient": {
+      "english": "Cobblestone",
+      "chinese": "圆石"
+    },
+    "block.kubejs.cobblestone": {
+      "english": "Cobblestone",
+      "chinese": "圆石"
+    },
+    "block.kubejs.mossy_cobblestone": {
+      "english": "Mossy Cobblestone",
+      "chinese": "苔石"
+    },
+    "block.kubejs.bricks_ancient": {
+      "english": "Bricks",
+      "chinese": "红砖块"
+    },
+    "block.kubejs.bricks": {
+      "english": "Bricks",
+      "chinese": "红砖块"
+    },
+    "block.kubejs.vector_operator_step2": {
+      "english": "§8§lBroken Vector Operator",
+      "chinese": "§8§l损坏的矢量算子"
+    },
+    "block.kubejs.vector_operator_step3": {
+      "english": "§8§lBroken Vector Operator",
+      "chinese": "§8§l损坏的矢量算子"
+    },
+    "block.kubejs.vector_operator_step4": {
+      "english": "§8§lBroken Vector Operator",
+      "chinese": "§8§l损坏的矢量算子"
+    },
+    "block.kubejs.vector_operator_step5": {
+      "english": "§8§lBroken Vector Operator",
+      "chinese": "§8§l损坏的矢量算子"
+    },
+    "block.kubejs.vector_operator_step6": {
+      "english": "§8§lBroken Vector Operator",
+      "chinese": "§8§l损坏的矢量算子"
+    },
+    "block.kubejs.vector_operator_step7": {
+      "english": "§8§lBroken Vector Operator",
+      "chinese": "§8§l损坏的矢量算子"
+    },
+    "block.kubejs.vector_operator_step8": {
+      "english": "§8§lBroken Vector Operator",
+      "chinese": "§8§l损坏的矢量算子"
+    },
+    "block.kubejs.vector_operator_step9": {
+      "english": "§8§lBroken Vector Operator",
+      "chinese": "§8§l损坏的矢量算子"
+    },
+    "block.kubejs.vector_operator_step10": {
+      "english": "§8§lBroken Vector Operator",
+      "chinese": "§8§l损坏的矢量算子"
+    },
+    "block.kubejs.vector_operator_step11": {
+      "english": "§8§lBroken Vector Operator",
+      "chinese": "§8§l损坏的矢量算子"
+    },
+    "block.kubejs.vector_operator_step12": {
+      "english": "§8§lBroken Vector Operator",
+      "chinese": "§8§l损坏的矢量算子"
+    }
+  },
+  "untagged_mobs": {
+    "item.untagged_mobs.executable_redactor": {
+      "english": "Redacted",
+      "chinese": "已删改"
+    },
+    "item.untagged_mobs.skybox_missing": {
+      "english": "Missing Core",
+      "chinese": "缺失核心"
+    },
+    "block.untagged_mobs.skybox_missing": {
+      "english": "Missing Core",
+      "chinese": "缺失核心"
+    },
+    "fluid_type.untagged_mobs.fluid_blood": {
+      "english": "Blood",
+      "chinese": "血液"
+    }
+  },
+  "create": {
+    "item.create.andesite_alloy": {
+      "english": "Seared Alloy",
+      "chinese": "焦黑合金"
+    },
+    "item.create.brass_hand": {
+      "english": "Gold Hand",
+      "chinese": "金质机械手"
+    },
+    "item.create.andesite_alloy_block": {
+      "english": "Block of Seared Alloy",
+      "chinese": "焦黑合金块"
+    },
+    "block.create.andesite_alloy_block": {
+      "english": "Block of Seared Alloy",
+      "chinese": "焦黑合金块"
+    },
+    "item.create.andesite_scaffolding": {
+      "english": "Seared Scaffolding",
+      "chinese": "焦黑脚手架"
+    },
+    "block.create.andesite_scaffolding": {
+      "english": "Seared Scaffolding",
+      "chinese": "焦黑脚手架"
+    },
+    "item.create.andesite_door": {
+      "english": "Seared Door",
+      "chinese": "焦黑门"
+    },
+    "block.create.andesite_door": {
+      "english": "Seared Door",
+      "chinese": "焦黑门"
+    },
+    "item.create.andesite_casing": {
+      "english": "Seared Casing",
+      "chinese": "焦黑机壳"
+    },
+    "block.create.andesite_casing": {
+      "english": "Seared Casing",
+      "chinese": "焦黑机壳"
+    },
+    "item.create.andesite_funnel": {
+      "english": "Seared Funnel",
+      "chinese": "焦黑漏斗"
+    },
+    "block.create.andesite_funnel": {
+      "english": "Seared Funnel",
+      "chinese": "焦黑漏斗"
+    },
+    "item.create.andesite_tunnel": {
+      "english": "Seared Tunnel",
+      "chinese": "焦黑隧道"
+    },
+    "block.create.andesite_tunnel": {
+      "english": "Seared Tunnel",
+      "chinese": "焦黑隧道"
+    },
+    "item.create.andesite_table_cloth": {
+      "english": "Seared Table Cloth",
+      "chinese": "焦黑桌布"
+    },
+    "block.create.andesite_table_cloth": {
+      "english": "Seared Table Cloth",
+      "chinese": "焦黑桌布"
+    },
+    "item.create.andesite_bars": {
+      "english": "Seared Bars",
+      "chinese": "焦黑栏杆"
+    },
+    "block.create.andesite_bars": {
+      "english": "Seared Bars",
+      "chinese": "焦黑栏杆"
+    },
+    "item.create.andesite_ladder": {
+      "english": "Seared Ladder",
+      "chinese": "焦黑梯子"
+    },
+    "block.create.andesite_ladder": {
+      "english": "Seared Ladder",
+      "chinese": "焦黑梯子"
+    },
+    "block.create.rose_quartz_block": {
+      "english": "Block of Blood Quartz",
+      "chinese": "血石英块"
+    },
+    "block.create.rose_quartz_lamp": {
+      "english": "Blood Quartz Lamp",
+      "chinese": "血石英灯"
+    },
+    "block.create.rose_quartz_tiles": {
+      "english": "Blood Quartz Tiles",
+      "chinese": "血石英砖"
+    },
+    "block.create.small_rose_quartz_tiles": {
+      "english": "Small Blood Quartz Tiles",
+      "chinese": "小型血石英砖"
+    },
+    "create.ponder.rose_quartz_lamp.header": {
+      "english": "Blood Quartz Lamps",
+      "chinese": "血石英灯"
+    },
+    "create.ponder.rose_quartz_lamp.text_1": {
+      "english": "Blood Quartz Lamps activate on a Redstone signal",
+      "chinese": "血石英灯接收到红石信号时会亮起"
+    },
+    "item.create.polished_rose_quartz": {
+      "english": "Polished Blood Quartz",
+      "chinese": "磨制血石英"
+    },
+    "item.create.rose_quartz": {
+      "english": "Blood Quartz",
+      "chinese": "血石英"
+    },
+    "advancement.create.rose_quartz.desc": {
+      "english": "Polish some Blood Quartz",
+      "chinese": "磨制一些血石英"
+    }
+  },
+  "actuallyadditions": {
+    "item.actuallyadditions.lava_factory_casing": {
+      "english": "Power Casing",
+      "chinese": "动力机壳"
+    },
+    "block.actuallyadditions.lava_factory_casing": {
+      "english": "Power Casing",
+      "chinese": "动力机壳"
+    }
+  },
+  "forestry": {
+    "item.forestry.carpenter": {
+      "english": "Soldering Machine",
+      "chinese": "焊接机"
+    },
+    "block.forestry.carpenter": {
+      "english": "Soldering Machine",
+      "chinese": "焊接机"
+    }
+  },
+  "thermal": {
+    "item.thermal.dynamo_lapidary": {
+      "english": "Nuclear Dynamo",
+      "chinese": "核能发电机"
+    },
+    "block.thermal.dynamo_lapidary": {
+      "english": "Nuclear Dynamo",
+      "chinese": "核能发电机"
+    }
+  },
+  "createdieselgenerators": {
+    "item.createdieselgenerators.andesite_girder": {
+      "english": "Seared Girder",
+      "chinese": "焦黑梁"
+    },
+    "block.createdieselgenerators.andesite_girder": {
+      "english": "Seared Girder",
+      "chinese": "焦黑梁"
+    }
+  },
+  "appflux": {
+    "item.appflux.harden_insulating_resin": {
+      "english": "Hardened Insulating Resin",
+      "chinese": "硬化绝缘树脂"
+    },
+    "block.appflux.harden_insulating_resin": {
+      "english": "Hardened Insulating Resin",
+      "chinese": "硬化绝缘树脂"
+    }
+  },
+  "miners_delight": {
+    "item.miners_delight.weird_caviar": {
+      "english": "Droop Soup",
+      "chinese": "垂挂果汤"
+    }
+  },
+  "tiab": {
+    "item.tiab.time_in_a_bottle": {
+      "english": "Timestone",
+      "chinese": "时间石"
+    }
+  },
+  "undergarden": {
+    "block.undergarden.shiverstone_froststeel_ore": {
+      "english": "Shiverstone Osmium Ore",
+      "chinese": "寒栗石锇矿石"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+工业染料（Industrial Dyes）
+
+绝对完全无害（Definitely Perfectly Harmless）
+
+金属化合物在工业染料中有广泛用途，其中最实用的是铅。
+
+铅化合物可以制成大量红色和白色染料。
+
+由于制造铬酸铅所需的部分原料难以大量获取，无法使用铅大量生产黄色染料。
+
+<&lead_white>将腐烂物质产生的二氧化碳与变质乙醇中的乙酸结合，可以将金属铅制成§l碳酸铅§r，通常称为铅白。
+
+这种制法无需大量刷取骷髅并研磨其骨头来获取染料。
+
+<&lead_red>在§2熔炉§r中高温氧化铅粒，可以将金属铅转化为§l氧化铅§r，通常称为铅丹。
+
+这种染料的生产无需使用花卉农场或园艺玻璃罩种植大量红色花朵。<np>
+
+English original
+
+Metal compounds have many uses in industrial dyes, and the most useful of these is lead.
+Lead compounds can be crafted into large quantities of red and white dye.
+Yellow dye has not been produced in quantity from lead, as several ingredients cannot be found in quantity to make lead chromate.
+By combining the carbon dioxide fumes from rotting material and the acetic acid from spoiled ethanol, lead metal can be crafted into §lLead Carbonate§r, commonly known as Lead White.
+Dye produced this way can be made without the need to farm copious numbers of skeletons to grind their bones.
+By oxidizing lead metal nuggets in a §2Furnace§r at high temperature, lead metal can be converted into §lLead Oxide§r, more commonly known as Red Lead.
+This dye can be produced without the need for a flower farm or the cloche for copious amounts of red flowers.

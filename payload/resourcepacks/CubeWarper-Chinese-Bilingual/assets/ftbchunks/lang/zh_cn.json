@@ -1,0 +1,16 @@
+{
+  "ftbchunks.team_prop_defaults.def_allow_explosions": "允许爆炸破坏（Allow Explosion Damage）",
+  "ftbchunks.team_prop_defaults.def_block_edit": "方块编辑模式（Block Edit Mode）",
+  "ftbchunks.team_prop_defaults.def_block_edit_interact": "方块编辑/交互模式（Block Edit/Interact Mode）",
+  "ftbchunks.team_prop_defaults.def_block_interact": "方块交互模式（Block Interact Mode）",
+  "ftbchunks.team_prop_defaults.def_claim_visibility": "领地可见性（Claim Visibility）",
+  "ftbchunks.team_prop_defaults.def_entity_attack": "非生物实体攻击模式（Non-living Entity Attack Mode）",
+  "ftbchunks.team_prop_defaults.def_entity_interact": "实体交互模式（Entity Interact Mode）",
+  "ftbchunks.team_prop_defaults.def_fake_players": "允许伪装玩家（Allow All Fake Players）",
+  "ftbchunks.team_prop_defaults.def_mob_griefing": "允许怪物破坏行为（Allow Mob Griefing Actions）",
+  "ftbchunks.team_prop_defaults.def_player_visibility": "坐标模式（Location Visibility）",
+  "ftbchunks.team_prop_defaults.def_pvp": "允许PvP战斗（Allow PvP Combat）",
+  "ftbchunks.team_prop_defaults": "队伍属性默认值（Team Property Defaults）",
+  "ftbchunks.team_prop_defaults.def_fake_player_ids": "按 ID 允许模拟玩家（Allow Fake Players by ID）",
+  "ftbchunks.team_prop_defaults.def_named_fake_players": "具名模拟玩家（Named Fake Players）"
+}

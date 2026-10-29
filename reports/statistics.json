@@ -1,0 +1,13 @@
+{
+  "mod_jars": 170,
+  "language_files": 2378,
+  "nested_jars": 153,
+  "chinese_files_in_mod_jars": 129,
+  "resourcepack_chinese_files": 2105,
+  "pairs_all_locales_and_sources": 80565,
+  "effective_simplified_pairs": 39299,
+  "missing_simplified_keys": 4421,
+  "conflicting_keys": 2968,
+  "errors": 0,
+  "selection_policy": "Archive filename order; resourcepack zh_cn overrides jar zh_cn; KubeJS language files override both. This is a translation reference, not a claim about runtime resource priority."
+}

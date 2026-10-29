@@ -1,0 +1,14 @@
+{
+  "ie.manual.entry.reservoirs.consonant": "任（A）",
+  "advancement.immersivepetroleum.rudders": "360 度不开镜（360 No-Scope）",
+  "ie.manual.entry.reservoirs.vowel": "一处（An）",
+  "fluid_type.immersivepetroleum.benzol": "苯（Benzol）",
+  "fluid_type.immersivepetroleum.petroleum_gas": "石油气（Petroleum Gas）",
+  "gui.immersivepetroleum.derrick.msg.not_enough_power": "能量不足（Not enough Power）",
+  "item.immersivepetroleum.benzol_bucket": "苯桶（Bucket of Benzol）",
+  "item.immersivepetroleum.petroleum_gas_bucket": "石油气桶（Bucket of Petroleum Gas）",
+  "item.immersivepetroleum.shader.name.blue": "蓝色光圈科技手持传送门装置（Blue ASHPD）",
+  "item.immersivepetroleum.shader.name.cube0": "储物方块（Storage Cube）",
+  "item.immersivepetroleum.shader.name.cube1": "同伴方块（Companion Cube）",
+  "item.immersivepetroleum.shader.name.orange": "橙色光圈科技手持传送门装置（Orange ASHPD）"
+}

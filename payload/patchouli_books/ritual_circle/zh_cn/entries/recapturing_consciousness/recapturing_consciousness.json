@@ -1,0 +1,31 @@
+{
+  "name": "重新捕获意识（Recapturing Consciousness）",
+  "icon": "kubejs:recaptured_consciousness",
+  "category": "patchouli:ritual",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "kubejs:recaptured_consciousness",
+      "title": "重新捕获意识（Recapturing Consciousness）",
+      "text": "绯红之眼似乎以某种方式被束缚在远古石柱上。$(br2)利用这个仪式，可以逆向解析这套系统，将眼睛囚禁在我们自己的意识容器中。"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Recapturing Consciousness",
+      "text": "The Crimson Eyes seem to be bound to the ancient pillars in some way. $(br2)With this ritual it is possible to reverse engineer this system by trapping it inside our own Consciousness Container."
+    },
+    {
+      "type": "patchouli:ritual",
+      "input1": "kubejs:crimson_eye",
+      "input2": "kubejs:computer",
+      "input3": "kubejs:computer",
+      "input4": "kubejs:computer",
+      "input5": "kubejs:computer",
+      "input6": "kubejs:vector_operator_lightning",
+      "input7": "kubejs:vector_operator_lightning",
+      "input8": "kubejs:vector_operator_lightning",
+      "input9": "kubejs:recaptured_consciousness_empty"
+    }
+  ]
+}

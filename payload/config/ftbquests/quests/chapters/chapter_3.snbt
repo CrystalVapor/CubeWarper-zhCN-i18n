@@ -1,0 +1,1276 @@
+{
+	autofocus_id: "42E9291D3E994A0F"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3"
+	group: ""
+	icon: "kubejs:vector_operator_nuclear"
+	id: "5B9242AE7DC77549"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["57972A3714FCB9BE"]
+			id: "42E9291D3E994A0F"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "664465FA9A7A6952"
+				item: "kubejs:vector_operator_fluix"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["42E9291D3E994A0F"]
+			icon: "regions_unexplored:silver_birch_sapling"
+			id: "7F8A84E6792D57C5"
+			shape: "square"
+			tasks: [{
+				dimension: "hexahedron:silver_forest"
+				id: "0B120370B39C12EE"
+				title: "进入维度 18: &l银色森林&r（Enter dimension 18: &lThe Silver Forest&r）"
+				type: "dimension"
+			}]
+			title: "欢迎来到维度 18: &l银色森林&r（Welcome to dimension 18: &lThe Silver Forest&r）"
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["42E9291D3E994A0F"]
+			icon: "kubejs:coin_bag_gold"
+			id: "695F411874E4905F"
+			shape: "square"
+			tasks: [{
+				dimension: "hexahedron:endless_hoard"
+				id: "7FD52FBA54C94376"
+				title: "进入维度 7: &l货币连续体&r（Enter dimension 7: &lThe Coin Continuum&r）"
+				type: "dimension"
+			}]
+			title: "欢迎来到维度 7: &l货币连续体&r（Welcome to dimension 7: &lThe Coin Continuum&r）"
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["42E9291D3E994A0F"]
+			icon: "alexscaves:waste_drum"
+			id: "724BF4D8D1DA930D"
+			shape: "square"
+			tasks: [{
+				dimension: "hexahedron:toxic_caves"
+				id: "59C3943501FCD420"
+				title: "进入维度 5: &l裂变原野&r（Enter dimension 5: &lThe Fission Fields&r）"
+				type: "dimension"
+			}]
+			title: "欢迎来到维度 5: &l裂变原野&r（Welcome to dimension 5: &lThe Fission Fields&r）"
+			x: -14.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"79CA283CB3EAD8A8"
+				"10B4D789801FA7A3"
+			]
+			description: [
+				"核能熔炉可以使用八个核能熔炉组件建造。&r（The Nuclear Furnace can be contructed with eight nuclear Furnace Components.&r）"
+				""
+				"使用铀棒作为燃料时，它可以进行以下转化：&r（If it is fueled with Uranium Rods it can turn:&r）"
+				""
+				"&lo&r 空白矢量算子 → 核能矢量算子&r（&lo&r Empty Vector Operators into Nuclear Vector Operators&r）"
+				""
+				"&lo&r 空弹壳 → 裂变核心&r（&lo&r Empty Shells into Fissile Cores&r）"
+				""
+				"在加工过程中，核能熔炉会积累核废料。&r（In this process the nuclear furnace will accumulate nuclear waste.&r）"
+				"提供金属桶可以将核废料取出。&r（You can remove this by providing it with Metal Barrels.&r）"
+				""
+				"&l如果内部废料储槽达到容量上限，核能熔炉就会发生核熔毁，摧毁自身及周围的一切。&r&r（&lIf you let the internal waste resevour fill up to the maximum limit the furnace will destroy itself and everything around it in a nuclear meltdown.&r&r）"
+			]
+			icon: "alexscaves:fissile_core"
+			id: "59B914C684A5EE4C"
+			rewards: [
+				{
+					id: "345C62CB8A5F49E8"
+					item: "kubejs:party_popper"
+					type: "item"
+				}
+				{
+					id: "4C934F03CC2B77E0"
+					item: "alexscaves:uranium_rod"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&o3.6 伦琴&r（&o3.6 Roentgen&r）"
+			tasks: [
+				{
+					count: 8L
+					id: "1FAB7335BE99CD36"
+					item: "alexscaves:nuclear_furnace_component"
+					type: "item"
+				}
+				{
+					id: "2B2CC9B105DF2614"
+					item: "alexscaves:metal_barrel"
+					type: "item"
+				}
+				{
+					id: "35C9DFBDE40C7C09"
+					item: "alexscaves:uranium_rod"
+					type: "item"
+				}
+			]
+			title: "建造核能熔炉&r（Constructing a Nuclear Furnace&r）"
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["07D4A4DCB638CC93"]
+			description: ["使用热电子加工台，现在可以制作新的空白矢量算子。&r（Using the Thermionic Fabricator you can now create new Empty Vector Operators.&r）"]
+			icon: "kubejs:vector_operator_empty"
+			id: "3EFB28B57ACCA844"
+			tasks: [
+				{
+					id: "48030730B7DE8719"
+					item: "kubejs:vector_operator_empty"
+					type: "item"
+				}
+				{
+					id: "5D4B0F03237F7E1B"
+					title: "已了解&r（Understood&r）"
+					type: "checkmark"
+				}
+			]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7F8A84E6792D57C5"]
+			icon: "botania:apothecary_livingrock"
+			id: "6840D094E91491E5"
+			rewards: [{
+				id: "0852677A948F7B5A"
+				item: "kubejs:tiny_party_popper"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 6L
+					id: "083087B1C13FBD7F"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					id: "698B33240FBB699C"
+					item: "botania:apothecary_livingrock"
+					type: "item"
+				}
+			]
+			title: "花药台&r（Petal Apothecary&r）"
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["42E9291D3E994A0F"]
+			icon: "windswept:icicles"
+			id: "1D855C82AF9E2087"
+			shape: "square"
+			tasks: [{
+				dimension: "hexahedron:snowstorm"
+				id: "04015132771AEC69"
+				title: "进入维度 12: &l霜花风暴&r（Enter dimension 12: &lThe Frostbloom Storm&r）"
+				type: "dimension"
+			}]
+			title: "欢迎来到维度 12: &l霜花风暴&r（Welcome to dimension 12: &lThe Frostbloom Storm&r）"
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["724BF4D8D1DA930D"]
+			description: [
+				"你需要拆除核弹，才能获得内部的裂变核心。&r（You will need to difuse a nuclear bomb to obtain the Fission Core within.&r）"
+				""
+				"首先使用撬棍撬开核弹顶部。&r（First use a Crowbar to pry the top off of the bomb.&r）"
+				""
+				"然后使用钢丝钳剪断其中一根导线。&r（Then use Wire Cutters to cut one of the wires.&r）"
+				"左键点击会剪断红色导线。&r（Left-clicking will cut the red wire.&r）"
+				"右键点击会剪断绿色导线。&r（Right-clicking will cut the green wire.&r）"
+				""
+				"其中一根导线会解除核弹，另一根会使装置在 10 秒后爆炸。&r（One wire will difuse the bomb; the other will rig the device to explode within 10 seconds.&r）"
+				""
+				"正确的导线始终完全随机……&r（The correct wire, unfortunately, is always fully random...&r）"
+			]
+			icon: "alexscaves:nuclear_bomb"
+			id: "79CA283CB3EAD8A8"
+			rewards: [
+				{
+					id: "661F15A1B35DAD4B"
+					item: "alexscaves:music_disc_fusion"
+					type: "item"
+				}
+				{
+					id: "6BD41469B3D2381A"
+					item: "kubejs:party_popper"
+					type: "item"
+				}
+			]
+			subtitle: "&o现在我成为死神&r（&oNow I am Become Death&r）"
+			tasks: [
+				{
+					id: "34C9DB7C87F14F4F"
+					item: {
+						Count: 1
+						id: "immersiveengineering:wirecutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FCBE98C6F842032"
+					item: "kubejs:crowbar"
+					type: "item"
+				}
+				{
+					id: "58786FCCDEA404B1"
+					item: "alexscaves:fissile_core"
+					type: "item"
+				}
+			]
+			title: "拆除核弹&r（Defusing a Nuclear Bomb&r）"
+			x: -14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"79CA283CB3EAD8A8"
+				"07D4A4DCB638CC93"
+			]
+			description: ["ME 控制器可以大幅增加 ME 系统可用的频道数量。&r（The ME Controller will dramatically improve the number of channels you can have in your ME System.&r）"]
+			id: "1F81CCC1F7562C57"
+			rewards: [{
+				id: "269D3C4BEC9195C7"
+				item: {
+					Count: 1
+					id: "untagged_mobs:hyper_confetti_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&o这是从幸运方块中获得的&r（&oI got this from a Chance Cube&r）"
+			tasks: [{
+				id: "1600D6054496DF25"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7F8A84E6792D57C5"]
+			description: [
+				"银色森林中存在无尽的白银海洋。&r（The Silver Forest has endless silver oceans.&r）"
+				""
+				"手持装满液体的桶右键点击冶炼炉排液口，可以将液体加入冶炼炉。&r（If you right-click a filled bucket on a smeltery drain, it will fill the smeltery up with that liquid.&r）"
+				""
+				"也可以将任意液体直接泵入冶炼炉排液口。&r（Alternatively, you can pump any liquid into a smeltery drain as well.&r）"
+			]
+			icon: "thermal:silver_ingot"
+			id: "706CFA622308E0A2"
+			rewards: [{
+				id: "1A809C216AF7CE82"
+				item: {
+					Count: 1
+					id: "untagged_mobs:confetti_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&o白银之池&r（&oPools of Silver&r）"
+			tasks: [
+				{
+					id: "093FBC994DD37473"
+					item: "tconstruct:molten_silver_bucket"
+					type: "item"
+				}
+				{
+					id: "76E259ACA37BC3E5"
+					item: "thermal:silver_ingot"
+					type: "item"
+				}
+			]
+			title: "无尽白银&r（Endless Silver&r）"
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["706CFA622308E0A2"]
+			id: "7EBA57DECDEF83EB"
+			rewards: [{
+				id: "4D4C1441985683CA"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "501ECD301D8A2CB5"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"1ACBFD0A2732FA5C"
+				"3811EE766D2CF5C5"
+				"0C64583682770587"
+			]
+			description: ["热电子加工台可以使用能量和沙子制作电子管。开始加工前，需要先将沙子加热成熔融玻璃。&r（The Thermionic Fabricator can make Electron tubes using power and a supply of sand. It will need some time to heat up the sand into molten glass before it starts crafting.&r）"]
+			icon: "forestry:fabricator"
+			id: "07D4A4DCB638CC93"
+			rewards: [{
+				id: "1CCC1603D3D576AD"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "&o热电子技术&r（&oTher-mi-o-nic&r）"
+			tasks: [
+				{
+					id: "6831EA1AA0E107B2"
+					item: "forestry:fabricator"
+					type: "item"
+				}
+				{
+					id: "389432AC8675D955"
+					item: "forestry:electron_tube_emerald"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1DF9F6C26950EFBC"
+				"5A3080407E21CCC2"
+				"07D4A4DCB638CC93"
+				"1D39E9C67C28C53A"
+				"1AA2701817C05F20"
+			]
+			description: ["锇压缩机可以使用锇来处理材料。&r（The Osmium Compressor allows you to infuse materials with Osmium.&r）"]
+			id: "71A95CEBD6B55B80"
+			rewards: [{
+				id: "0608C5EF36783723"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "65C5F8954DB7906A"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6840D094E91491E5"
+				"1D855C82AF9E2087"
+			]
+			description: [
+				"任意花朵都可以转化为对应颜色的神秘花瓣。霜花风暴中稀有的雪滴花可以提供制作白雏菊所需的白色花瓣。&r（Any flower can be turned into Mystical Petals of its color. The rare Snowdrop in The Frostbloom Storm gives the white petals needed for a Pure Daisy.&r）"
+				""
+				"白雏菊可以将深板岩转化为辉煌深板岩。&r（The Pure Daisy can turn Deepslate into Brilliant Deepslate.&r）"
+			]
+			icon: "botania:pure_daisy"
+			id: "1AA2701817C05F20"
+			rewards: [
+				{
+					id: "0F2F4D4E8C57F923"
+					item: "supplementaries:confetti_popper"
+					type: "item"
+				}
+				{
+					id: "73C140AC7DDC4CBD"
+					item: "windswept:music_disc_snow"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "&o婚礼花束&r（&oWedding Bouquet&r）"
+			tasks: [
+				{
+					id: "41C42E79C601E47D"
+					item: "windswept:snowdrop"
+					type: "item"
+				}
+				{
+					id: "06591822A7676FE3"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+				{
+					id: "1C49C4466272DD92"
+					item: "minecraft:deepslate"
+					type: "item"
+				}
+				{
+					id: "3F871601014D4804"
+					item: "malum:cluster_of_brilliance"
+					type: "item"
+				}
+			]
+			title: "白雏菊&r（Pure Daisy&r）"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["724BF4D8D1DA930D"]
+			icon: "alexscaves:sulfur_dust"
+			id: "0B89BA14A34F6DC3"
+			subtitle: "&o品尝萨弗隆的烈焰！&r（&oTaste the Flames of Sulfuron!&r）"
+			tasks: [{
+				id: "382C5C84F7648F0A"
+				item: "alexscaves:sulfur_dust"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7EBA57DECDEF83EB"
+				"56A2089DBDAAEA29"
+			]
+			description: ["核能熔炉需要使用铀棒作为燃料。&r（Uranium Rods will be needed to fuel the Nuclear Furnace.&r）"]
+			id: "10B4D789801FA7A3"
+			rewards: [{
+				id: "5E3B69185D39EE9E"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40B0EEE5B0CD31B8"
+				item: "alexscaves:uranium_rod"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7EBA57DECDEF83EB"]
+			description: ["防化服可以防护辐射，并让穿戴者在酸液中游泳。&r（The Hazmat Suit will not only protect you from radiation but will also allow the wearer to smim in acid.&r）"]
+			icon: {
+				Count: 1
+				id: "alexscaves:hazmat_mask"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "62FCB4D691D5A46A"
+			subtitle: "&o说出我的名字&r（&oSay my name&r）"
+			tasks: [
+				{
+					id: "04A6FC17E1086F8B"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F504FED57156124"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F2C8483512D7137"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "036E2DB0EDFB734B"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "防化服&r（Hazmat Suit&r）"
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1D855C82AF9E2087"]
+			description: ["这个维度的地下寒栗石之间可以找到锇。&r（Osmium can found in the ground of this dimension between the Shiverstone.&r）"]
+			icon: "mekanism:ingot_osmium"
+			id: "1DF9F6C26950EFBC"
+			rewards: [{
+				id: "79896C00F0580DD3"
+				item: "kubejs:tiny_party_popper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A00E02938D08E99"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["695F411874E4905F"]
+			description: ["货币连续体中的绿宝石块可以分解成绿宝石。&r（Blocks of Emerald can be found in the Coin Continuum and broken down into Emeralds.&r）"]
+			icon: "minecraft:emerald"
+			id: "1ACBFD0A2732FA5C"
+			rewards: [{
+				id: "1E8FEA51B835A431"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			subtitle: "&o突发新闻！&r（&oBreaking News!&r）"
+			tasks: [
+				{
+					id: "5B8A02A45FC0D682"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "255F22571A224D44"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["59B914C684A5EE4C"]
+			description: ["在物品栏中按住 Shift 并右键点击铀棒，可以为耗尽能量的射线枪充满电。&r（You can Shift-right-click a Uranium Rod in you inventory to fully recharge an empty Raygun.&r）"]
+			id: "40111918A62390D4"
+			rewards: [{
+				id: "07283CC098CF728C"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			subtitle: "&o无需传送门流体&r（&oNo Portal Fluid Needed&r）"
+			tasks: [{
+				id: "1EDE38ACE6BB5584"
+				item: "alexscaves:raygun"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["724BF4D8D1DA930D"]
+			description: ["手持空瓶右键点击有毒地热喷口，可以装入氡气。&r（Right-clicking empty bottles on Toxic Geothermal vents will fill them with Radon Gas.&r）"]
+			icon: "alexscaves:radon_bottle"
+			id: "3811EE766D2CF5C5"
+			rewards: [{
+				id: "3EC2F4B5760066FF"
+				item: {
+					Count: 1
+					id: "untagged_mobs:confetti_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&o&o这里仍然比胆汁水域好&r（&o&oThis Place is Still Better than Bilewater&r）"
+			tasks: [
+				{
+					id: "475FC54BA27348E2"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					id: "17D50B9F82CBF767"
+					item: "alexscaves:radon_bottle"
+					type: "item"
+				}
+			]
+			title: "收集氡气&r（Collecting Radon&r）"
+			x: -13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["59B914C684A5EE4C"]
+			description: ["利用核能熔炉，现在可以持续生产裂变核心。&r（Using the Nuclear Furnace Fissile Cores are now renewable.&r）"]
+			icon: "kubejs:empty_shell"
+			id: "66D36B4E2249E0C2"
+			rewards: [
+				{
+					id: "598EAB63E1A8EADD"
+					item: "immersiveengineering:screwdriver"
+					type: "item"
+				}
+				{
+					id: "6CE2B5CF70F51DBE"
+					item: "supplementaries:confetti_popper"
+					type: "item"
+				}
+			]
+			subtitle: "&o铍制外壳&r（&oBeryllium Shell&r）"
+			tasks: [
+				{
+					id: "586EDB2CDF9520BF"
+					item: "kubejs:empty_shell"
+					type: "item"
+				}
+				{
+					id: "42F50D9B537537E1"
+					item: "alexscaves:fissile_core"
+					type: "item"
+				}
+			]
+			title: "制作更多核心&r（Creating more Cores&r）"
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["42E9291D3E994A0F"]
+			icon: "windswept:pinecone"
+			id: "0F12939AF08CC493"
+			shape: "square"
+			tasks: [{
+				dimension: "hexahedron:pine_forrest"
+				id: "62B70AA399403623"
+				title: "进入维度 8: &l木材湖泊&r（Enter dimension 8: &lTimber Lakes&r）"
+				type: "dimension"
+			}]
+			title: "欢迎来到维度 8: &l木材湖泊&r（Welcome to dimension 8: &lTimber Lakes&r）"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["59B914C684A5EE4C"]
+			id: "692627354D53875B"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "2E4A4440730A0929"
+				item: "kubejs:vector_operator_nuclear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["59B914C684A5EE4C"]
+			description: [
+				"将蒸汽引擎放在正在运行的核能熔炉上方，可以自动达到&l最高加热等级&r。&r（A steam engine placed above an active nuclear furnace will be automatically heated to &lthe maximum heat level&r. &r）"
+				""
+				"让黏液在核能熔炉中循环处理，即可保持运行。这实际上能够组成一套核反应堆系统。&r（You can keep cycling goop through the furnace to keep it active. This will practically create the equivalent of a nuclear reactor.&r）"
+			]
+			id: "7FE20D4DE2E912CB"
+			tasks: [
+				{
+					id: "6277E9C6DB299EE5"
+					item: "create_alex_power:soul_goop"
+					type: "item"
+				}
+				{
+					id: "7ED340CAAE43179F"
+					item: "alexscaves:toxic_paste"
+					type: "item"
+				}
+			]
+			title: "黏液循环&r（The Goop Cycle&r）"
+			x: 2.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["07D4A4DCB638CC93"]
+			description: ["右键使用召回管，可以传送到六面体内部，即使六面体处于另一个维度也有效。&r（Right-clicking a Recall Tube will teleport the user to the inside of the Hexahedron, even when the Hexahedron is in a different dimension.&r）"]
+			id: "50553C4CCED700E3"
+			rewards: [{
+				id: "189A00A8DAF2A461"
+				item: {
+					Count: 1
+					id: "untagged_mobs:nonnac_ittefnoc_repyh"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&o快速旅行&r（&oFast Travel&r）"
+			tasks: [{
+				id: "32EC34EFB522CF75"
+				item: "kubejs:portal_lantern"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1AA2701817C05F20"
+				"71A95CEBD6B55B80"
+			]
+			description: ["富集仓可以将铀碎片提炼成黄饼铀。&r（The Enrichment Chamber allows you to refine Uranium Shards into Yellow Cake Uranium.&r）"]
+			id: "56A2089DBDAAEA29"
+			rewards: [{
+				id: "10C8293B5CD27674"
+				item: "kubejs:party_popper"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&o我们富有了！&r（&oWe're Rich!&r）"
+			tasks: [{
+				id: "3AF2854D7E028E52"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0F12939AF08CC493"]
+			description: [
+				"木材湖泊的地表之下全部由青灰岩构成。&r（The entire Timber Lakes consists of Asurine blow the surface. &r）"
+				""
+				"开采并磨碎这种矿物，即可持续生产锌锭。&r（If you can quarry and pulverize this mineral you can produce endless Zinc Ingots.&r）"
+			]
+			icon: "create:zinc_ingot"
+			id: "0C64583682770587"
+			rewards: [{
+				id: "6EA2685337AF817D"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "&o让锌进入&r（&oLet that Zinc in&r）"
+			tasks: [
+				{
+					id: "1C09FDFDFBCF2250"
+					item: "create:asurine"
+					type: "item"
+				}
+				{
+					id: "0310308A3066A724"
+					item: "create:raw_zinc"
+					type: "item"
+				}
+				{
+					id: "128C4C2F598093BA"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			title: "锌矿采掘场&r（Zinc Quarry&r）"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F12939AF08CC493"]
+			description: [
+				"利用木材湖泊中的祭坛，可以倒转某些方块的时间。&r（Using the shrine in Timber Lakes you can rewind the time of certain blocks.&r）"
+				""
+				"转化关系如下：&r（The conversions are as follows:&r）"
+				""
+				"&lo&r 铁块 → 闪亮金属块&r（&lo&r Block of Iron -> Block of Shiny Ingot&r）"
+				""
+				"&lo&r 空白矢量算子 → 旧式矢量算子&r（&lo&r Empty Vector Operator -> Old Vector&r）"
+				""
+				"&lo&r 绿宝石块 → 时间石&r（&lo&r Block of Emerald -> The Time Stone&r）"
+			]
+			icon: "supplementaries:clock_block"
+			id: "1D39E9C67C28C53A"
+			rewards: [{
+				id: "3F9669A1FDF056B7"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "&o奇妙的时间&r（&oTimey Wimey&r）"
+			tasks: [
+				{
+					id: "1C3B924AC31266AA"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "721206B1D3336480"
+					item: "kubejs:block_shiny_ingot"
+					type: "item"
+				}
+			]
+			title: "倒转时间&r（Rewinding Time&r）"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7F8A84E6792D57C5"]
+			description: [
+				"这个维度中可以找到自然生成的活石巨砾。&r（Livingrock boulders can be found naturally in this dimension.&r）"
+				""
+				"该维度中的刷石机也会生成活石。&r（Stone generators in this dimension will also generate Livingrock.&r）"
+			]
+			icon: "botania:livingrock"
+			id: "22556B2096D509A1"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "68CA5A80862B6052"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					id: "09442B32ADB2D16E"
+					title: "已了解&r（Understood&r）"
+					type: "checkmark"
+				}
+			]
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["724BF4D8D1DA930D"]
+			description: [
+				"粉碎辐射石可以持续获得铀。&r（You can generate infinite Uranium by crushing Radrock.&r）"
+				""
+				"裂变原野中的刷石机会生成辐射石。&r（Any stone generator located in the Fission Fields will generate Radrock instead of Cobblestone.&r）"
+			]
+			id: "4B1F78DCF2E2C538"
+			shape: "octagon"
+			subtitle: "&o科瓦雷克斯浓缩处理&r（&oKovarex Enrichment Process &r）"
+			tasks: [{
+				id: "355C0FC8AA39627A"
+				item: "alexscaves:uranium_shard"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1D855C82AF9E2087"]
+			description: [
+				"粉碎或磨碎寒栗石可以获得锇粒。&r（Shiverstone can be crushed or pulverized for Osmium Nuggets.&r）"
+				""
+				"霜花风暴中的刷石机会生成寒栗石。&r（Stone generators located in the frostbloom storm will generate Shiverstone instead of regular Cobblestone.&r）"
+			]
+			id: "1AD73B0A7B843C82"
+			shape: "octagon"
+			tasks: [{
+				id: "6C0AEED162DE58CD"
+				item: "mekanism:nugget_osmium"
+				type: "item"
+			}]
+			title: "开采锇&r（Osmium Mining&r）"
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1F81CCC1F7562C57"]
+			description: [
+				"&l跨维度收发器是建立跨维度自动化设施的关键方块。&r&r（&lThe Interdimensional Transceiver is a crucial block when it comes to setting up interdimensional automation.&r&r）"
+				""
+				"&l步骤 1&r&r（&lStep 1&r&r）"
+				"首先将收发器放在主基地内，连接到有电力供应的 ME 系统，然后点击 Mode（模式），将其设为发送端。&r（Start by placing the first Transceiver inside your main base; make sure it's hooked up to a powered ME System and click on \"Mode\" to make it a sender.&r）"
+				""
+				"{image:kubejs:textures/questbook/book_images/transceiver_step1.png width:84 height:67 align:center}"
+				""
+				"&l步骤 2&r&r（&lStep 2&r&r）"
+				"点击 Add（添加），创建一个任意名称的频道，然后在列表中点击该频道进行选择。&r（Next, make a new channel by clicking \"Add\" and give it any name. Click on it in the list to select it.&r）"
+				""
+				"{image:kubejs:textures/questbook/book_images/transceiver_step2.png width:84 height:67 align:center}"
+				""
+				"&l步骤 3&r&r（&lStep 3&r&r）"
+				"发送端设置完成后，可以在任意位置放置任意数量的收发器，在频道列表中选择刚创建的频道，即可全部连接到同一个发送端。&r（Now that the sender is set up, you can place an infinite number of Transceivers anywhere and hook them all up to the same sending Transceiver by clicking the channel you made in the list.&r）"
+			]
+			icon: "aewireless:wireless_transceiver"
+			id: "1303271D201C87A7"
+			rewards: [
+				{
+					id: "7929EA9BE1F30513"
+					item: {
+						Count: 1
+						id: "untagged_mobs:hyper_confetti_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "414D40CE1D5FEB23"
+					item: "kubejs:party_popper"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "&o突破思维局限&r（&oThinking Out of the Box&r）"
+			tasks: [{
+				count: 2L
+				id: "71B49964272A7AEA"
+				item: { Count: 2, id: "aewireless:wireless_transceiver" }
+				type: "item"
+			}]
+			title: "跨维度收发器&r（Interdimensional Transceiver&r）"
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["695F411874E4905F"]
+			description: ["较为稀有的钻石灯可以粉碎成钻石。&r（The somewhat rare Diamond lamps can be crushed into Diamonds.&r）"]
+			icon: "minecraft:diamond"
+			id: "66858347C4FDB6F3"
+			rewards: [{
+				id: "21B581457ED7CC6A"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			subtitle: "&o闪耀光芒&r（&oShine Bright&r）"
+			tasks: [
+				{
+					id: "6E95067E0B646577"
+					item: "caverns_and_chasms:diamond_lamp"
+					type: "item"
+				}
+				{
+					id: "5426F18453E19260"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "储备钻石&r（Hoarding Diamonds&r）"
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["695F411874E4905F"]
+			description: ["熔化金币可以持续获得金。货币连续体中的刷石机会生成金币。&r（You can obtain infinite gold by melting gold coins. Any stone generator in The Coin Continiuum will generate gold coins instead.&r）"]
+			icon: "minecraft:gold_ingot"
+			id: "1421E91BC9378574"
+			rewards: [{
+				id: "421966D3068F7B04"
+				item: "kubejs:tiny_party_popper"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "&o山下之王&r（&oKing under the Mountain&r）"
+			tasks: [
+				{
+					id: "72D9F2A3C755E19C"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+				{
+					id: "687B9D6B1671C20A"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			title: "可再生金&r（Renewable Gold&r）"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1D39E9C67C28C53A"
+				"1ACBFD0A2732FA5C"
+			]
+			description: ["利用时间石中储存的时间，可以加速机器。&r（You can speed up machines using the stored time inside The Timestone.&r）"]
+			icon: {
+				Count: 1
+				id: "tiab:time_in_a_bottle"
+				tag: { }
+			}
+			id: "6BD9302EF68EEE51"
+			rewards: [{
+				id: "701F7171FF28EE30"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			subtitle: "&o我是来谈条件的&r（&oI Have Come to Bargain&r）"
+			tasks: [
+				{
+					id: "355D98976D5F681B"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "3F31076FBE27CDA2"
+					item: {
+						Count: 1
+						id: "tiab:time_in_a_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "获取时间石&r（Obtaining a Timestone&r）"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D39E9C67C28C53A"]
+			description: ["将空白矢量算子放在基座上，再按下按钮倒转时间，即可制作新的旧式矢量算子。&r（You can create new Old Vectors by placing empty Vector Operators on the pedestal and pressing the button to rewind time.&r）"]
+			icon: "kubejs:vector_operator_basic"
+			id: "0721C1EEAD957574"
+			rewards: [{
+				count: 4
+				id: "0346D852453998D8"
+				item: "kubejs:vector_operator_basic"
+				type: "item"
+			}]
+			subtitle: "&o时间倒转了&r（&oIts Rewind Time&r）"
+			tasks: [
+				{
+					id: "5DFDEE42453CDB0B"
+					item: "kubejs:vector_operator_empty"
+					type: "item"
+				}
+				{
+					id: "728503A433375FD9"
+					item: "kubejs:vector_operator_basic"
+					type: "item"
+				}
+				{
+					id: "3383F1DBF8B0854A"
+					title: "时间已折叠&r（Time has been Folded&r）"
+					type: "checkmark"
+				}
+			]
+			title: "矢量算子的时间跃迁&r（Timewarping Vectors&r）"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["695F411874E4905F"]
+			icon: "minecraft:lapis_lazuli"
+			id: "30518F83070B2B5C"
+			rewards: [{
+				id: "77EB0DDA83CBE933"
+				item: "kubejs:tiny_party_popper"
+				type: "item"
+			}]
+			subtitle: "&o那是青金石&r（&oThats Lapis&r）"
+			tasks: [
+				{
+					id: "6211FC6F1094E6DA"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+				{
+					id: "6336E1D3051E3AF8"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"57972A3714FCB9BE"
+				"724BF4D8D1DA930D"
+			]
+			description: [
+				"现在可以将电力存储在 ME 系统中。&r（You can now store your power in the ME System. &r）"
+				""
+				"这项功能现在很方便，之后建立跨维度 ME 系统时更为关键。&r（This is convenient now, but it becomes crucial later on when your ME System goes interdimensional.&r）"
+			]
+			icon: "appflux:energy_processor"
+			id: "032F81B9942E156B"
+			rewards: [{
+				id: "7929DF9833C2934B"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			subtitle: "&o请下载更多内存&r（&oPlease Download Additional RAM&r）"
+			tasks: [
+				{
+					id: "5676E466FA439A96"
+					item: "appflux:charged_redstone"
+					type: "item"
+				}
+				{
+					id: "733CB58DBE47FF28"
+					item: "appflux:energy_processor"
+					type: "item"
+				}
+				{
+					id: "5940AB0E40D63F6E"
+					item: "appflux:flux_accessor"
+					type: "item"
+				}
+				{
+					id: "0AE59702A6FFE5DD"
+					item: {
+						Count: 1
+						id: "appflux:fe_1k_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "681C223C5FC5ED56"
+					item: "appflux:induction_card"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "上传电力&r（Upload your Power&r）"
+			x: -15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10B4D789801FA7A3"]
+			description: [
+				"你可以制作使用铀燃料棒的发电机。&r（You can make a Dynamo that runs on Uranium Fuel Rods.&r）"
+				""
+				"一根铀棒可以燃烧&r（One Uranium Rod will burn for &r）"
+				"30 分钟，并持续输出&r（30 minutes and will output a steady &r）"
+				"500 RF/t，前提是发电机能够将电力输出。&r（500 RF/t as long as the Dynamo can output its power.&r）"
+			]
+			icon: {
+				Count: 1
+				id: "thermal:dynamo_lapidary"
+				tag: {
+					BlockEntityTag: {
+						Energy: 0
+						EnergyMax: 50000
+						EnergyRecv: 0
+						EnergySend: 400
+						RSControl: {
+							RSMode: 0b
+							RSThreshold: 0b
+						}
+					}
+				}
+			}
+			id: "4944F4A26FE8C3EB"
+			rewards: [{
+				id: "043BC8EE60A25B9D"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "0A5249081EDD9814"
+					item: {
+						Count: 1
+						id: "thermal:dynamo_lapidary"
+						tag: {
+							BlockEntityTag: {
+								Energy: 0
+								EnergyMax: 50000
+								EnergyRecv: 0
+								EnergySend: 400
+								RSControl: {
+									RSMode: 0b
+									RSThreshold: 0b
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "598CA2C6F7A277CA"
+					item: "alexscaves:uranium_rod"
+					type: "item"
+				}
+			]
+			title: "核能发电&r（Nuclear Power&r）"
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1D855C82AF9E2087"]
+			description: [
+				"冷冻血肉可以熔炼成皮革。维度 2 中的香蒲可以用于制作线。&r（Frozen Flesh can be smelted into Leather. With the Cattails in dimension 2 you will be able to make string. &r）"
+				""
+				"这样就可以制作背包了。&r（This will allow you to make Backpacks.&r）"
+			]
+			icon: {
+				Count: 1
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					inventorySlots: 27
+					upgradeSlots: 1
+				}
+			}
+			id: "20827613C878D74D"
+			rewards: [
+				{
+					id: "0BE64D537AC6C20D"
+					item: "supplementaries:confetti_popper"
+					type: "item"
+				}
+				{
+					id: "44E1484CCFC6FA7F"
+					item: "biomesoplenty:music_disc_wanderer"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "41DBEE94A835871E"
+					item: "windswept:frozen_flesh"
+					type: "item"
+				}
+				{
+					id: "3BC94D742116BD57"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "0BA0EEA08E3E15BB"
+					item: {
+						Count: 1
+						id: "sophisticatedbackpacks:backpack"
+						tag: {
+							inventorySlots: 27
+							upgradeSlots: 1
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "准备背包&r（Pack your Bags&r）"
+			x: 7.0d
+			y: 1.0d
+		}
+	]
+	title: "第 3 章&r（Chapter 3&r）"
+}

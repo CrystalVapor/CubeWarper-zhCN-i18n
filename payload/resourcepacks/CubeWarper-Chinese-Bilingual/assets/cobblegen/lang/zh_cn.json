@@ -1,0 +1,16 @@
+{
+  "cobblegen.dim.none": "无（none）",
+  "cobblegen.generators.stone": "石头生成器（Stone Generator）",
+  "emi.category.cobblegen.fluid_interaction_stone": "石头生成器（Stone Generator）",
+  "cobblegen.dim.any": "任意（any）",
+  "cobblegen.generators.basalt": "玄武岩生成器（Basalt Generator）",
+  "cobblegen.generators.cobble": "圆石生成器（Cobblestone Generator）",
+  "cobblegen.info.blacklistedDim": "维度黑名单：（Blacklisted Dimensions:）",
+  "cobblegen.info.dimensions": "维度（Dimensions）",
+  "cobblegen.info.maxY": "最大 Y 坐标： （Max Y: ）",
+  "cobblegen.info.minY": "最小 Y 坐标： （Min Y: ）",
+  "cobblegen.info.weight": "权重： （Weight: ）",
+  "cobblegen.info.whitelistedDim": "维度白名单：（Whitelisted Dimensions:）",
+  "emi.category.cobblegen.fluid_interaction_basalt": "玄武岩生成器（Basalt Generator）",
+  "emi.category.cobblegen.fluid_interaction_cobble": "圆石生成器（Cobblestone Generator）"
+}

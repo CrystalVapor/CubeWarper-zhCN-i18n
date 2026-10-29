@@ -1,0 +1,5 @@
+{
+  "key.findme.category": "物品定位（Find Me）",
+  "key.findme.pull_one": "从附近容器中抽取 1 个物品（Pull 1 Item From Nearby Inventories）",
+  "key.findme.pull_stack": "从附近容器中抽取 1 组物品（Pull 1 Stack From Nearby Inventories）"
+}

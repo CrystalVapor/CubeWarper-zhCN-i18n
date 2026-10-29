@@ -1,0 +1,66 @@
+{
+  "ponder": {
+    "ponder.ponder.shared.ctrl_and": {
+      "english": "Ctrl +",
+      "reason": "metadata_search_keyword_or_unit"
+    }
+  },
+  "thermal": {
+    "_comment": {
+      "english": "========================================================================================================",
+      "reason": "metadata_search_keyword_or_unit"
+    },
+    "block.thermal.ender_tnt.keyword": {
+      "english": "tnt",
+      "reason": "metadata_search_keyword_or_unit"
+    },
+    "block.thermal.glowstone_tnt.keyword": {
+      "english": "tnt",
+      "reason": "metadata_search_keyword_or_unit"
+    },
+    "block.thermal.nuke_tnt.keyword": {
+      "english": "tnt",
+      "reason": "metadata_search_keyword_or_unit"
+    },
+    "block.thermal.phyto_tnt": {
+      "english": "PNT",
+      "reason": "metadata_search_keyword_or_unit"
+    },
+    "block.thermal.redstone_tnt.keyword": {
+      "english": "tnt",
+      "reason": "metadata_search_keyword_or_unit"
+    },
+    "block.thermal.slime_tnt.keyword": {
+      "english": "tnt",
+      "reason": "metadata_search_keyword_or_unit"
+    },
+    "item.thermal.detonator.keyword": {
+      "english": "tnt",
+      "reason": "metadata_search_keyword_or_unit"
+    },
+    "item.thermal.ender_tnt_minecart.keyword": {
+      "english": "tnt",
+      "reason": "metadata_search_keyword_or_unit"
+    },
+    "item.thermal.glowstone_tnt_minecart.keyword": {
+      "english": "tnt",
+      "reason": "metadata_search_keyword_or_unit"
+    },
+    "item.thermal.nuke_tnt_minecart.keyword": {
+      "english": "tnt",
+      "reason": "metadata_search_keyword_or_unit"
+    },
+    "item.thermal.redstone_tnt_minecart.keyword": {
+      "english": "tnt",
+      "reason": "metadata_search_keyword_or_unit"
+    },
+    "item.thermal.slime_tnt_minecart.keyword": {
+      "english": "tnt",
+      "reason": "metadata_search_keyword_or_unit"
+    },
+    "thermal.book.subtitle": {
+      "english": "MC 1.20.1",
+      "reason": "metadata_search_keyword_or_unit"
+    }
+  }
+}

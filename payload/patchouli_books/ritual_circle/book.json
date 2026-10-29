@@ -1,0 +1,8 @@
+{
+  "name": "仪式操作指南（Conducting Rituals）",
+  "landing_text": "这本书也在凝视着你。$(br2)一本关于超自然事物的指南。$(br2)This book looks back at you. $(br2)A guide to the Unnatural.",
+  "version": 1,
+  "use_resource_pack": false,
+  "pamphlet": true,
+  "model": "kubejs:ritual_book"
+}

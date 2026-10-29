@@ -1,0 +1,23 @@
+{
+  "advancements.endergetic.end.catch_puff_bug.description": "用瓶子捕捉一只泡泡虫（Catch a Puff Bug in a bottle）",
+  "advancements.endergetic.end.catch_puff_bug.title": "异星捕虫者（Alien Bug Catcher）",
+  "advancements.endergetic.end.eat_bolloom_fruit.description": "食用膨生莲果（Eat a Bolloom Fruit）",
+  "advancements.endergetic.end.eat_bolloom_fruit.title": "飘飘然（Feelin' Floaty）",
+  "advancements.endergetic.end.find_eetle_nest.description": "找到末影甲虫巢穴（Find an Eetle Nest）",
+  "advancements.endergetic.end.find_eetle_nest.title": "末地虫虫的生活（An End Bug's Life）",
+  "advancements.endergetic.end.find_poise_forest.description": "找到幽仪森林（Find a Poise Forest）",
+  "advancements.endergetic.end.find_poise_forest.title": "幽仪之地（A Poised Place）",
+  "advancements.endergetic.end.kill_brood_eetle.description": "击杀一只育母末影甲虫（Kill a Brood Eetle）",
+  "advancements.endergetic.end.kill_brood_eetle.title": "末地除虫者（End Exterminator）",
+  "advancements.endergetic.end.obtain_booflo_vest.description": "获得浮跃背心（Acquire a Booflo Vest）",
+  "advancements.endergetic.end.obtain_booflo_vest.title": "浮跃之力（Boofing Power）",
+  "advancements.endergetic.end.tame_booflo.description": "喂浮跃牛蛙膨生莲果，然后退开让它进食，以驯服它（Tame a Booflo by feeding it Bolloom Fruits and backing away to let it eat）",
+  "advancements.endergetic.end.tame_booflo.title": "可充气的朋友！（Inflatable Friend!）",
+  "advancements.endergetic.end.up_up_and_away.description": "为自己系上至少四个膨生气球，向上漂浮（Attach yourself with four or more bolloom balloons to float upwards）",
+  "advancements.endergetic.end.up_up_and_away.title": "向上，飞向远方！（Up, Up and Away!）",
+  "block.endergetic.chiseled_poise_bookshelf": "雕纹幽仪木书架（Chiseled Poise Bookshelf）",
+  "block.endergetic.poise_hanging_sign": "悬挂式幽仪木告示牌（Poise Hanging Sign）",
+  "block.endergetic.poise_wall_hanging_sign": "墙上的悬挂式幽仪木告示牌（Poise Wall Hanging Sign）",
+  "block.endergetic.trapped_poise_chest": "幽仪木陷阱箱（Trapped Poise Chest）",
+  "item.endergetic.music_disc_kilobyte.desc": "RENREN - 千字节（RENREN - Kilobyte）"
+}

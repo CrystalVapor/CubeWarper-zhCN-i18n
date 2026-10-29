@@ -1,0 +1,9 @@
+{
+  "log.error.loadAnchorList": "ESM：加载锚点列表时出错：\\n %1$s（ESM: Error loading Anchor list:\\n %1$s）",
+  "log.error.loadMuffledList": "ESM：加载消音列表时出错：\\n %1$s（ESM: Error loading the muffled sounds list:\\n %1$s）",
+  "log.error.saveAnchorList": "ESM：保存锚点列表时出错\\n %1$s（ESM: Error saving the Anchor list\\n %1$s）",
+  "log.error.saveMuffledList": "ESM：保存消音列表时出错：\\n %1$s（ESM: Error saving the muffled sounds list:\\n %1$s）",
+  "log.warn.loadAnchorList": "ESM：未找到锚点列表；正在创建空列表（ESM: Anchor list not found; Creating empty Anchor list）",
+  "log.warn.loadMuffledList": "ESM：未找到消音列表；正在创建空列表（ESM: Muffled list not found; Creating empty Muffled list）",
+  "main_screen.side_screen.radius_edit": "半径： （Radius: ）"
+}

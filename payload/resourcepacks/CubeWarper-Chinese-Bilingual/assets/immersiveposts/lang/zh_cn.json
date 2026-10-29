@@ -1,0 +1,21 @@
+{
+  "block.immersiveposts.aluminiumpost_truss": "铝桁架（Aluminium Truss）",
+  "block.immersiveposts.concretepost_truss": "混凝土桁架（Concrete Truss）",
+  "block.immersiveposts.constantanpost_truss": "康铜桁架（Constantan Truss）",
+  "block.immersiveposts.copperpost_truss": "铜桁架（Copper Truss）",
+  "block.immersiveposts.electrumpost_truss": "琥珀金桁架（Electrum Truss）",
+  "block.immersiveposts.goldpost_truss": "金桁架（Gold Truss）",
+  "block.immersiveposts.ironpost_truss": "铁桁架（Iron Truss）",
+  "block.immersiveposts.leadedconcretepost_truss": "含铅混凝土桁架（Leaded Concrete Truss）",
+  "block.immersiveposts.leadpost_truss": "铅桁架（Lead Truss）",
+  "block.immersiveposts.netherpost_truss": "下界砖桁架（Nether Brick Truss）",
+  "block.immersiveposts.nickelpost_truss": "镍桁架（Nickel Truss）",
+  "block.immersiveposts.silverpost_truss": "银桁架（Silver Truss）",
+  "block.immersiveposts.steelpost_truss": "钢桁架（Steel Truss）",
+  "block.immersiveposts.uraniumpost_truss": "铀桁架（Uranium Truss）",
+  "block.immersiveposts.woodpost_truss": "木桁架（Wooden Truss）",
+  "immersiveposts.truss_minimumdistance": "桁架：两根立柱之间必须至少间隔 1 格。（Truss: Posts must have at least 1 blocks of space between.）",
+  "immersiveposts.truss_notsametype": "桁架：两根立柱必须由相同材料制成。（Truss: Both posts must be of the same material.）",
+  "immersiveposts.truss_postnotfound": "桁架：下一根立柱超出范围或不存在。（Truss: Next post out of range or does not exist.）",
+  "manual.immersiveposts.main": "可延伸立柱（Extendable Posts）"
+}

@@ -1,0 +1,208 @@
+{
+  "ae2": {
+    "ae2.emi_integration.category_charger": "充能器",
+    "ae2.emi_integration.category_entropy_manipulator": "熵变机械臂",
+    "ae2.emi_integration.category_inscriber": "压印器",
+    "dimension.ae2.spatial_storage": "封闭空间",
+    "gui.ae2.MEChest": "ME箱子"
+  },
+  "appflux": {
+    "group.pattern_provider.name": "ME样板供应器",
+    "item.appflux.diamond_dust": "钻石粉",
+    "item.appflux.emerald_dust": "绿宝石粉",
+    "item.appflux.part_flux_accessor": "通量访问点"
+  },
+  "balm": {
+    "tag.item.balm.gold_nuggets": "金粒",
+    "tag.item.balm.iron_ingots": "铁锭",
+    "tag.item.balm.iron_nuggets": "铁粒",
+    "tag.item.balm.ores": "矿石"
+  },
+  "botania": {
+    "botania.tater_birthday.speedrun.0": "哇哦，这是给我的吗？",
+    "botania.tater_birthday.speedrun.3": "永远记住：我相信你，你能做到这一点！❤",
+    "botaniamisc.monocle.repeater.delay": "%s秒"
+  },
+  "caverns_and_chasms": {
+    "item.caverns_and_chasms.tuning_fork.note.10": "东",
+    "item.caverns_and_chasms.tuning_fork.note.15": "任",
+    "item.caverns_and_chasms.tuning_fork.note.22": "东",
+    "item.caverns_and_chasms.tuning_fork.note.3": "任"
+  },
+  "citadel": {
+    "block.citadel.lectern": "讲台",
+    "citadel.gui.follower_type": "类型："
+  },
+  "cobblegen": {
+    "cobblegen.dim.none": "无",
+    "cobblegen.generators.stone": "造石机",
+    "emi.category.cobblegen.fluid_interaction_stone": "造石机"
+  },
+  "create": {
+    "create.tooltip.keyCtrl": "按住Ctrl",
+    "create.tooltip.keyShift": "按住Shift"
+  },
+  "darkerdepths": {
+    "advancements.darkerdepths.parent.title": "更深黑暗",
+    "block.darkerdepths.potted_glowshroom": "夜光菇盆栽"
+  },
+  "enderio": {
+    "gui.enderio.conduit.priority": "优先级"
+  },
+  "environmental": {
+    "painting.environmental.slabfish.title": "板鱼"
+  },
+  "expatternprovider": {
+    "emi.extendedae.category.fixer": "水晶修复器"
+  },
+  "fancymenu": {
+    "fancymenu.actions.script_editor.shortcuts.a": "任",
+    "fancymenu.editor.shortcuts.a": "任"
+  },
+  "farmersdelight": {
+    "tag.item.forge.cooked_bacon": "熟培根",
+    "tag.item.forge.crops.rice": "稻米",
+    "tag.item.forge.dough": "面团",
+    "tag.item.forge.pasta.raw_pasta": "生意面",
+    "tag.item.forge.raw_bacon": "生培根",
+    "tag.item.forge.seeds.cabbage": "卷心菜种子",
+    "tag.item.forge.seeds.rice": "水稻种子",
+    "tag.item.forge.seeds.tomato": "番茄种子",
+    "tag.item.forge.tools.knives": "刀",
+    "tag.item.forge.vegetables.onion": "洋葱"
+  },
+  "ftbchunks": {
+    "ftbchunks.team_prop_defaults.def_allow_explosions": "允许爆炸破坏",
+    "ftbchunks.team_prop_defaults.def_block_edit": "方块编辑模式",
+    "ftbchunks.team_prop_defaults.def_block_edit_interact": "方块编辑/交互模式",
+    "ftbchunks.team_prop_defaults.def_block_interact": "方块交互模式",
+    "ftbchunks.team_prop_defaults.def_claim_visibility": "领地可见性",
+    "ftbchunks.team_prop_defaults.def_entity_attack": "非生物实体攻击模式",
+    "ftbchunks.team_prop_defaults.def_entity_interact": "实体交互模式",
+    "ftbchunks.team_prop_defaults.def_fake_players": "允许伪装玩家",
+    "ftbchunks.team_prop_defaults.def_mob_griefing": "允许怪物破坏行为",
+    "ftbchunks.team_prop_defaults.def_player_visibility": "坐标模式",
+    "ftbchunks.team_prop_defaults.def_pvp": "允许PvP战斗"
+  },
+  "ftblibrary": {
+    "dimension.minecraft.overworld": "主世界",
+    "dimension.minecraft.the_nether": "下界",
+    "ftblibrary.client_settings": "客户端设置",
+    "ftblibrary.gui.error": "错误！",
+    "ftblibrary.panel.position.bottom_left": "左下",
+    "ftblibrary.panel.position.bottom_right": "右下",
+    "ftblibrary.panel.position.top_left": "左上",
+    "ftblibrary.panel.position.top_right": "右上"
+  },
+  "ftbquests": {
+    "ftbquests.custom_icon.texture": "纹理：%s",
+    "ftbquests.task.ftbquests.tech_reborn_energy.value": "东"
+  },
+  "ftbteams": {
+    "ftbteams.team_already_exists": "队伍名称太短！（必须>=3字符）"
+  },
+  "ftbultimine": {
+    "ftbultimine.server_settings": "服务器设置"
+  },
+  "fusion": {
+    "fusion.resource_packs.warning_screen.cancel": "否",
+    "fusion.resource_packs.warning_screen.confirm": "是"
+  },
+  "guideme": {
+    "guideme.configuration.debug": "调试",
+    "guideme.guidebook.Close": "关闭",
+    "guideme.guidebook.HideAnnotations": "隐藏注释",
+    "guideme.guidebook.HistoryGoBack": "上一页",
+    "guideme.guidebook.HistoryGoForward": "下一页",
+    "guideme.guidebook.HoldToShow": "按住 [%s] 以打开指南",
+    "guideme.guidebook.ResetView": "重置视图",
+    "guideme.guidebook.Search": "搜索",
+    "guideme.guidebook.SearchNoResults": "无结果",
+    "guideme.guidebook.ShowAnnotations": "显示注释",
+    "guideme.guidebook.ZoomIn": "放大",
+    "guideme.guidebook.ZoomOut": "缩小",
+    "item.guideme.guide": "指南",
+    "key.guideme.guide": "打开物品介绍"
+  },
+  "immersiveengineering": {
+    "item.immersiveengineering.shader.name.radiant": "光耀"
+  },
+  "immersivepetroleum": {
+    "ie.manual.entry.reservoirs.consonant": "任"
+  },
+  "jade": {
+    "config.jade.boss_bar_overlap_hide_tooltip": "隐藏提示框"
+  },
+  "jei": {
+    "jei.config.client.bookmarkList.buttonNavigationVisibility": "导航按钮可见性",
+    "jei.config.client.ingredientList.buttonNavigationVisibility": "导航按钮可见性"
+  },
+  "lodestone": {
+    "attribute.name.lodestone.magic_damage": "魔法伤害",
+    "attribute.name.lodestone.magic_resistance": "魔法抗性"
+  },
+  "malum": {
+    "malum.gui.ritual.tier.radiant": "光耀"
+  },
+  "manafluid": {
+    "block.manafluid.mana_block": "魔力",
+    "fluid_type.manafluid.mana_fluid": "魔力"
+  },
+  "mekanism": {
+    "direction.mekanism.east.short": "东",
+    "direction.mekanism.north.short": "北",
+    "direction.mekanism.south.short": "南",
+    "direction.mekanism.west.short": "西"
+  },
+  "merequester": {
+    "itemGroup.merequester.tab": "ME 请求器"
+  },
+  "miners_delight": {
+    "item.minecraft.lingering_potion.effect.haste": "滞留型急迫药水",
+    "item.minecraft.lingering_potion.effect.long_haste": "滞留型急迫药水",
+    "item.minecraft.lingering_potion.effect.strong_haste": "滞留型急迫药水",
+    "item.minecraft.potion.effect.haste": "急迫药水",
+    "item.minecraft.potion.effect.long_haste": "急迫药水",
+    "item.minecraft.potion.effect.strong_haste": "急迫药水",
+    "item.minecraft.splash_potion.effect.haste": "喷溅型急迫药水",
+    "item.minecraft.splash_potion.effect.long_haste": "喷溅型急迫药水",
+    "item.minecraft.splash_potion.effect.strong_haste": "喷溅型急迫药水",
+    "item.minecraft.tipped_arrow.effect.haste": "急迫之箭",
+    "item.minecraft.tipped_arrow.effect.long_haste": "急迫之箭",
+    "item.minecraft.tipped_arrow.effect.strong_haste": "急迫之箭"
+  },
+  "moonlight": {
+    "leaves_type.ulterlands.souldrained": "石化"
+  },
+  "particlerain": {
+    "text.autoconfig.prettyrain.option.fog.gravity": "引力",
+    "text.autoconfig.prettyrain.option.rain.gravity": "引力",
+    "text.autoconfig.prettyrain.option.sand.gravity": "引力",
+    "text.autoconfig.prettyrain.option.shrub.gravity": "引力",
+    "text.autoconfig.prettyrain.option.snow.gravity": "引力"
+  },
+  "storagedrawers": {
+    "tooltip.storagedrawers.waila.magnetic": "磁性"
+  },
+  "tconstruct": {
+    "block.tconstruct.cinderslime_block.tooltip": "可用于建造信标基座",
+    "block.tconstruct.slimesteel_block.tooltip": "可用于建造信标基座",
+    "block.tconstruct.steel_block.tooltip": "可用于建造信标基座",
+    "key.tconstruct.ctrl": "按住Ctrl",
+    "key.tconstruct.shift": "按住Shift"
+  },
+  "thermal_dynamics": {
+    "info.thermal.fluid_filter_attachment.0": "将存有流体的物品放入过滤槽中，以将对应流体添加至过滤列表。",
+    "info.thermal.fluid_servo_attachment.0": "将存有流体的物品放入过滤槽中，以将对应流体添加至过滤列表。"
+  },
+  "thermal_foundation": {
+    "entity.thermal.rubberwood_boat": "船"
+  },
+  "titanium": {
+    "tooltip.titanium.facing_handler.fluid": "流体储罐"
+  },
+  "vista": {
+    "cassette_tape.vista.creeper.tooltip": "苦力怕",
+    "cassette_tape.vista.skeleton.tooltip": "骷髅"
+  }
+}

@@ -1,0 +1,430 @@
+{
+  "untagged_mobs": {
+    "entity.untagged.aer_os": {
+      "english": "AER§7.OS",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "entity.untagged_mobs.aer_os": {
+      "english": "AER§7.OS",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "entity.untagged_mobs.seat": {
+      "english": "seat_entity",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "entity.untagged_mobs.uvy": {
+      "english": "UVY",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "gui.untagged_mobs.book_biome_0.label_15": {
+      "english": "15",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "gui.untagged_mobs.book_biome_0.label_20": {
+      "english": "20",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "gui.untagged_mobs.book_biome_0.label_3": {
+      "english": "3",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "gui.untagged_mobs.book_biome_0.label_31": {
+      "english": "3",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "gui.untagged_mobs.dealer_gui.label_16": {
+      "english": "8",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "gui.untagged_mobs.dealer_gui.label_20": {
+      "english": "20",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "gui.untagged_mobs.dealer_gui.label_48": {
+      "english": "24",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "gui.untagged_mobs.dealer_gui_page_2.label_16": {
+      "english": "32",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "gui.untagged_mobs.dealer_gui_page_2.label_20": {
+      "english": "40",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "gui.untagged_mobs.dealer_gui_page_2.label_48": {
+      "english": "22",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "gui.untagged_mobs.loading_terrain_overlay.label_empty": {
+      "english": ":)",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "gui.untagged_mobs.propsetter_gui.button_2": {
+      "english": "2",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "gui.untagged_mobs.propsetter_gui.button_3": {
+      "english": "3",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "gui.untagged_mobs.propsetter_gui.button_4": {
+      "english": "4",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "gui.untagged_mobs.propsetter_gui.button_skin_1": {
+      "english": "1",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "gui.untagged_mobs.startup_warning_gui.Blood": {
+      "english": "",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "gui.untagged_mobs.tell_block_gui.input_text": {
+      "english": "",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "gui.untagged_mobs.vocal_ui.button_1": {
+      "english": "KeyB",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "gui.untagged_mobs.vocal_ui.button_2": {
+      "english": "Tzzt",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "gui.untagged_mobs.vocal_ui.button_3": {
+      "english": "Cazy",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "gui.untagged_mobs.vocal_ui.button_4": {
+      "english": "NonP",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "gui.untagged_mobs.vocal_ui.button_ancr": {
+      "english": "AnCr",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "gui.untagged_mobs.vocal_ui.button_dupc": {
+      "english": "DupL",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "gui.untagged_mobs.vocal_ui.button_erro": {
+      "english": "Erro",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "gui.untagged_mobs.vocal_ui.button_leny": {
+      "english": "Leny",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "gui.untagged_mobs.vocal_ui.button_smpl": {
+      "english": "SmPL",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "gui.untagged_mobs.vocal_ui.button_tnna": {
+      "english": "Tnna",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "gui.untagged_mobs.vocal_ui.label_nonp": {
+      "english": "1 - NONP",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "item.untagged_mobs.music_disc_compass.desc": {
+      "english": "ListedNightmare - Compass",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "item.untagged_mobs.music_disc_detonate.desc": {
+      "english": "ListedNightmare - Detonate",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "painting.untagged.painting_no_strike.author": {
+      "english": "ListedNightmare",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.untagged_mobs.painting_bricked.author": {
+      "english": "WebCreature",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.untagged_mobs.painting_chill.author": {
+      "english": "WebCreature",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.untagged_mobs.painting_cleepet.author": {
+      "english": "WebCreature",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.untagged_mobs.painting_coucherdesoleil.author": {
+      "english": "WebCreature",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.untagged_mobs.painting_dog.author": {
+      "english": "WebCreature",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.untagged_mobs.painting_gip.author": {
+      "english": "WebCreature",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.untagged_mobs.painting_granana.author": {
+      "english": "WebCreature",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.untagged_mobs.painting_hydrogen.author": {
+      "english": "WebCreature",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.untagged_mobs.painting_loss.author": {
+      "english": "WebCreature",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.untagged_mobs.painting_middle.author": {
+      "english": "WebCreature",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.untagged_mobs.painting_missing.author": {
+      "english": "WebCreature",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.untagged_mobs.painting_rigged.author": {
+      "english": "WebCreature",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.untagged_mobs.painting_sanguinisch.author": {
+      "english": "WebCreature",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.untagged_mobs.painting_sundown.author": {
+      "english": "WebCreature",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.untagged_mobs.painting_sunflower.author": {
+      "english": "WebCreature",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.untagged_mobs.painting_unpacked.author": {
+      "english": "WebCreature",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.untagged_mobs.painting_wad.author": {
+      "english": "WebCreature",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "subtitles.entity.nextbot.obunga.chase": {
+      "english": "???",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "subtitles.music.asmr": {
+      "english": "ASMR",
+      "reason": "proper_name_identifier_or_unit"
+    }
+  },
+  "forestry": {
+    "_comment": {
+      "english": "###################",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.10i": {
+      "english": "10",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.10id": {
+      "english": "10",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.1i": {
+      "english": "1",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.1id": {
+      "english": "1",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.2i": {
+      "english": "2",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.2id": {
+      "english": "2",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.3i": {
+      "english": "3",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.3id": {
+      "english": "3",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.4i": {
+      "english": "4",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.4id": {
+      "english": "4",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.5i": {
+      "english": "5",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.5id": {
+      "english": "5",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.6i": {
+      "english": "6",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.6id": {
+      "english": "6",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.7i": {
+      "english": "7",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.7id": {
+      "english": "7",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.8i": {
+      "english": "8",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.8id": {
+      "english": "8",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.9i": {
+      "english": "9",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.fertility.9id": {
+      "english": "9",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.girth.10i": {
+      "english": "10x10",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.girth.1i": {
+      "english": "1x1",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.girth.2i": {
+      "english": "2x2",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.girth.3i": {
+      "english": "3x3",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.girth.4i": {
+      "english": "4x4",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.girth.5i": {
+      "english": "5x5",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.girth.6i": {
+      "english": "6x6",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.girth.7i": {
+      "english": "7x7",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.girth.8i": {
+      "english": "8x8",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "allele.forestry.girth.9i": {
+      "english": "9x9",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "for.chat.command.forestry.stats.save.key.blacklisted.symbol": {
+      "english": "BL",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "for.chat.command.forestry.stats.save.key.discovered.symbol": {
+      "english": "X",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "for.chat.command.forestry.stats.save.key.notCounted.symbol": {
+      "english": "NC",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "for.config.power.types.mj": {
+      "english": "MJ",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "for.config.power.types.tesla": {
+      "english": "Tesla",
+      "reason": "proper_name_identifier_or_unit"
+    },
+    "for.gui.book.patchouli.category.core.engines.desc": {
+      "english": "",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "for.gui.book.patchouli.category.core.machines.desc": {
+      "english": "",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.forestry.alex_bloome.author": {
+      "english": "Spearkiller",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.forestry.cage.author": {
+      "english": "Spearkiller",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.forestry.deku.author": {
+      "english": "Spearkiller",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.forestry.jazz.author": {
+      "english": "Spearkiller",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.forestry.lewis.author": {
+      "english": "Spearkiller",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.forestry.mousetree.author": {
+      "english": "Spearkiller",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.forestry.mystical_tree.author": {
+      "english": "Spearkiller",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.forestry.site_bee.author": {
+      "english": "Spearkiller",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.forestry.suspicious_looking_tree.author": {
+      "english": "Spearkiller",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.forestry.the_hunny_tree.author": {
+      "english": "Spearkiller",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.forestry.there_is_not_a_man_here.author": {
+      "english": "Spearkiller",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.forestry.tools.author": {
+      "english": "Spearkiller",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.forestry.wasphol.author": {
+      "english": "Spearkiller",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    },
+    "painting.forestry.wisdom.author": {
+      "english": "Spearkiller",
+      "reason": "comment_author_empty_numeric_or_symbol"
+    }
+  }
+}

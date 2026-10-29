@@ -1,0 +1,497 @@
+{
+  "function_files": [
+    {
+      "path": "kubejs/data/hexahedron/functions/hexahedron_rebuild.mcfunction",
+      "backup": "localization/backups/functions/kubejs/data/hexahedron/functions/hexahedron_rebuild.mcfunction",
+      "original_sha256": "b954f4a6a1d2691d7bb69f83cd58821568c8ae9df7b7a663b508eeb69be40f81",
+      "localized_sha256": "f3db3a757a4cae0ed109e863e30c4b1a8c1e9ba50e0484e7968e8f06775afc09",
+      "changes": [
+        {
+          "line": 2,
+          "command_prefix": "tellraw @p ",
+          "original_component": {
+            "text": "Attempting to rebuild the technical bits inside the Hexahedron.",
+            "bold": true,
+            "color": "gold"
+          },
+          "localized_component": {
+            "text": "正在尝试重建六面体内部的技术组件。（Attempting to rebuild the technical bits inside the Hexahedron.）",
+            "bold": true,
+            "color": "gold"
+          }
+        },
+        {
+          "line": 3,
+          "command_prefix": "tellraw @p ",
+          "original_component": {
+            "text": "Please keep your hands and friends inside the vehicle during this procedure.",
+            "color": "yellow"
+          },
+          "localized_component": {
+            "text": "在此过程中，请让你的手和同伴都留在载具内部。（Please keep your hands and friends inside the vehicle during this procedure.）",
+            "color": "yellow"
+          }
+        },
+        {
+          "line": 44,
+          "command_prefix": "tellraw @p ",
+          "original_component": {
+            "text": "Done!, sending you to dimension zero to complete the process.",
+            "color": "green"
+          },
+          "localized_component": {
+            "text": "完成！正在将你传送至零号维度，以完成此过程。（Done!, sending you to dimension zero to complete the process.）",
+            "color": "green"
+          }
+        }
+      ]
+    },
+    {
+      "path": "kubejs/data/hexahedron/functions/first_init/old/blindfold.mcfunction",
+      "backup": "localization/backups/functions/kubejs/data/hexahedron/functions/first_init/old/blindfold.mcfunction",
+      "original_sha256": "b594293c84156d3b9b98b85fe2f9b8048562c1ee80c94362e03765ce77f8216a",
+      "localized_sha256": "9e81a0130812648a5375d4d9c9b253321d843ca5c3d82111374017ed8f8d2a95",
+      "changes": [
+        {
+          "line": 2,
+          "command_prefix": "title @a actionbar ",
+          "original_component": {
+            "text": "Generating world, please hold...",
+            "bold": true,
+            "color": "aqua"
+          },
+          "localized_component": {
+            "text": "正在生成世界，请稍候……（Generating world, please hold...）",
+            "bold": true,
+            "color": "aqua"
+          }
+        }
+      ]
+    },
+    {
+      "path": "kubejs/data/hexahedron/functions/processors/travel_actionbar.mcfunction",
+      "backup": "localization/backups/functions/kubejs/data/hexahedron/functions/processors/travel_actionbar.mcfunction",
+      "original_sha256": "40a07476d2816faf05d2dacd82f79dad7aeafb43ce4eed69dda6d682dbb73727",
+      "localized_sha256": "abb00c4a0f2d5fab88f295b732d4bfc882c55b3f164b7283cdbeaf579890b4f7",
+      "changes": [
+        {
+          "line": 3,
+          "command_prefix": "title @a[tag=travel_actionbar,scores={travel_actionbar=5}] actionbar ",
+          "original_component": [
+            "",
+            {
+              "text": ". Traveling to dimension: # ",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "score": {
+                "name": "@e[tag=core]",
+                "objective": "dimension_seed"
+              },
+              "bold": true,
+              "color": "aqua"
+            },
+            {
+              "text": " .",
+              "bold": true,
+              "color": "dark_aqua"
+            }
+          ],
+          "localized_component": [
+            "",
+            {
+              "text": ". 正在前往维度：# ",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "score": {
+                "name": "@e[tag=core]",
+                "objective": "dimension_seed"
+              },
+              "bold": true,
+              "color": "aqua"
+            },
+            {
+              "text": " .",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "text": "（"
+            },
+            "",
+            {
+              "text": ". Traveling to dimension: # ",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "score": {
+                "name": "@e[tag=core]",
+                "objective": "dimension_seed"
+              },
+              "bold": true,
+              "color": "aqua"
+            },
+            {
+              "text": " .",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "text": "）"
+            }
+          ]
+        },
+        {
+          "line": 4,
+          "command_prefix": "title @a[tag=travel_actionbar,scores={travel_actionbar=9}] actionbar ",
+          "original_component": [
+            "",
+            {
+              "text": ".. Traveling to dimension: # ",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "score": {
+                "name": "@e[tag=core]",
+                "objective": "dimension_seed"
+              },
+              "bold": true,
+              "color": "aqua"
+            },
+            {
+              "text": " ..",
+              "bold": true,
+              "color": "dark_aqua"
+            }
+          ],
+          "localized_component": [
+            "",
+            {
+              "text": ".. 正在前往维度：# ",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "score": {
+                "name": "@e[tag=core]",
+                "objective": "dimension_seed"
+              },
+              "bold": true,
+              "color": "aqua"
+            },
+            {
+              "text": " ..",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "text": "（"
+            },
+            "",
+            {
+              "text": ".. Traveling to dimension: # ",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "score": {
+                "name": "@e[tag=core]",
+                "objective": "dimension_seed"
+              },
+              "bold": true,
+              "color": "aqua"
+            },
+            {
+              "text": " ..",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "text": "）"
+            }
+          ]
+        },
+        {
+          "line": 5,
+          "command_prefix": "title @a[tag=travel_actionbar,scores={travel_actionbar=13}] actionbar ",
+          "original_component": [
+            "",
+            {
+              "text": "... Traveling to dimension: # ",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "score": {
+                "name": "@e[tag=core]",
+                "objective": "dimension_seed"
+              },
+              "bold": true,
+              "color": "aqua"
+            },
+            {
+              "text": " ...",
+              "bold": true,
+              "color": "dark_aqua"
+            }
+          ],
+          "localized_component": [
+            "",
+            {
+              "text": "... 正在前往维度：# ",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "score": {
+                "name": "@e[tag=core]",
+                "objective": "dimension_seed"
+              },
+              "bold": true,
+              "color": "aqua"
+            },
+            {
+              "text": " ...",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "text": "（"
+            },
+            "",
+            {
+              "text": "... Traveling to dimension: # ",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "score": {
+                "name": "@e[tag=core]",
+                "objective": "dimension_seed"
+              },
+              "bold": true,
+              "color": "aqua"
+            },
+            {
+              "text": " ...",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "text": "）"
+            }
+          ]
+        },
+        {
+          "line": 6,
+          "command_prefix": "title @a[tag=travel_actionbar,scores={travel_actionbar=17}] actionbar ",
+          "original_component": [
+            "",
+            {
+              "text": "  Traveling to dimension: # ",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "score": {
+                "name": "@e[tag=core]",
+                "objective": "dimension_seed"
+              },
+              "bold": true,
+              "color": "aqua"
+            },
+            {
+              "text": "  ",
+              "bold": true,
+              "color": "dark_aqua"
+            }
+          ],
+          "localized_component": [
+            "",
+            {
+              "text": "  正在前往维度：# ",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "score": {
+                "name": "@e[tag=core]",
+                "objective": "dimension_seed"
+              },
+              "bold": true,
+              "color": "aqua"
+            },
+            {
+              "text": "  ",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "text": "（"
+            },
+            "",
+            {
+              "text": "  Traveling to dimension: # ",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "score": {
+                "name": "@e[tag=core]",
+                "objective": "dimension_seed"
+              },
+              "bold": true,
+              "color": "aqua"
+            },
+            {
+              "text": "  ",
+              "bold": true,
+              "color": "dark_aqua"
+            },
+            {
+              "text": "）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "kubejs/data/hexahedron/functions/effects/missing_start.mcfunction",
+      "backup": "localization/backups/functions/kubejs/data/hexahedron/functions/effects/missing_start.mcfunction",
+      "original_sha256": "edb94806d99bca2cd49fab2ff32ecbb179702d285efdf9bab984d975b1193855",
+      "localized_sha256": "8133221129b85bf74e8cd0e9aab2f3aad8e9a73603be6a833f460c6288fd6fb9",
+      "changes": [
+        {
+          "line": 13,
+          "command_prefix": "tellraw @p ",
+          "original_component": {
+            "text": "Non-Player joined the game",
+            "color": "yellow"
+          },
+          "localized_component": {
+            "text": "非玩家加入了游戏（Non-Player joined the game）",
+            "color": "yellow"
+          }
+        },
+        {
+          "line": 14,
+          "command_prefix": "tellraw @p ",
+          "original_component": {
+            "text": "Non-Player joined the game",
+            "color": "yellow"
+          },
+          "localized_component": {
+            "text": "非玩家加入了游戏（Non-Player joined the game）",
+            "color": "yellow"
+          }
+        }
+      ]
+    }
+  ],
+  "narrative_files": [
+    {
+      "path": "kubejs/assets/kubejs/textures/exploration_team_1/day_12.txt",
+      "backup": "localization/backups/functions/kubejs/assets/kubejs/textures/exploration_team_1/day_12.txt",
+      "original_sha256": "2435413d0029af9f3f91ec2e6c18848247f8dbecca196b8db3a4ad01a94a7463",
+      "localized_sha256": "b8561ca9cc446f717513780c57d1a412f4cc4390be0bf2cc2e4a28c2a7bd50ac",
+      "dialogue_turns": 13,
+      "translations": [
+        {
+          "line": 1,
+          "english": "/  So what is going on with those eyes?",
+          "chinese": "/  那些眼睛是怎么回事？"
+        },
+        {
+          "line": 3,
+          "english": "// The pillars you mean?",
+          "chinese": "// 你是指那些柱子吗？"
+        },
+        {
+          "line": 5,
+          "english": "/  Yes.",
+          "chinese": "/  是的。"
+        },
+        {
+          "line": 7,
+          "english": "// Well what happens to your memory of a place if you haven't been there a long time?",
+          "chinese": "// 如果你很久没有去过一个地方，对那里的记忆会有什么变化？"
+        },
+        {
+          "line": 9,
+          "english": "/  It fades?",
+          "chinese": "/  会逐渐淡忘？"
+        },
+        {
+          "line": 11,
+          "english": "// Exactly.",
+          "chinese": "// 正是如此。"
+        },
+        {
+          "line": 13,
+          "english": "// Now what if I would tell you that given enough time that idea can be applied to not just memories?",
+          "chinese": "// 如果我告诉你，只要时间足够久，这个规律也会作用于记忆以外的事物呢？"
+        },
+        {
+          "line": 15,
+          "english": "/  I don't think I follow.",
+          "chinese": "/  我好像没听明白。"
+        },
+        {
+          "line": 17,
+          "english": "// Its exactly like I said, if something is not observed for a long period of time in these dimensions it will simply stop existing.",
+          "chinese": "// 就像我说的，在这些维度里，如果某个事物长时间没有被观察，它就会直接消失。"
+        },
+        {
+          "line": 19,
+          "english": "/  Like a fading memory?, that sounds completely insane.",
+          "chinese": "/  就像逐渐淡忘的记忆？这听起来太疯狂了。"
+        },
+        {
+          "line": 21,
+          "english": "// Yes, like a fading memory and most good revelations do indeed sound insane at first.",
+          "chinese": "// 是的，就像逐渐淡忘的记忆。大多数重要发现刚提出时，确实都听起来很疯狂。"
+        },
+        {
+          "line": 23,
+          "english": "/  You still haven't answered my question.",
+          "chinese": "/  你还是没有回答我的问题。"
+        },
+        {
+          "line": 25,
+          "english": "// I'm pretty sure I just did.",
+          "chinese": "// 我很确定，我刚才已经回答了。"
+        }
+      ]
+    }
+  ],
+  "changed_display_commands": 10,
+  "validation": {
+    "selectors_unchanged": true,
+    "non_display_lines_byte_preserved": true,
+    "json_valid": true,
+    "dynamic_score_duplicated_for_both_languages": true,
+    "original_english_preserved": true
+  },
+  "untouched_displays": [
+    "Numeric countdown components in final_countdown.mcfunction and final_countdown_sec.mcfunction",
+    "Hidden CustomName missing in missing_start.mcfunction"
+  ],
+  "texture_review": {
+    "directory": "kubejs/assets/kubejs/textures/exploration_team_1",
+    "images": [
+      "memory.png",
+      "rune_tablet.png",
+      "rune_tablet2.png",
+      "rune_tablet3.png",
+      "rune_tablet4.png"
+    ],
+    "finding": "Five images visually inspected: rune-like pixel symbols; no readable English prose detected.",
+    "edited": false
+  },
+  "narrative_classification": "day_12.txt is a two-speaker fictional conversation about observation and memory, rather than developer commentary. No textual reference to its path was found in kubejs, patchouli_books or quest configuration; runtime presentation remains unverified."
+}

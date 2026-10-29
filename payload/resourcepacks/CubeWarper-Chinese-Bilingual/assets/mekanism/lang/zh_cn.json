@@ -1,0 +1,7 @@
+{
+  "direction.mekanism.east.short": "东（E）",
+  "direction.mekanism.north.short": "北（N）",
+  "direction.mekanism.south.short": "南（S）",
+  "direction.mekanism.west.short": "西（W）",
+  "constants.mekanism.recipe_warning": "检测到 Mekanism 配方中存在损坏的标签，请查看服务器日志了解详情。这会导致部分配方缺失，机器也可能无法接收预期的材料。（Broken tags in Mekanism recipes detected, please check server logs for details. You will be missing some recipes and machines may not accept expected inputs.）"
+}

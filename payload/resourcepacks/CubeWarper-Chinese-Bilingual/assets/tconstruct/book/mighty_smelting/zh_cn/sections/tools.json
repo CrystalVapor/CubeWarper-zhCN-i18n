@@ -1,0 +1,56 @@
+[
+  {
+    "name": "group_general",
+    "data": "no-load",
+    "extraData": {
+      "tconstruct:load_tools": {
+        "tag": "tconstruct:modifiable/broad",
+        "path": "tools"
+      }
+    }
+  },
+  {
+    "name": "group_ranged",
+    "data": "no-load",
+    "extraData": {
+      "tconstruct:load_tools": {
+        "tag": "tconstruct:modifiable/ranged/broad",
+        "path": "tools"
+      }
+    }
+  },
+  {
+    "name": "group_info",
+    "data": "no-load"
+  },
+  {
+    "name": "tanks",
+    "type": "mantle:image_text",
+    "data": "tools/tanks.json"
+  },
+  {
+    "name": "tanks__english_original",
+    "type": "mantle:image_text",
+    "data": "tconstruct:book/mighty_smelting/en_us/tools/tanks.json"
+  },
+  {
+    "name": "tips",
+    "type": "mantle:text",
+    "data": "tools/tips.json"
+  },
+  {
+    "name": "tips__english_original",
+    "type": "mantle:text",
+    "data": "tconstruct:book/mighty_smelting/en_us/tools/tips.json"
+  },
+  {
+    "name": "designing",
+    "type": "mantle:text",
+    "data": "tools/designing.json"
+  },
+  {
+    "name": "designing__english_original",
+    "type": "mantle:text",
+    "data": "tconstruct:book/mighty_smelting/en_us/tools/designing.json"
+  }
+]

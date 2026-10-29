@@ -1,0 +1,4 @@
+{
+  "death.attack.cofh.knife": "%1$s 被 %2$s 用刀刺死了！（%1$s got knifed by %2$s!）",
+  "death.attack.cofh.knife.item": "%1$s 被 %2$s 使用 %3$s 刺死了！（%1$s was poked by %2$s using %3$s!）"
+}

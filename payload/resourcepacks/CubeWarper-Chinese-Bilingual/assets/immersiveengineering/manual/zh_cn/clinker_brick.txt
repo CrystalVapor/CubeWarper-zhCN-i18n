@@ -1,0 +1,30 @@
+烧结砖（Clinker Bricks）
+
+玻璃屋与石头（Glass Houses and Stones）
+
+<&smoker_recipe>
+
+烧砖技术已经得到改进，砖块不会再因为过于接近火焰而烧结变形，造成整批砖块的部分损耗。
+
+若想重现烧结砖外墙的独特外观，可以在§2烟熏炉§r中加热砖块，使其表面玻璃化并焦化，变成§2烧结砖§r。
+
+<&variants>
+
+为了搭配烧结砖外墙，可以将烧结砖与陶瓦组合，制成装饰变体：§2烧结砖隅石§r和§2窗台§r。
+
+<&cut_variants>
+
+烧结砖也可以制成楼梯、台阶和墙。
+
+§2烧结砖墙§r的最上层带有一小段烧制砖窗台。<np>
+
+English original
+
+
+The art of baking bricks has progressed past wasting several parts of the batch producing clinker for being too close to the fire.
+Those looking to recreate the iconic look of clinker brick facades may, however, heat bricks in the §2Smoker§r to vitrify and char the external bricks, turning them into §2Clinker Bricks§r.
+
+To complement the look of facades made from them, clinker bricks can be combined with terracotta to produce several decorative variants for facades: §2Clinker Brick Quoins§r and §2Sills§r.
+
+Clinker Bricks can also be formed into stairs, slabs, and walls.
+§2Clinker Brick Walls§r have a small sill of baked brick on the top-most layer.

@@ -1,0 +1,440 @@
+{
+  "summary": {
+    "actuallyadditions": {
+      "english_resources": 7,
+      "jar_chinese": 0,
+      "auto_chinese": 0,
+      "language_key_references": 37
+    },
+    "alexscaves": {
+      "english_resources": 74,
+      "jar_chinese": 68,
+      "auto_chinese": 0,
+      "non_json_resources_without_corresponding_zh": 6
+    },
+    "botania": {
+      "english_resources": 265,
+      "jar_chinese": 0,
+      "auto_chinese": 0,
+      "language_key_references": 1276
+    },
+    "citadel": {
+      "english_resources": 2,
+      "jar_chinese": 0,
+      "auto_chinese": 0,
+      "non_json_resources_without_corresponding_zh": 2
+    },
+    "enderio": {
+      "english_resources": 2,
+      "jar_chinese": 0,
+      "auto_chinese": 0,
+      "direct_english_literal_resources": 2
+    },
+    "forestry": {
+      "english_resources": 87,
+      "jar_chinese": 0,
+      "auto_chinese": 0,
+      "language_key_references": 235,
+      "direct_english_literal_resources": 1
+    },
+    "immersiveengineering": {
+      "english_resources": 84,
+      "jar_chinese": 81,
+      "auto_chinese": 81,
+      "non_json_resources_without_corresponding_zh": 3
+    },
+    "immersivepetroleum": {
+      "english_resources": 15,
+      "jar_chinese": 15,
+      "auto_chinese": 15
+    },
+    "immersiveposts": {
+      "english_resources": 3,
+      "jar_chinese": 0,
+      "auto_chinese": 0,
+      "non_json_resources_without_corresponding_zh": 3
+    },
+    "mantle": {
+      "english_resources": 16,
+      "jar_chinese": 0,
+      "auto_chinese": 0,
+      "direct_english_literal_resources": 16
+    },
+    "tconstruct": {
+      "english_resources": 625,
+      "jar_chinese": 620,
+      "auto_chinese": 0,
+      "direct_english_literal_resources": 5
+    }
+  },
+  "literal_json_resources": [
+    {
+      "archive": "mods\\EnderIO-1.20.1-6.2.18-beta-all.jar",
+      "path": "assets/enderio/patchouli_books/guide/en_us/entries/test_entry.json",
+      "fields": [
+        {
+          "field": "name",
+          "value": "Test Entry"
+        },
+        {
+          "field": "text",
+          "value": "This is a test entry, but it should show up!"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\EnderIO-1.20.1-6.2.18-beta-all.jar",
+      "path": "assets/enderio/patchouli_books/guide/en_us/categories/test_category.json",
+      "fields": [
+        {
+          "field": "name",
+          "value": "Test Category"
+        },
+        {
+          "field": "description",
+          "value": "This is a test category for testing!"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\forestry-1.20.1-2.11.1.jar",
+      "path": "assets/forestry/patchouli_books/foresters_manual/en_us/entries/core/circuit_board.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Circuit Boards"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\Mantle-1.20.1-1.11.104.jar",
+      "path": "assets/mantle/books/test/en_us/basic/text_image.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Text Image"
+        },
+        {
+          "field": "text",
+          "value": "Below me is an image"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\Mantle-1.20.1-1.11.104.jar",
+      "path": "assets/mantle/books/test/en_us/basic/smelting_manual.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Smelting (manually populated)"
+        },
+        {
+          "field": "text",
+          "value": "This smelting recipe is manually populated"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\Mantle-1.20.1-1.11.104.jar",
+      "path": "assets/mantle/books/test/en_us/basic/crafting_sm_manual.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Crafting (manually populated)"
+        },
+        {
+          "field": "text",
+          "value": "This small recipe is manually populated"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\Mantle-1.20.1-1.11.104.jar",
+      "path": "assets/mantle/books/test/en_us/basic/smelting_auto.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Smelting (auto populated)"
+        },
+        {
+          "field": "text",
+          "value": "This smelting recipe is automatically populated"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\Mantle-1.20.1-1.11.104.jar",
+      "path": "assets/mantle/books/test/en_us/basic/structure.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Structure"
+        },
+        {
+          "field": "text",
+          "value": "This is a structure"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\Mantle-1.20.1-1.11.104.jar",
+      "path": "assets/mantle/books/test/en_us/basic/crafting_sm_auto.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Crafting (auto populated)"
+        },
+        {
+          "field": "text",
+          "value": "This small recipe is automatically populated"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\Mantle-1.20.1-1.11.104.jar",
+      "path": "assets/mantle/books/test/en_us/basic/text_left_image.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Text Left Image"
+        },
+        {
+          "field": "text",
+          "value": "There is an image in the upper-left corner"
+        },
+        {
+          "field": "text",
+          "value": "I am below said image"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\Mantle-1.20.1-1.11.104.jar",
+      "path": "assets/mantle/books/test/en_us/basic/block_interaction.json",
+      "fields": [
+        {
+          "field": "text",
+          "value": "This is a block interaction recipe"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\Mantle-1.20.1-1.11.104.jar",
+      "path": "assets/mantle/books/test/en_us/basic/crafting_lg_auto.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Crafting (auto populated)"
+        },
+        {
+          "field": "text",
+          "value": "This large recipe is automatically populated"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\Mantle-1.20.1-1.11.104.jar",
+      "path": "assets/mantle/books/test/en_us/basic/text.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Text"
+        },
+        {
+          "field": "text",
+          "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In venenatis eleifend arcu, ac condimentum dolor dignissim ac."
+        },
+        {
+          "field": "text",
+          "value": "Curabitur iaculis velit nibh, at bibendum ligula aliquet at. Duis bibendum lacinia mauris sed varius."
+        },
+        {
+          "field": "text",
+          "value": "Nam vestibulum gravida nisi, et ultrices lacus. Ut ac massa quis purus congue porttitor."
+        },
+        {
+          "field": "text",
+          "value": "Fusce vitae maximus urna. "
+        },
+        {
+          "field": "text",
+          "value": "Orange"
+        },
+        {
+          "field": "text",
+          "value": " in vehicula arcu, in molestie lectus."
+        }
+      ]
+    },
+    {
+      "archive": "mods\\Mantle-1.20.1-1.11.104.jar",
+      "path": "assets/mantle/books/test/en_us/basic/image.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Image"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\Mantle-1.20.1-1.11.104.jar",
+      "path": "assets/mantle/books/test/en_us/basic/text_right_image.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Text Right Image"
+        },
+        {
+          "field": "text",
+          "value": "There is an image in the upper-right corner"
+        },
+        {
+          "field": "text",
+          "value": "I am below said image"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\Mantle-1.20.1-1.11.104.jar",
+      "path": "assets/mantle/books/test/en_us/basic/image_text.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Image Text"
+        },
+        {
+          "field": "text",
+          "value": "Above me is an image"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\Mantle-1.20.1-1.11.104.jar",
+      "path": "assets/mantle/books/test/en_us/basic/crafting_lg_manual.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Crafting (manually populated)"
+        },
+        {
+          "field": "text",
+          "value": "This large recipe is manually populated"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\Mantle-1.20.1-1.11.104.jar",
+      "path": "assets/mantle/books/test/en_us/basic/showcase.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Showcase"
+        },
+        {
+          "field": "text",
+          "value": "Above is an item"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\Mantle-1.20.1-1.11.104.jar",
+      "path": "assets/mantle/books/test/en_us/basic/smithing_manual.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Smithing (manually populated)"
+        },
+        {
+          "field": "text",
+          "value": "This smithing recipe is manually populated"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\TConstruct-1.20.1-3.11.2.166.jar",
+      "path": "assets/tconstruct/book/mighty_smelting/en_us/tools/designing.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Designing Tools"
+        },
+        {
+          "field": "text",
+          "value": "Stuck on design? Let me teach you the Thruul method! Start with a goal: want a strong melee weapon? ore miner? wither killer? The more precise your goal the stronger the tool."
+        },
+        {
+          "field": "text",
+          "value": "Next, identify the most important stats and modifiers to the goal. For melee, might be damage or damage per second. Ore mining may want luck or mining speed. Don't forget \"deal breakers\", like if you need cheap repair."
+        },
+        {
+          "field": "text",
+          "value": "Finally, match tool type, materials, and modifiers to whats important. For materials, check the tip icon in the top corner. Also remember conditional modifiers like smite may be stronger than simple stat boosts if you can meet their conditions."
+        }
+      ]
+    },
+    {
+      "archive": "mods\\TConstruct-1.20.1-3.11.2.166.jar",
+      "path": "assets/tconstruct/book/mighty_smelting/en_us/tools/tips.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Tool Tips"
+        },
+        {
+          "field": "text",
+          "value": "Alright Tinker, you are about to learn about one of the most powerful ways to improve tools, abilities. Before you do, let me give you some quick advice."
+        },
+        {
+          "field": "text",
+          "value": "First, you might think the goal of tinkering is to create the best tool, but its not! Your goal is to make a good tool, and its hard to fail that. You can always improve your tool later."
+        },
+        {
+          "field": "text",
+          "value": "Also, you might be wondering, \"Is something worth using?\". Simple! Just try them all! If you hate it, you can always recycle the tool, or just hide it in a chest. No rush to try each modifier, just start with what sounds fun!"
+        }
+      ]
+    },
+    {
+      "archive": "mods\\TConstruct-1.20.1-3.11.2.166.jar",
+      "path": "assets/tconstruct/book/tinkers_gadgetry/en_us/exploration/cobalt_shard.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Cobalt Shards"
+        },
+        {
+          "field": "text",
+          "value": "Cobalt shards cannot be found from slimes, only appearing in ichor geodes. They are primarily useful as an alternative source of the ore."
+        }
+      ]
+    },
+    {
+      "archive": "mods\\TConstruct-1.20.1-3.11.2.166.jar",
+      "path": "assets/tconstruct/book/mighty_smelting/en_us/tools/tanks.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Tool Tanks"
+        },
+        {
+          "field": "text",
+          "value": "Modifiers such as spitting, melting, and smashing will give the tool a tank. Fluid can be inserted or extracted by interacting with a tank while holding the tool. You can also fill and empty it in the smeltery GUI using the bucket slot (4) or by clicking a fluid in the tank (2) with the tool."
+        }
+      ]
+    },
+    {
+      "archive": "mods\\TConstruct-1.20.1-3.11.2.166.jar",
+      "path": "assets/tconstruct/book/tinkers_gadgetry/en_us/exploration/cobalt_ore.json",
+      "fields": [
+        {
+          "field": "title",
+          "value": "Cobalt Ore"
+        },
+        {
+          "field": "text",
+          "value": "Cobalt ore can be found scattered around the nether. It is most common near ancient debris between elevations of 8 and 32, though it can be located at any height in smaller quantities. Since the ore often appears exposed to air, it can often be easily spotted by its distinct hue in the walls or ceiling of the Nether."
+        }
+      ]
+    }
+  ]
+}

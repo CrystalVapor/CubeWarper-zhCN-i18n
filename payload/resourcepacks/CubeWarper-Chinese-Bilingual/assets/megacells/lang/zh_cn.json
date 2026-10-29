@@ -1,0 +1,7 @@
+{
+  "block.megacells.sky_bronze_block": "陨石青铜块（Sky Bronze Block）",
+  "block.megacells.sky_osmium_block": "陨石锇块（Sky Osmium Block）",
+  "gui.tooltips.megacells.NotInstalled": "未安装 %1$s。（%1$s not installed.）",
+  "item.megacells.sky_bronze_ingot": "陨石青铜锭（Sky Bronze Ingot）",
+  "item.megacells.sky_osmium_ingot": "陨石锇锭（Sky Osmium Ingot）"
+}

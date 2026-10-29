@@ -1,0 +1,1311 @@
+{
+	autofocus_id: "3F6624FB96478C8D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_5"
+	group: ""
+	icon: "kubejs:vector_operator_lightning"
+	id: "42E20C6D7BEA70B7"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3F6624FB96478C8D"]
+			icon: "windswept:yellow_petals"
+			id: "243AFF85A4B9DEAC"
+			shape: "square"
+			tasks: [{
+				dimension: "hexahedron:endless_rainbows"
+				id: "19CDAC83434F4509"
+				title: "进入维度 14: &l外星丘陵&r（Enter dimension 14: &lExtraterrestrial Hills&r）"
+				type: "dimension"
+			}]
+			title: "欢迎来到维度 14: &l外星丘陵&r（Welcome to dimension 14: &lExtraterrestrial Hills&r）"
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			id: "3F6624FB96478C8D"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "034B815C417C27E9"
+				item: "kubejs:vector_operator_blaze"
+				type: "item"
+			}]
+			title: "烈焰矢量算子&r（Blaze Vector Operator&r）"
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4371A7827F334251"]
+			description: [
+				"利用图腾魔法，可以扭曲并腐化周围的自然环境。&r（Your natural surroundings can be distorted and corrupted using totem magic.&r）"
+				""
+				"在底部放置图腾基座，再在上方堆叠五个符文原木，构成图腾。&r（Build a totem with a Totem Base at the bottom and 5 runic logs on top.&r）"
+				"进行仪式需要将五份奥术精魂放在图腾上。&r（Five Arcane Spirts will need to go on the totem to perform the ritual.&r）"
+				""
+				"手持图腾法杖右键点击图腾基座，即可开始仪式。灵魂木生长体有较高概率出现，但仍可能失败。使用骨粉可以加快生长。&r（To start the Ritual, simply Right-click the totem base with the Totemic Staff. Soulwood Growth has a high chance to spawn but is not guaranteed. Bonemeal can be used to make it grow faster.&r）"
+				""
+				"{image:kubejs:textures/questbook/book_images/totem_magic.png width:208 height:140 align:center}"
+			]
+			icon: "malum:totemic_staff"
+			id: "02EA6FCB8A583675"
+			rewards: [{
+				id: "4E3DBC036E1112F7"
+				item: {
+					Count: 1
+					id: "untagged_mobs:nonnac_ittefnoc_repyh"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "&o扭曲树木&r（&oTwisting Trees&r）"
+			tasks: [
+				{
+					id: "66541FA46604E4DD"
+					item: "malum:runewood_totem_base"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6B29DD69DB0C4A54"
+					item: "malum:runewood_log"
+					type: "item"
+				}
+				{
+					id: "00AA2230D8D1450B"
+					item: "malum:totemic_staff"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6742EC457DB21326"
+					item: { Count: 5, id: "malum:arcane_spirit" }
+					type: "item"
+				}
+				{
+					id: "28198E7346575B97"
+					item: "malum:soulwood_growth"
+					type: "item"
+				}
+			]
+			title: "图腾魔法&r（Totem Magic&r）"
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["65865592B7FBB1CC"]
+			description: [
+				"利用风暴群岛中的祭坛，可以借助当地天气的能量强化特定物品。&r（Using the shrine in the Storm Islands, you can harness the power of the local weather to empower certain items.&r）"
+				""
+				"请按下方图片，在祭坛顶部建造一座小型避雷针结构。&r（A small lightning rod structure should be constructed on top as depicted in the image below.&r）"
+				""
+				""
+				"{image:kubejs:textures/questbook/book_images/lightning_shrine.png width:190 height:108 align:center}"
+				""
+				"将需要转化的物品放在结构下部的基座上。&r（The item that you want to transform should be placed on the pedestal located at the lower part of the structure. &r）"
+				""
+				"&l只有避雷针中的蓄电器完全充满电，按下结构底部的按钮才会启动转化。&r&r（&lThe button at the base of the structure will only start the conversion if the accumulator in the lightning rod is fully charged.&r&r）"
+			]
+			icon: "kubejs:bottled_lightning"
+			id: "3362A3145B9D5745"
+			rewards: [
+				{
+					id: "15E7B512A299D022"
+					item: {
+						Count: 1
+						id: "untagged_mobs:hyper_confetti_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FA84A49D0FC912C"
+					item: "windswept:music_disc_rain"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&o驾驭闪电&r（&oRide the Lightning&r）"
+			tasks: [
+				{
+					id: "24183FCBB64EF1F2"
+					item: "immersiveengineering:capacitor_lv"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "18E4F5626262884B"
+					item: { Count: 5, id: "immersiveengineering:coil_lv" }
+					type: "item"
+				}
+				{
+					id: "7C1AF3F5B6B074DD"
+					item: "minecraft:lightning_rod"
+					type: "item"
+				}
+				{
+					id: "477BB3BCACDD6A82"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					id: "7710C9867F89CF38"
+					item: "kubejs:bottled_lightning"
+					type: "item"
+				}
+			]
+			title: "瓶装闪电&r（Lightning in a Bottle&r）"
+			x: -15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00A78310B2AA5365"]
+			description: ["使用充能台，现在可以制作灌注合金。&r（Using the Empowerer Infused Alloy can now be created.&r）"]
+			icon: "mekanism:alloy_infused"
+			id: "28FB9EDAB196A3BC"
+			rewards: [{
+				id: "34838F04B598C39A"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "3660ED0A1DC22BF1"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					id: "44FB39E397918A8A"
+					item: "mekanism:advanced_control_circuit"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3F6624FB96478C8D"]
+			icon: "thermal:crude_oil_bucket"
+			id: "6291AD460BD9EA70"
+			shape: "square"
+			tasks: [{
+				dimension: "hexahedron:the_umbral_sea"
+				id: "0D079CF1C15D332F"
+				title: "进入维度 48: &l暗影海&r（Enter dimension 48: &lThe Umbral Sea&r）"
+				type: "dimension"
+			}]
+			title: "欢迎来到维度 48: &l暗影海&r（Welcome to dimension 48: &lThe Umbral Sea&r）"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6291AD460BD9EA70"]
+			icon: "thermal:crude_oil_bucket"
+			id: "0E609FF5BCBBEA88"
+			rewards: [{
+				id: "2843E7D3217BA5D2"
+				item: "kubejs:tiny_party_popper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D9538DC003F3D35"
+				item: "createdieselgenerators:crude_oil_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F6624FB96478C8D"]
+			icon: "minecraft:soul_soil"
+			id: "179AB6E02372A596"
+			shape: "square"
+			tasks: [{
+				dimension: "hexahedron:soul_valley"
+				id: "65E04DCA1BB15A66"
+				title: "进入维度 36: &l失落山谷&r（Enter dimension 36: &lThe Lost Valley&r）"
+				type: "dimension"
+			}]
+			title: "欢迎来到维度 36: &l失落山谷&r（Welcome to dimension 36: &lThe Lost Valley&r）"
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3362A3145B9D5745"]
+			description: [
+				"避雷针多方块结构经过了一些改进。&r（The Lightning Rod multiblock has been slightly improved.&r）"
+				""
+				"现在，由闪电弹等来源产生的人工闪电击中任意钢栅栏，也能产生电力。&r（It now also generates power when artificial lightnig like from a lightning charge hits one of the steel fences.&r）"
+				""
+				"&l闪电祭坛可以将铜粉转化为闪电弹。&r&r（&lThe Lightning Shrine can convert Copper Dust into a Lightning Charge.&r&r）"
+				""
+				"这种方式需要先消耗电力来发电。根据避雷针电力输出的速度，每次雷击应能带来约 200,000 RF 的净收益。&r（Using this method you will need power to make power. But each lightning strike should yeild a net positive of ~200.000 RF depending on how fast you can drain the Lighting Rod.&r）"
+			]
+			icon: "thermal:lightning_charge"
+			id: "500C36B667B15D5C"
+			rewards: [{
+				id: "578E428CECC7FC32"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "&o原始而无限的力量&r（&oRaw Unlimited Power&r）"
+			tasks: [
+				{
+					id: "18438E85E0DF817A"
+					item: "immersiveengineering:lightning_rod"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "53392A7CD1FBDF44"
+					item: { Count: 3, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					id: "2FF8E1D7383E99FA"
+					item: "thermal:copper_dust"
+					type: "item"
+				}
+				{
+					id: "4698C6AFB3C1B923"
+					item: "thermal:lightning_charge"
+					type: "item"
+				}
+			]
+			title: "利用神明的力量&r（Harnessing the Power of the Gods&r）"
+			x: -15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["562B1530139F8AEA"]
+			description: ["炼油厂可以使用三氧化硫和水生产硫酸。&r（A Refinery can be made to produce Sulfuric Acid from Sulfur Trioxide and Water.&r）"]
+			icon: "immersiveengineering:refinery"
+			id: "003736C6E3EF0118"
+			rewards: [{
+				id: "325344995CB72F34"
+				item: {
+					Count: 1
+					id: "untagged_mobs:confetti_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "111864E195E78111"
+					item: "immersiveengineering:refinery"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0DB3B1F9C23669F9"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "095B1EEC93C62DA1"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["562B1530139F8AEA"]
+			description: [
+				"这座噪声极大的设施几乎可以熔化或合金化所有材料。&r（This ridiculously loud construction will be able to melt and alloy almost anything in existence.&r）"
+				""
+				"请配戴合适的听力防护装备。&r（Make sure you wear the right ear protection though.&r）"
+			]
+			icon: "immersiveengineering:arc_furnace"
+			id: "02C145CB0410E42F"
+			rewards: [
+				{
+					id: "0C349CE5BEE90BC2"
+					item: "immersiveengineering:earmuffs"
+					type: "item"
+				}
+				{
+					id: "5A264073C6FB7D22"
+					item: "kubejs:party_popper"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&o嗡嗡嗡滋滋滋&r（&oBvvzzzzzzzt&r）"
+			tasks: [
+				{
+					id: "471E1C7DB77CA228"
+					item: "immersiveengineering:arc_furnace"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7D435C55F063DECE"
+					item: {
+						Count: 3
+						id: "immersiveengineering:graphite_electrode"
+						tag: {
+							graphDmg: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7F2977D3C91BEA05"]
+			icon: "immersiveengineering:fermenter"
+			id: "1735ADAACB96DC07"
+			rewards: [{
+				id: "528364CE8F31EB38"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "6F92AACAEB8D3277"
+					item: "immersiveengineering:fermenter"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "22D9ED361D26A2AC"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "36F5CBE5E2E243D3"
+					item: { Count: 4, id: "minecraft:cauldron" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["562B1530139F8AEA"]
+			description: [
+				"这座高 16 个方块的多方块结构可以对原油进行分馏，供进一步加工使用。&r（This 16 block high multiblock can fraction Crude Oil for further processing.&r）"
+				""
+				"可以使用投影仪辅助建造，确保结构正确。&r（Remember that you can use a Projector to make sure you build it properly.&r）"
+			]
+			icon: "immersivepetroleum:distillation_tower"
+			id: "71A24C101C595EEF"
+			rewards: [
+				{
+					id: "6861656B81B8B17E"
+					item: "kubejs:party_popper"
+					type: "item"
+				}
+				{
+					id: "76B0CBBDDB8CD0C6"
+					item: {
+						Count: 1
+						id: "untagged_mobs:hyper_confetti_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&o这会激怒异虫&r（&oThis Will Make the Biters Angry&r）"
+			tasks: [
+				{
+					id: "4DAA0DDF94741CF8"
+					item: "immersivepetroleum:distillation_tower"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1C0EE43D57CAEFA8"
+					item: { Count: 4, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["3F6624FB96478C8D"]
+			icon: "regions_unexplored:chalk_grass_block"
+			id: "65865592B7FBB1CC"
+			shape: "square"
+			tasks: [{
+				dimension: "hexahedron:dusk_islands"
+				id: "5DEAAE647D9C7F6B"
+				title: "进入维度 13: &l风暴群岛&r（Enter dimension 13: &lStorm Islands&r）"
+				type: "dimension"
+			}]
+			title: "欢迎来到维度 13: &l风暴群岛&r（Welcome to dimension 13: &lStorm Islands&r）"
+			x: -15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71A24C101C595EEF"]
+			description: [
+				"高压精炼装置可以根据输入的是重油还是轻油，分别制作塑料或电路板。&r（The High Pressure Refinery Unit can be used to create Plastic and Circuit Boards depending on if you feed it Heavy or Light Oil.&r）"
+				""
+				"建议为两种配方分别配置专用机器。&r（It might be a good idea to make a dedicated machine for both recipes.&r）"
+			]
+			icon: "immersivepetroleum:hydrotreater"
+			id: "3C0C5BE247CF991A"
+			rewards: [{
+				id: "5F97BBF7B3795BCE"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "&o该如何处理\\n重油残渣？&r（&oWhat am I Supposed to do \\nwith Heavy Oil Residue?&r）"
+			tasks: [
+				{
+					id: "12D6D698AA83A996"
+					item: "immersivepetroleum:hydrotreater"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4F629A8B2921ADFC"
+					item: { Count: 4, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0C539DA3A9B4FED1"
+					item: { Count: 2, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["243AFF85A4B9DEAC"]
+			description: [
+				"使用弓或发射器发射大型箭矢，可以射击外星丘陵中的奇异结构。&r（The strange structures in the Extraterrestrial Hills can be shot with a Large Arrow using either a bow or a dispenser.&r）"
+				""
+				"命中结构后，隐藏的外星晶体会显露出来。&r（Hitting the structure will reveal its hidden Extraterrestrial Crystals.&r）"
+				""
+				"这些晶体仅会存在数秒，因此需要迅速挖掘。&r（You have to mine these crystals quickly since they will disappear again after only a few seconds.&r）"
+				""
+				"实现挖掘自动化后，每支箭矢能够获得更多晶体。&r（Of course, if you would automate the breaking, you could get a lot more crystals per arrow.&r）"
+			]
+			icon: "clanginghowl:extraterrestrial_energy_crystal"
+			id: "130D8C347C0B0AB6"
+			rewards: [{
+				id: "0D97AD98F8A81A69"
+				item: "caverns_and_chasms:large_arrow"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "51AAD86BA625A874"
+					item: "caverns_and_chasms:large_arrow"
+					type: "item"
+				}
+				{
+					id: "7DF015EE5B85396D"
+					item: "clanginghowl:extraterrestrial_energy_crystal"
+					type: "item"
+				}
+			]
+			title: "生成外星晶体&r（Generatring Extraterrestrial Crystals&r）"
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3C0C5BE247CF991A"
+				"1B9BD40F42E3D0A5"
+				"003736C6E3EF0118"
+			]
+			description: ["高科技电路板是最终阶段机器的重要基础组件。&r（The High-Tech Circuit Board is an important base component for the final machines.&r）"]
+			id: "013DA58608406C7D"
+			rewards: [{
+				id: "7FBC5DD6FA40A545"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CCE4993819E57A8"
+				item: "kubejs:circuitboard"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"013DA58608406C7D"
+				"61EBAB9F6E904FE8"
+			]
+			id: "73E39C4EDCB47CEF"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "069D6A6DDE2A3575"
+				item: "kubejs:vector_operator_lightning"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["304389322101F300"]
+			description: ["现在可以制作轻型工程块，用于建造工业发酵机。&r（You can now make Light Engineering Blocks. This will allow you to setup an industrial fermenter.&r）"]
+			id: "7F2977D3C91BEA05"
+			rewards: [{
+				id: "4FBFD525E151F42B"
+				item: {
+					Count: 1
+					id: "untagged_mobs:confetti_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1F8FD69CF6C86AF8"
+				item: "immersiveengineering:light_engineering"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3BFBC00147BE58DF"]
+			description: [
+				"重型工程块可以用于建造更复杂的多方块结构。&r（The heavy Engineering Block will allow you to make multiblocks that are a lot more complex.&r）"
+				""
+				"如果不确定多方块结构的建造方式，请使用投影仪辅助。&r（If you are ever unsure on how to build a multiblock make sure to use the handy Projector.&r）"
+			]
+			id: "562B1530139F8AEA"
+			rewards: [
+				{
+					id: "521CBCC36C171EDD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 0
+							}
+						}
+						id: "immersivepetroleum:projector"
+					}
+					type: "item"
+				}
+				{
+					id: "08766209BB033836"
+					item: {
+						Count: 1
+						id: "untagged_mobs:hyper_confetti_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "2581189CB20B99B4"
+				item: "immersiveengineering:heavy_engineering"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"5FB02F53EA532C75"
+				"01A551720FDD9F68"
+			]
+			description: [
+				"利用焊接机，可以开始制作基础组件。&r（Using the Soldering Machine, you can start making basic components.&r）"
+				""
+				"这台机器需要预先配置配方，因此建议制作多台。&r（Because this machine needs a pre-configured recipe, it might be a good idea to make more than one.&r）"
+			]
+			id: "304389322101F300"
+			rewards: [{
+				id: "19D5A5706547B4B6"
+				item: "kubejs:tiny_party_popper"
+				type: "item"
+			}]
+			subtitle: "&o让石头进行思考&r（&oMaking a Rock do the Thinking&r）"
+			tasks: [{
+				id: "454A3254EDB8D08A"
+				item: "immersiveengineering:component_electronic"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1735ADAACB96DC07"
+				"13CB5998266B8B4B"
+			]
+			description: [
+				"使用乙醇和处于超热状态的搅拌器，可以制作酚醛树脂。&r（Phenolic Resin can be made using ethanol and a superheated mixer.&r）"
+				""
+				"某个维度几乎全部由蛋糕层组成，因此制作烈焰蛋糕应当容易得多。&r（Blaze Cakes should be a lot easier to make since you can go to a dimension that is almost entirely made up of layers of cake.&r）"
+			]
+			icon: "immersiveengineering:component_electronic_adv"
+			id: "3BFBC00147BE58DF"
+			rewards: [{
+				id: "737CE6EC41C34CD2"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			subtitle: "&o更先进的思考组件&r（&oSmarter Thinking Component&r）"
+			tasks: [
+				{
+					id: "1BC2B9031B39E4BB"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+				{
+					id: "3360E82440649ECA"
+					item: "immersiveengineering:component_electronic_adv"
+					type: "item"
+				}
+			]
+			title: "高级电子元件&r（Advanced Electronic Component&r）"
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"304389322101F300"
+				"28EC0CE38E4640DE"
+			]
+			id: "13CB5998266B8B4B"
+			rewards: [{
+				id: "3D525DE09878BCEF"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "&o太阳是致命的激光&r（&oThe Sun is a Deadly Lazer&r）"
+			tasks: [{
+				id: "7C7AA41B34536970"
+				item: "actuallyadditions:atomic_reconstructor"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"13CB5998266B8B4B"
+				"3BFBC00147BE58DF"
+			]
+			id: "00A78310B2AA5365"
+			rewards: [{
+				id: "343DCA491820DE7A"
+				item: {
+					Count: 1
+					id: "untagged_mobs:hyper_confetti_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "01DD6AA385AACC0F"
+				item: "actuallyadditions:empowerer"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["179AB6E02372A596"]
+			description: [
+				"清洗灵魂沙可以获得下界石英。&r（Nether Quartz can be obtained by washing Soul Sand.&r）"
+				""
+				"在这个维度中，水和熔岩可以生成熔渣，粉碎后能够持续获得灵魂沙。&r（Scoria can be generated using water and lava in this dimension and can be crushed into infinite Soul Sand.&r）"
+			]
+			id: "5FB02F53EA532C75"
+			rewards: [{
+				id: "2AF07C1EC4CDE690"
+				item: "kubejs:tiny_party_popper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1509F0DBAFB9C41D"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6291AD460BD9EA70"]
+			description: ["粉碎暗板岩有小概率获得灵魂石。&r（Crushing Darkslate has a slight chance to produce a Soul Stone.&r）"]
+			id: "4371A7827F334251"
+			rewards: [{
+				id: "055AEA2089F24F8D"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11F08139DAFEDBD3"
+				item: "malum:raw_soulstone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"179AB6E02372A596"
+				"4371A7827F334251"
+			]
+			description: [
+				"失落山谷中可以找到灵魂立方体。&r（The Soul Cube can be found in The Lost Valley.&r）"
+				""
+				"手持灵魂石右键点击它，会消耗灵魂石并召唤一支亡灵军队。&r（When a Soul Stone is Right-clicked on it, it will bring forth an undead army and consume the Soul Stone.&r）"
+				""
+				"这些亡灵会立即攻击你，但它们穿着死灵金属盔甲。&r（This might not seem super useful since these undead will attack you on sight, but they are wearing Necronium Armour.&r）"
+				""
+				"死灵金属的配方已经失传。将这些盔甲放入电弧炉中熔化，可能是获得死灵金属锭的唯一方法。&r（The recipe for Necronium has been lost to time. Melting down their armour in an Arc Frunace might be the only way to get your hands on some Necronium Ingots.&r）"
+			]
+			icon: "kubejs:soul_cube"
+			id: "07F2D5A7CCA1A58B"
+			rewards: [{
+				id: "4EEE3E16AFD32333"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "&o与亡者共舞&r（&oDance with the Dead&r）"
+			tasks: [{
+				id: "3D4C779DC7ADBC70"
+				item: "malum:processed_soulstone"
+				type: "item"
+			}]
+			title: "灵魂立方体&r（The Soul Cube&r）"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3F6624FB96478C8D"]
+			icon: "untagged_mobs:very_rusted_heavy_metal_grate"
+			id: "0123B7152870D571"
+			shape: "square"
+			tasks: [{
+				dimension: "hexahedron:gronglegrowth"
+				id: "270A2E83FA005BCA"
+				title: "进入维度 72: &l格隆密林&r（Enter dimension 72: &lThe Gronglegrowth&r）"
+				type: "dimension"
+			}]
+			title: "欢迎来到维度 72: &l格隆密林&r（Welcome to dimension 72: &lThe Gronglegrowth&r）"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0123B7152870D571"]
+			description: [
+				"格隆密林中的油绿蚧很有用。&r（The Groglets native to the Gronglegrowth can be quite useful.&r）"
+				""
+				"向它们喂食不同物品，可以获得以下珍贵资源：&r（Feeding them different items makes them produce the following valuable resources:&r）"
+				""
+				"&lo&r 符文树脂 → 火药&r（&lo&r Runic Sap -> Gunpowder&r）"
+				"&lo&r 诅咒树脂 → 无限粉&r（&lo&r Cursed Sap -> Grains of Infinity&r）"
+			]
+			icon: "undergarden:gronglet"
+			id: "394C0194156AAE7C"
+			rewards: [{
+				id: "41B0382CF7BF796A"
+				item: {
+					Count: 1
+					id: "undergarden:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&o我有宠物了&r（&oI Got a Pet&r）"
+			tasks: [{
+				id: "0DE7FBA6919CAAA8"
+				item: "undergarden:gronglet"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"394C0194156AAE7C"
+				"02EA6FCB8A583675"
+			]
+			description: [
+				"手持任意斧子右键点击剥皮灵魂木，可以使树中隐藏的诅咒树脂显露出来。&r（Right-clicking stripped Soulwood with any axe it will reveal the Cursed Sap within the tree.&r）"
+				""
+				"向油绿蚧喂食诅咒树脂，它就会排出无限粉。&r（When Cursed Sap is Fed to a Gronglet it will poop out Grains of Infinity.&r）"
+			]
+			icon: "kubejs:grains_of_infinity"
+			id: "5F390AE1F113B848"
+			rewards: [{
+				id: "1B5F6AD3A9F1F419"
+				item: "kubejs:tiny_party_popper"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4C793098A35B6DE5"
+					item: "malum:cursed_sapball"
+					type: "item"
+				}
+				{
+					id: "3853D789D59FE700"
+					item: "kubejs:grains_of_infinity"
+					type: "item"
+				}
+			]
+			title: "无限粉&r（Grains of Inifinity&r）"
+			x: 9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["28FB9EDAB196A3BC"]
+			description: [
+				"化学氧化机可以制作三氧化硫。&r（With the Chemical Oxidizer you can make Sulfur Trioxide.&r）"
+				""
+				"三氧化硫以气体形式产出，使用回旋式气液转换机可以将其转化为液体。&r（Sulfur Trioxide will be produced as a gas but can be turned into a liquid with the Rotary Condensentrator.&r）"
+			]
+			icon: "mekanism:chemical_oxidizer"
+			id: "1B9BD40F42E3D0A5"
+			rewards: [{
+				id: "1AFF74C58D55DE7E"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "&o哔哔，氧气，剩余 30 秒&r（&oBeep-Beep, Oxygen, 30 Seconds&r）"
+			tasks: [
+				{
+					id: "48D11FBBC90869A8"
+					item: "mekanism:chemical_oxidizer"
+					type: "item"
+				}
+				{
+					id: "350A2BF7B008B8E8"
+					item: "mekanism:rotary_condensentrator"
+					type: "item"
+				}
+			]
+			title: "氧气灌注&r（Infusing with Oxygen&r）"
+			x: -8.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"5F390AE1F113B848"
+				"02C145CB0410E42F"
+				"07F2D5A7CCA1A58B"
+			]
+			description: ["回收亡灵留下的死灵金属盔甲，可以制作虚空机架。&r（By recycling the Necronium armor left behind by the undead you can make a Void Chassis.&r）"]
+			icon: "enderio:void_chassis"
+			id: "547C18CF2C6FA3D6"
+			rewards: [{
+				id: "5B0408987B064A44"
+				item: "kubejs:party_popper"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "6F3336EFC9381470"
+					item: "caverns_and_chasms:necromium_nugget"
+					type: "item"
+				}
+				{
+					id: "533AFF7A8C3DC476"
+					item: "caverns_and_chasms:necromium_ingot"
+					type: "item"
+				}
+				{
+					id: "1FFB230CC0532ACC"
+					item: "enderio:void_chassis"
+					type: "item"
+				}
+			]
+			title: "虚空机架&r（Void Chassis&r）"
+			x: 4.0d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"02C145CB0410E42F"
+				"3AEDF7B7730CA73D"
+			]
+			description: ["下界岩通过半自动磨粉机加工得到的下界岩刨屑，可以用于制作耐火钢涂层。&r（Fireproof Steel Coating can be made with the Netherrack Shavings produced from Netherrack with the SAG Mill.&r）"]
+			id: "61EBAB9F6E904FE8"
+			rewards: [{
+				id: "2E8F17159F7EA32C"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "703D610DB6238F3C"
+				item: "clanginghowl:fireproof_steel_coating"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["547C18CF2C6FA3D6"]
+			description: [
+				"半自动磨粉机将是你的第一台末影接口机器。&r（The SAG Mill will be your first EnderIO machine.&r）"
+				""
+				"末影接口机器需要在内部安装电容才能正常运行。&r（EnderIO machines will need a capacitor inside in order to function properly. &r）"
+			]
+			icon: "enderio:sag_mill"
+			id: "3AEDF7B7730CA73D"
+			rewards: [{
+				id: "7F22D50C9308DDF1"
+				item: "supplementaries:confetti_popper"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "7FF9DE545A7A1C8C"
+					item: "enderio:sag_mill"
+					type: "item"
+				}
+				{
+					id: "492618484AB5B0AA"
+					item: "enderio:basic_capacitor"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["0123B7152870D571"]
+			icon: "minecraft:diamond"
+			id: "7D0109AE975E49BE"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "5C7DAB56B199D649"
+					item: "undergarden:depthrock"
+					type: "item"
+				}
+				{
+					id: "5EA67E0C95B52B0E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			title: "可再生钻石&r（Renewable Diamonds&r）"
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"130D8C347C0B0AB6"
+				"3362A3145B9D5745"
+			]
+			description: ["能量机壳可以用于制作实用拓展中的大多数机器。&r（Power Casing can be used to make most of the Actually Additions machines.&r）"]
+			id: "28EC0CE38E4640DE"
+			size: 1.0d
+			tasks: [{
+				id: "5FDAA07F5C9933B4"
+				item: "actuallyadditions:lava_factory_casing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["394C0194156AAE7C"]
+			description: ["向油绿蚧喂食符文树脂，它就会排出火药。&r（When Runic Sap is Fed to a Gronglet it will poop out Gunpowder.&r）"]
+			icon: "minecraft:gunpowder"
+			id: "4EDB043848C115B1"
+			tasks: [
+				{
+					id: "1326373F3353A35B"
+					item: "malum:runic_sapball"
+					type: "item"
+				}
+				{
+					id: "4BE968B9163DFCC0"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			title: "可再生火药&r（Renewable Gunpowder&r）"
+			x: 12.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["65865592B7FBB1CC"]
+			description: [
+				"这个维度中的白垩可以粉碎成铝土矿。&r（The chalk in this dimension can be crushed into Bauxite.&r）"
+				""
+				"此外，风暴群岛中的刷石机会生成白垩。&r（In addition to that, stone generators on the Storm Islands will generate Chalk.&r）"
+			]
+			id: "61CB35448C2C96A5"
+			shape: "octagon"
+			tasks: [{
+				id: "654C3EBB2BEC1CD3"
+				item: "immersiveengineering:raw_aluminum"
+				type: "item"
+			}]
+			title: "可再生铝&r（Renewable Aluminium&r）"
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"130D8C347C0B0AB6"
+				"135F7CA45A2CE98C"
+			]
+			description: [
+				"焊接机可以制作多种电子组件。&r（The Soldering Machine can create all kinds of electronics.&r）"
+				""
+				"需要向它提供焊接合金，焊接合金由熔融铅和熔融锡制作。&r（It will need to be supplied with Soldering Alloy which is made from molten Lead and molten Tin.&r）"
+			]
+			id: "01A551720FDD9F68"
+			rewards: [{
+				id: "18C790FE1A57656D"
+				item: "kubejs:party_popper"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "46BF0EB3FA0287ED"
+				item: "forestry:carpenter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["130D8C347C0B0AB6"]
+			description: ["固定式充能站利用外星晶体技术，可以随时间免费为高级工具充能。&r（The Stationary Charging Station uses Extraterrestial Crystal technology to charge advanced tools for free over time.&r）"]
+			id: "7901F7F30F475BE1"
+			rewards: [{
+				id: "5ECD2ECC530D7667"
+				item: "kubejs:tiny_party_popper"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "66F5C9F8621FABE7"
+				item: "clanginghowl:stationary_charging_station"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7901F7F30F475BE1"]
+			icon: {
+				Count: 1
+				id: "clanginghowl:advanced_chainsword"
+				tag: {
+					Energy: 1500
+					"Max Energy": 1500
+				}
+			}
+			id: "0C755E69C5A7DD79"
+			subtitle: "为了神皇&r（For the God Emperor&r）"
+			tasks: [{
+				id: "4FA7B6CA7429D947"
+				item: {
+					Count: 1
+					id: "clanginghowl:advanced_chainsword"
+					tag: {
+						Energy: 1500
+						"Max Energy": 1500
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7901F7F30F475BE1"]
+			icon: {
+				Count: 1
+				id: "clanginghowl:advanced_chainsaw"
+				tag: {
+					Energy: 3000
+					"Max Energy": 3000
+				}
+			}
+			id: "3B1E003F392F39B0"
+			subtitle: "概念抹除&r（Conceptual Erasure&r）"
+			tasks: [
+				{
+					id: "31DA68B1A04AF740"
+					item: {
+						Count: 1
+						id: "clanginghowl:advanced_chainsaw"
+						tag: {
+							Energy: 3000
+							"Max Energy": 3000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "341A12293011DF90"
+					item: {
+						Count: 1
+						id: "clanginghowl:advanced_hand_drill"
+						tag: {
+							Energy: 3000
+							"Max Energy": 3000
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6291AD460BD9EA70"]
+			description: [
+				"这个维度中的暗板岩可以粉碎成粗镍。&r（The Darkslate in this dimension can be crushed into Raw Nickel.&r）"
+				""
+				"此外，暗影海中的刷石机会生成暗板岩。&r（In addition to that, stone generators in the Umbral Sea will generate Darkslate.&r）"
+			]
+			id: "365A0560F237D1FC"
+			shape: "octagon"
+			tasks: [{
+				id: "536D4B12677F0D58"
+				item: "thermal:raw_nickel"
+				type: "item"
+			}]
+			title: "可再生镍&r（Renewable Nickel&r）"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["243AFF85A4B9DEAC"]
+			description: [
+				"粉碎外星石可以获得锡。&r（Tin can be obtained from crushing Extraterrestrial Stone.&r）"
+				""
+				"外星石不会自然生成，只能通过外星丘陵中的刷石机获得。&r（Extraterrestrial Stone does not spawn naturally and only generates from stone generators in the Extraterrestrial Hills.&r）"
+			]
+			id: "135F7CA45A2CE98C"
+			shape: "octagon"
+			tasks: [{
+				id: "5C8D9B518693163C"
+				item: "thermal:raw_tin"
+				type: "item"
+			}]
+			title: "可再生锡&r（Renewable Tin&r）"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"013DA58608406C7D"
+				"61EBAB9F6E904FE8"
+			]
+			description: [
+				"磁轨炮几乎可以发射任何杆状物，命中时造成大量伤害。&r（The Railgun can shoot almost any rod, which will deal a high amount of damage on impact.&r）"
+				""
+				"可以在充能站中为磁轨炮充能。&r（You can charge the railgun in the Charging Station.&r）"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 3
+					}
+				}
+				id: "immersiveengineering:railgun"
+			}
+			id: "0CBFA3982D725C91"
+			rewards: [
+				{
+					count: 4
+					id: "11FA4F83AD0EDF56"
+					item: "immersiveengineering:stick_steel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "022E8C08FD4EDEBC"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "264C7B79734AA545"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 3
+							}
+						}
+						id: "immersiveengineering:railgun"
+					}
+					type: "item"
+				}
+				{
+					id: "2B777885C28C005C"
+					item: "immersiveengineering:charging_station"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 28.0d
+		}
+	]
+	title: "第 5 章&r（Chapter 5&r）"
+}

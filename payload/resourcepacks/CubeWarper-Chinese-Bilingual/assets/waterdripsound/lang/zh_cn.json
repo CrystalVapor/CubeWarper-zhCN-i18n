@@ -1,0 +1,6 @@
+{
+  "config.waterdripsound.dripChance": "滴落概率（Drip Chance）",
+  "config.waterdripsound.soundCategory": "声音类别（Sound Category）",
+  "config.waterdripsound.useDripstoneSounds": "使用滴水石锥音效（Use Dripstone Sounds）",
+  "tooltip.config.waterdripsound.useDripstoneSounds": "启用时，使用 1.17 添加的滴水石锥\n 水滴 / 熔岩滴落音效。\n关闭时，使用此模组较早\n 版本中的音效。（If enabled, uses the Dripstone water/lava\n drip sounds added in 1.17.\nIf not, uses sounds from older\n versions of the mod.）"
+}

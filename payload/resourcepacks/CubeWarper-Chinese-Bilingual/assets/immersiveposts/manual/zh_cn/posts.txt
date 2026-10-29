@@ -1,0 +1,102 @@
+可用方块（Accepted Blocks）
+
+嗯，该选什么呢……（Hm, what to pick..）
+
+1 索引页
+
+ 2 <link;immersiveposts:posts;§1防腐木§r;treated>
+
+ 3 <link;immersiveposts:posts;§1铝§r;aluminium>
+
+ 4 <link;immersiveposts:posts;§1钢§r;steel>
+
+ 5 <link;immersiveposts:posts;§1下界砖§r;nether>
+
+ 6 <link;immersiveposts:posts;§1铁§r;iron>
+
+ 7 <link;immersiveposts:posts;§1金§r;gold>
+
+ 8 <link;immersiveposts:posts;§1铜§r;copper>
+
+ 9 <link;immersiveposts:posts;§1铅§r;lead>
+
+10 <link;immersiveposts:posts;§1银§r;silver>
+
+11 <link;immersiveposts:posts;§1镍§r;nickel>
+
+12 <link;immersiveposts:posts;§1康铜§r;constantan>
+
+13 <link;immersiveposts:posts;§1琥珀金§r;electrum>
+
+14 <link;immersiveposts:posts;§1铀§r;uranium>
+
+15 <link;immersiveposts:posts;§1混凝土§r;concrete>
+
+16 <link;immersiveposts:posts;§1含铅混凝土§r;leadedconcrete><np>
+
+<&treated>防腐木。<np>
+
+<&aluminium>铝。<np>
+
+<&steel>钢。<np>
+
+<&nether>下界砖。<np>
+
+<&iron>铁。<np>
+
+<&gold>金。<np>
+
+<&copper>铜。<np>
+
+<&lead>铅。<np>
+
+<&silver>银。<np>
+
+<&nickel>镍。<np>
+
+<&constantan>康铜。<np>
+
+<&electrum>琥珀金。<np>
+
+<&uranium>铀。
+
+会发出少量光，亮度似乎只有红石火把的程度。<np>
+
+<&concrete>混凝土。<np>
+
+<&leadedconcrete>含铅混凝土。<np>
+
+English original
+
+ 1 Index Page
+ 2 <link;immersiveposts:posts;§1Treated_Wood§r;treated>
+ 3 <link;immersiveposts:posts;§1Aluminium§r;aluminium>
+ 4 <link;immersiveposts:posts;§1Steel§r;steel>
+ 5 <link;immersiveposts:posts;§1Netherbrick§r;nether>
+ 6 <link;immersiveposts:posts;§1Iron§r;iron>
+ 7 <link;immersiveposts:posts;§1Gold§r;gold>
+ 8 <link;immersiveposts:posts;§1Copper§r;copper>
+ 9 <link;immersiveposts:posts;§1Lead§r;lead>
+10 <link;immersiveposts:posts;§1Silver§r;silver>
+11 <link;immersiveposts:posts;§1Nickel§r;nickel>
+12 <link;immersiveposts:posts;§1Constantan§r;constantan>
+13 <link;immersiveposts:posts;§1Electrum§r;electrum>
+14 <link;immersiveposts:posts;§1Uranium§r;uranium>
+15 <link;immersiveposts:posts;§1Concrete§r;concrete>
+16 <link;immersiveposts:posts;§1Concrete_(Leaded)§r;leadedconcrete><np>
+Treated-Wood.<np>
+Aluminum.<np>
+Steel.<np>
+Nether Bricks.<np>
+Iron.<np>
+Gold.<np>
+Copper.<np>
+Lead.<np>
+Silver.<np>
+Nickel.<np>
+Constantan.<np>
+Electrum.<np>
+Uranium.
+Emits a little bit of light, though it seems only as much as a redstone torch?<np>
+Concrete.<np>
+Leaded Concrete.

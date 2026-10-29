@@ -1,0 +1,15 @@
+电磁铁（Electromagnet）
+
+超乎寻常的吸引力（Unnaturally attractive）
+
+<&recipe>电磁铁是缠绕在铁磁性磁芯上的大型导线线圈，通电后会产生磁场。
+
+磁场会将附近的物品吸向电磁铁，非常适合收集农场或刷怪场的产物。<br>
+
+电磁铁在供电时持续工作，红石信号可以使其停止。潜行时手持工程师螺丝刀右键点击，可以反转这一控制方式。<np>
+
+English original
+
+An Electromagnet is simply a big coil of wire wound around a ferromagnetic core which creates a magnetic field when provided with electric current.
+This field attracts nearby items to the magnet, making it ideal for collecting the spoils of a (mob-)farm.<br>
+The magnet runs continuously while it is being supplied with power, but can be disabled with a redstone signal. This behavior can be inverted by sneaking and rightclicking it with an Engineer's Screwdriver.

@@ -1,0 +1,10 @@
+{
+  "create.recipe.fan_corroding.fan": "酸液后方的鼓风机（Fan behind Acid）",
+  "create_alexscaves_compat.recipe.fan_corroding": "批量腐蚀（Bulk Corroding）",
+  "item.create_alexscaves_compat.incomplete_charred_remnant": "未完成的焦黑残骸（Incomplete Charred  Remnant）",
+  "item.create_alexscaves_compat.incomplete_depth_charge": "未完成的深水炸弹（Incomplete Depth Charge）",
+  "item.create_alexscaves_compat.incomplete_notor_gizmo": "未完成的诺托装置（Incomplete Notor Gizmo）",
+  "item.create_alexscaves_compat.incomplete_occult_gem": "未完成的秘术宝石（Incomplete Occult Gem）",
+  "item.create_alexscaves_compat.incomplete_polymer_plate": "未完成的聚合物板（Incomplete Polymer Plate）",
+  "item.create_alexscaves_compat.incomplete_telecore": "未完成的传送核心（Incomplete Telecore）"
+}

@@ -1,0 +1,216 @@
+{
+  "raw_inventory_path": "localization/book_resource_inventory.json",
+  "classification_path": "localization/book_resource_classification.json",
+  "raw_en_us_non_lang_resources": 1180,
+  "namespace_summary": {
+    "actuallyadditions": {
+      "english_resources": 7,
+      "jar_chinese": 0,
+      "auto_chinese": 0,
+      "language_key_references": 37
+    },
+    "alexscaves": {
+      "english_resources": 74,
+      "jar_chinese": 68,
+      "auto_chinese": 0,
+      "non_json_resources_without_corresponding_zh": 6
+    },
+    "botania": {
+      "english_resources": 265,
+      "jar_chinese": 0,
+      "auto_chinese": 0,
+      "language_key_references": 1276
+    },
+    "citadel": {
+      "english_resources": 2,
+      "jar_chinese": 0,
+      "auto_chinese": 0,
+      "non_json_resources_without_corresponding_zh": 2
+    },
+    "enderio": {
+      "english_resources": 2,
+      "jar_chinese": 0,
+      "auto_chinese": 0,
+      "direct_english_literal_resources": 2
+    },
+    "forestry": {
+      "english_resources": 87,
+      "jar_chinese": 0,
+      "auto_chinese": 0,
+      "language_key_references": 235,
+      "direct_english_literal_resources": 1
+    },
+    "immersiveengineering": {
+      "english_resources": 84,
+      "jar_chinese": 81,
+      "auto_chinese": 81,
+      "non_json_resources_without_corresponding_zh": 3
+    },
+    "immersivepetroleum": {
+      "english_resources": 15,
+      "jar_chinese": 15,
+      "auto_chinese": 15
+    },
+    "immersiveposts": {
+      "english_resources": 3,
+      "jar_chinese": 0,
+      "auto_chinese": 0,
+      "non_json_resources_without_corresponding_zh": 3
+    },
+    "mantle": {
+      "english_resources": 16,
+      "jar_chinese": 0,
+      "auto_chinese": 0,
+      "direct_english_literal_resources": 16
+    },
+    "tconstruct": {
+      "english_resources": 625,
+      "jar_chinese": 620,
+      "auto_chinese": 0,
+      "direct_english_literal_resources": 5
+    }
+  },
+  "supplemented_display_resources": 12,
+  "localized_section_indexes": 2,
+  "supplement_manifest": "localization/book_supplement_manifest.json",
+  "validations": [
+    {
+      "path": "resourcepacks\\CubeWarper-Chinese-Bilingual\\assets\\immersiveengineering\\manual\\zh_cn\\dyes.txt",
+      "anchors_preserved": true,
+      "paging_and_break_commands_preserved": true,
+      "link_targets_preserved": true,
+      "configuration_tokens_preserved": true,
+      "english_body_preserved": true,
+      "note": "English continuation omits duplicate anchor declarations; visible formatting and link destinations persist."
+    },
+    {
+      "path": "resourcepacks\\CubeWarper-Chinese-Bilingual\\assets\\immersiveengineering\\manual\\zh_cn\\clinker_brick.txt",
+      "anchors_preserved": true,
+      "paging_and_break_commands_preserved": true,
+      "link_targets_preserved": true,
+      "configuration_tokens_preserved": true,
+      "english_body_preserved": true,
+      "note": "English continuation omits duplicate anchor declarations; visible formatting and link destinations persist."
+    },
+    {
+      "path": "resourcepacks\\CubeWarper-Chinese-Bilingual\\assets\\immersiveengineering\\manual\\zh_cn\\electromagnet.txt",
+      "anchors_preserved": true,
+      "paging_and_break_commands_preserved": true,
+      "link_targets_preserved": true,
+      "configuration_tokens_preserved": true,
+      "english_body_preserved": true,
+      "note": "English continuation omits duplicate anchor declarations; visible formatting and link destinations persist."
+    },
+    {
+      "path": "resourcepacks\\CubeWarper-Chinese-Bilingual\\assets\\immersiveposts\\manual\\zh_cn\\postbase.txt",
+      "anchors_preserved": true,
+      "paging_and_break_commands_preserved": true,
+      "link_targets_preserved": true,
+      "configuration_tokens_preserved": true,
+      "english_body_preserved": true,
+      "note": "English continuation omits duplicate anchor declarations; visible formatting and link destinations persist."
+    },
+    {
+      "path": "resourcepacks\\CubeWarper-Chinese-Bilingual\\assets\\immersiveposts\\manual\\zh_cn\\posts.txt",
+      "anchors_preserved": true,
+      "paging_and_break_commands_preserved": true,
+      "link_targets_preserved": true,
+      "configuration_tokens_preserved": true,
+      "english_body_preserved": true,
+      "note": "English continuation omits duplicate anchor declarations; visible formatting and link destinations persist."
+    },
+    {
+      "path": "resourcepacks\\CubeWarper-Chinese-Bilingual\\assets\\immersiveposts\\manual\\zh_cn\\usage.txt",
+      "anchors_preserved": true,
+      "paging_and_break_commands_preserved": true,
+      "link_targets_preserved": true,
+      "configuration_tokens_preserved": true,
+      "english_body_preserved": true,
+      "note": "English continuation omits duplicate anchor declarations; visible formatting and link destinations persist."
+    },
+    {
+      "path": "resourcepacks\\CubeWarper-Chinese-Bilingual\\assets\\tconstruct\\book\\mighty_smelting\\zh_cn\\tools\\designing.json",
+      "json_valid": true,
+      "original_structure_preserved": true
+    },
+    {
+      "path": "resourcepacks\\CubeWarper-Chinese-Bilingual\\assets\\tconstruct\\book\\mighty_smelting\\zh_cn\\tools\\tips.json",
+      "json_valid": true,
+      "original_structure_preserved": true
+    },
+    {
+      "path": "resourcepacks\\CubeWarper-Chinese-Bilingual\\assets\\tconstruct\\book\\tinkers_gadgetry\\zh_cn\\exploration\\cobalt_shard.json",
+      "json_valid": true,
+      "original_structure_preserved": true
+    },
+    {
+      "path": "resourcepacks\\CubeWarper-Chinese-Bilingual\\assets\\tconstruct\\book\\mighty_smelting\\zh_cn\\tools\\tanks.json",
+      "json_valid": true,
+      "original_structure_preserved": true
+    },
+    {
+      "path": "resourcepacks\\CubeWarper-Chinese-Bilingual\\assets\\tconstruct\\book\\tinkers_gadgetry\\zh_cn\\exploration\\cobalt_ore.json",
+      "json_valid": true,
+      "original_structure_preserved": true
+    },
+    {
+      "path": "resourcepacks\\CubeWarper-Chinese-Bilingual\\assets\\tconstruct\\book\\mighty_smelting\\zh_cn\\sections\\tools.json",
+      "json_valid": true,
+      "english_page_references_exist": [
+        "tconstruct:book/mighty_smelting/en_us/tools/tanks.json",
+        "tconstruct:book/mighty_smelting/en_us/tools/tips.json",
+        "tconstruct:book/mighty_smelting/en_us/tools/designing.json"
+      ]
+    },
+    {
+      "path": "resourcepacks\\CubeWarper-Chinese-Bilingual\\assets\\tconstruct\\book\\tinkers_gadgetry\\zh_cn\\sections\\exploration.json",
+      "json_valid": true,
+      "english_page_references_exist": [
+        "tconstruct:book/tinkers_gadgetry/en_us/exploration/cobalt_ore.json",
+        "tconstruct:book/tinkers_gadgetry/en_us/exploration/cobalt_shard.json"
+      ]
+    },
+    {
+      "path": "resourcepacks\\CubeWarper-Chinese-Bilingual\\assets\\forestry\\patchouli_books\\foresters_manual\\zh_cn\\entries\\core\\circuit_board.json",
+      "json_valid": true,
+      "original_structure_preserved": true
+    }
+  ],
+  "kubejs_extra_json": {
+    "files_scanned": 687,
+    "human_display_literal_candidates": []
+  },
+  "important_missing_language_directory_interpretation": "ActuallyAdditions, Botania, and Forestry pages use existing language translation keys; absence of zh_cn page directories does not imply untranslated display content. One direct Forestry Circuit Boards title was supplemented.",
+  "special_untranslated_mods": {
+    "clanginghowl": "No book/guide/dialog resource files found.",
+    "incision": "No book/guide/dialog resource files found.",
+    "untagged_mobs": "The archive is mods/ketchup 1.2.jar. Book-named resources are bookshelf block models, states, and loot tables; no guide/dialogue resources found."
+  },
+  "retained_english_resources": [
+    {
+      "namespace": "alexscaves",
+      "count": 6,
+      "type": "spelunkery minigame word dictionaries",
+      "reason": "SpelunkeryTableScreen and SpelunkeryTableWordButton use a dedicated GLYPH_FONT, per-letter layout, target-word selection and reveal logic. Replacing Latin words with Chinese requires game-specific rendering and matching validation. Existing 68 ordinary cave book resources contain native Chinese counterparts. The six word dictionaries remain English."
+    },
+    {
+      "namespace": "citadel",
+      "count": 2,
+      "type": "library demonstration book"
+    },
+    {
+      "namespace": "enderio",
+      "count": 2,
+      "type": "test Patchouli entries/categories"
+    },
+    {
+      "namespace": "mantle",
+      "count": 16,
+      "type": "test book examples"
+    }
+  ],
+  "limitations": [
+    "Runtime pagination and localized Mantle section loading need in-game verification.",
+    "This audit inventories en_us folders and searches book/guide/dialog filenames in the three untranslated mods; it does not claim coverage of every hard-coded Java string."
+  ]
+}

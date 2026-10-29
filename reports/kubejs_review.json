@@ -1,0 +1,521 @@
+{
+  "scope": "Read-only review; only this QA report was written.",
+  "expected_custom_keys": 107,
+  "generated_keys": 153,
+  "missing_custom_keys": [],
+  "syntax_checks": [
+    {
+      "file": "kubejs/client_scripts/zz_cube_warper_zh_cn.js",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "kubejs/client_scripts/tooltips.js",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "kubejs/server_scripts/!main/commandblock_check.js",
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ],
+  "dynamic_final_vectors": {
+    "steps": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "all_present": true
+  },
+  "legacy_blocks": {
+    "ids": [
+      "cobblestone_ancient",
+      "cobblestone",
+      "mossy_cobblestone",
+      "bricks_ancient",
+      "bricks"
+    ],
+    "all_present": true
+  },
+  "required_changes": [
+    {
+      "key": "item.kubejs.solder_fluid_bucket",
+      "issue": "FluidBuilder generates the bucket display name with a Bucket suffix; source English should be Solder Alloy Bucket and Chinese should include bucket.",
+      "evidence": "mods/kubejs-forge-2001.6.5-build.26.jar:dev/latvian/mods/kubejs/fluid/FluidBuilder.class displayName, bucketItem, literal Bucket suffix"
+    }
+  ],
+  "terminology_notes": [
+    {
+      "english": "Empty Shell",
+      "generated_chinese": "空弹壳",
+      "existing_term": "空弹筒",
+      "assessment": "Review context if terminology alignment is desired; current wording is semantically valid."
+    },
+    {
+      "english": "Blood",
+      "generated_chinese": "血液",
+      "existing_term": "血",
+      "assessment": "Current wording is semantically valid."
+    },
+    {
+      "english": "Blood Quartz / Droop Soup / Timestone / Shiverstone Osmium Ore",
+      "assessment": "Pack-specific renames intentionally diverge from base mod terms; retain current translations."
+    }
+  ],
+  "untranslated_literal_exclusions": [
+    {
+      "namespace": "clanginghowl",
+      "key": "info.clanginghowl.battery.number",
+      "value": "%s/%s",
+      "reason": "numeric_or_formatted_template",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "clanginghowl",
+      "key": "info.clanginghowl.energy.number",
+      "value": "%s/%s",
+      "reason": "numeric_or_formatted_template",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "unusual_furniture",
+      "key": "item.unusual_furniture.discord.description_0",
+      "value": "§9UnusualSquad.com/discord",
+      "reason": "literal_identifier_or_placeholder",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "incision",
+      "key": "entity.twisted.unknown",
+      "value": "???",
+      "reason": "literal_identifier_or_placeholder",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "incision",
+      "key": "subtitles.maw.breath",
+      "value": "",
+      "reason": "original_empty_subtitle",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "incision",
+      "key": "subtitles.maw.burp",
+      "value": "",
+      "reason": "original_empty_subtitle",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "incision",
+      "key": "subtitles.maw.chukuh",
+      "value": "",
+      "reason": "original_empty_subtitle",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "incision",
+      "key": "subtitles.maw.hihat",
+      "value": "",
+      "reason": "original_empty_subtitle",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "incision",
+      "key": "subtitles.maw.kick",
+      "value": "",
+      "reason": "original_empty_subtitle",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "incision",
+      "key": "subtitles.maw.raspberry",
+      "value": "",
+      "reason": "original_empty_subtitle",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "incision",
+      "key": "subtitles.maw.scream",
+      "value": "",
+      "reason": "original_empty_subtitle",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "incision",
+      "key": "subtitles.maw.sing",
+      "value": "",
+      "reason": "original_empty_subtitle",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "incision",
+      "key": "subtitles.maw.snare",
+      "value": "",
+      "reason": "original_empty_subtitle",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "infernalexp",
+      "key": "painting.infernalexp.glowstone_canyon.author",
+      "value": "Nekomaster",
+      "reason": "author_or_music_credit",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "infernalexp",
+      "key": "painting.infernalexp.the_fallen_ones.author",
+      "value": "LazTheArtist",
+      "reason": "author_or_music_credit",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "balm",
+      "key": "config.jade.plugin_balm.jade",
+      "value": "Balm",
+      "reason": "literal_identifier_or_placeholder",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "guideme",
+      "key": "key.guideme.category",
+      "value": "GuideME",
+      "reason": "literal_identifier_or_placeholder",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "entity_texture_features",
+      "key": "config.entity_texture_features.player_skin_editor.cape.minecraftcapes",
+      "value": "minecraftcapes.net",
+      "reason": "proper_name_or_service_domain",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "entity_texture_features",
+      "key": "config.entity_texture_features.player_skin_editor.cape.optifine",
+      "value": "OptiFine",
+      "reason": "proper_name_or_service_domain",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.backgrounds.glsl.compile_mode.shadertoy",
+      "value": "Shadertoy",
+      "reason": "proper_name_or_service_domain",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.decoration_overlays.glsl.compile_mode.shadertoy",
+      "value": "Shadertoy",
+      "reason": "proper_name_or_service_domain",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.editor.shortcuts.copy",
+      "value": "Ctrl + C",
+      "reason": "keyboard_shortcut",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.editor.shortcuts.cut",
+      "value": "Ctrl + U",
+      "reason": "keyboard_shortcut",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.editor.shortcuts.delete",
+      "value": "Del",
+      "reason": "keyboard_shortcut",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.editor.shortcuts.enter",
+      "value": "Enter",
+      "reason": "keyboard_shortcut",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.editor.shortcuts.grid",
+      "value": "Ctrl + G",
+      "reason": "keyboard_shortcut",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.editor.shortcuts.paste",
+      "value": "Ctrl + V",
+      "reason": "keyboard_shortcut",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.editor.shortcuts.redo",
+      "value": "Ctrl + Y",
+      "reason": "keyboard_shortcut",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.editor.shortcuts.save",
+      "value": "Ctrl + S",
+      "reason": "keyboard_shortcut",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.editor.shortcuts.select_all",
+      "value": "Ctrl + A",
+      "reason": "keyboard_shortcut",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.editor.shortcuts.undo",
+      "value": "Ctrl + Z",
+      "reason": "keyboard_shortcut",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.elements.glsl.compile_mode.shadertoy",
+      "value": "Shadertoy",
+      "reason": "proper_name_or_service_domain",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.elements.text.markdown",
+      "value": "Markdown",
+      "reason": "proper_name_or_service_domain",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.overlay.debug.toggle.shortcut",
+      "value": "CTRL + ALT + D",
+      "reason": "keyboard_shortcut",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.overlay.menu_bar.customization.hide_overlay.shortcut",
+      "value": "CTRL + ALT + C",
+      "reason": "keyboard_shortcut",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.overlay.menu_bar.customization.reload_fancymenu.shortcut",
+      "value": "CTRL + ALT + R",
+      "reason": "keyboard_shortcut",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "fancymenu",
+      "key": "fancymenu.overlay.menu_bar.user_interface.ui_blur_intensity.slider_label",
+      "value": "%s%%",
+      "reason": "numeric_or_formatted_template",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "exposure",
+      "key": "gui.exposure.camera_controls.focal_length",
+      "value": "%smm",
+      "reason": "numeric_or_formatted_template",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "exposure",
+      "key": "gui.exposure.camera_controls.focal_range",
+      "value": "%smm",
+      "reason": "numeric_or_formatted_template",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "exposure",
+      "key": "item.exposure.film_roll.tooltip.hsb",
+      "value": "HSB: %s",
+      "reason": "numeric_or_formatted_template",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "betterf3",
+      "key": "config.betterf3.title",
+      "value": "BetterF3",
+      "reason": "literal_identifier_or_placeholder",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "betterf3",
+      "key": "format.betterf3.coords",
+      "value": "%s: %s  %s  %s",
+      "reason": "numeric_or_formatted_template",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "betterf3",
+      "key": "format.betterf3.default_format",
+      "value": "%s: %s",
+      "reason": "numeric_or_formatted_template",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "betterf3",
+      "key": "format.betterf3.fps",
+      "value": "%s fps / %s fps %s",
+      "reason": "numeric_or_formatted_template",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "betterf3",
+      "key": "format.betterf3.total",
+      "value": "%s %s/%s: %s/%s",
+      "reason": "numeric_or_formatted_template",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "betterf3",
+      "key": "text.betterf3.line.fps_tps",
+      "value": "FPS / TPS (Alt+F3)",
+      "reason": "literal_identifier_or_placeholder",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "betterf3",
+      "key": "text.betterf3.line.minecraft",
+      "value": "Minecraft",
+      "reason": "literal_identifier_or_placeholder",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "betterf3",
+      "key": "text.betterf3.module.minecraft",
+      "value": "Minecraft",
+      "reason": "literal_identifier_or_placeholder",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "vista",
+      "key": "cassette_tape.vista.67.tooltip",
+      "value": "MehVahdJukaar - 67",
+      "reason": "author_or_music_credit",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "vista",
+      "key": "cassette_tape.vista.axolotl.tooltip",
+      "value": "Minecraft - Axolotls",
+      "reason": "author_or_music_credit",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "vista",
+      "key": "cassette_tape.vista.block_wave.tooltip",
+      "value": "Plantkillable - Block Wave",
+      "reason": "author_or_music_credit",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "vista",
+      "key": "cassette_tape.vista.bonfire_steve.tooltip",
+      "value": "HappyMeek - Bonfire",
+      "reason": "author_or_music_credit",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "vista",
+      "key": "cassette_tape.vista.bounce.tooltip",
+      "value": "MehVahdJukaar - Bounce",
+      "reason": "author_or_music_credit",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "vista",
+      "key": "cassette_tape.vista.channel_2.tooltip",
+      "value": "Plantkillable - Channel 2",
+      "reason": "author_or_music_credit",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "vista",
+      "key": "cassette_tape.vista.frogs.tooltip",
+      "value": "Minecraft - Frogs",
+      "reason": "author_or_music_credit",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "vista",
+      "key": "cassette_tape.vista.maze3d.tooltip",
+      "value": "Psy-Fi - 3D Maze",
+      "reason": "author_or_music_credit",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "vista",
+      "key": "cassette_tape.vista.mc98.tooltip",
+      "value": "Plantkillable - Mc 98",
+      "reason": "author_or_music_credit",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "vista",
+      "key": "cassette_tape.vista.mc_98.tooltip",
+      "value": "Plantkillable - Mc 98",
+      "reason": "author_or_music_credit",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "vista",
+      "key": "cassette_tape.vista.nature.tooltip",
+      "value": "Plantkillable - Nature",
+      "reason": "author_or_music_credit",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "vista",
+      "key": "cassette_tape.vista.space_sniffer.tooltip",
+      "value": "Plantkillable - Space Sniffer",
+      "reason": "author_or_music_credit",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "vista",
+      "key": "cassette_tape.vista.tower.tooltip",
+      "value": "Hamaggot - Tower",
+      "reason": "author_or_music_credit",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "vista",
+      "key": "cassette_tape.vista.us.tooltip",
+      "value": "MehVahdJukaar - Us",
+      "reason": "author_or_music_credit",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    },
+    {
+      "namespace": "vista",
+      "key": "item.vista.music_disc_sojourn.desc",
+      "value": "Hlzfss - Sojourn",
+      "reason": "author_or_music_credit",
+      "recommendation": "retain_original_and_exclude_from_translated_count"
+    }
+  ],
+  "excluded_literal_count": 63,
+  "limitations": [
+    "Node syntax checks do not execute Minecraft/KubeJS events. Runtime language reload remains necessary."
+  ]
+}

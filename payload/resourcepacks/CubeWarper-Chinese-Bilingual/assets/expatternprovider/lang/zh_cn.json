@@ -1,0 +1,20 @@
+{
+  "emi.extendedae.category.fixer": "水晶修复器（Crystal Fixer）",
+  "block.extendedae.assembler_matrix_crafter": "装配矩阵合成核心（Assembler Matrix Craft Core）",
+  "block.extendedae.assembler_matrix_frame": "装配矩阵框架（Assembler Matrix Frame）",
+  "block.extendedae.assembler_matrix_pattern": "装配矩阵样板核心（Assembler Matrix Pattern Core）",
+  "block.extendedae.assembler_matrix_speed": "装配矩阵加速核心（Assembler Matrix Speed Core）",
+  "block.extendedae.assembler_matrix_wall": "装配矩阵壁板（Assembler Matrix Wall）",
+  "emi.extendedae.text.success_chance": "成功概率：%1$s（Success Chance: %1$s）",
+  "gui.extendedae.assembler_matrix": "装配矩阵（Assembler Matrix）",
+  "gui.extendedae.assembler_matrix.cancel": "停止所有合成任务并退回材料（Stop all crafting jobs and return ingredients）",
+  "gui.extendedae.assembler_matrix.pattern": "仅接受合成样板（Only accepts crafting pattern）",
+  "gui.extendedae.assembler_matrix.threads": "运行中的任务：%1$s（Running Jobs: %1$s）",
+  "gui.extendedae.assembler_matrix.tooltip": "搜索样板（Search pattern）",
+  "gui.extendedae.ex_pattern_access_terminal.search_mode": "切换搜索模式（Change search mode）",
+  "gui.extendedae.ex_pattern_access_terminal.search_mode.01": "当前：输出（Current: Output）",
+  "gui.extendedae.ex_pattern_access_terminal.search_mode.02": "当前：输入（Current: Input）",
+  "gui.extendedae.ex_pattern_access_terminal.search_mode.03": "当前：输入与输出（Current: Input and Output）",
+  "gui.extendedae.ex_pattern_access_terminal.tooltip.04": "按输入、输出或样板供应器名称搜索。（Search by input, output or pattern provider name.）",
+  "item.extendedae.entro_shard": "熵变碎片（Entro Shard）"
+}

@@ -1,0 +1,251 @@
+{
+  "alexscaves": {},
+  "biomesoplenty": {},
+  "caverns_and_chasms": {
+    "item.caverns_and_chasms.tuning_fork.note.0": {
+      "english": "F♯",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "item.caverns_and_chasms.tuning_fork.note.12": {
+      "english": "F♯",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "item.caverns_and_chasms.tuning_fork.note.14": {
+      "english": "G♯",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "item.caverns_and_chasms.tuning_fork.note.16": {
+      "english": "A♯",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "item.caverns_and_chasms.tuning_fork.note.19": {
+      "english": "C♯",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "item.caverns_and_chasms.tuning_fork.note.2": {
+      "english": "G♯",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "item.caverns_and_chasms.tuning_fork.note.21": {
+      "english": "D♯",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "item.caverns_and_chasms.tuning_fork.note.24": {
+      "english": "F♯",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "item.caverns_and_chasms.tuning_fork.note.4": {
+      "english": "A♯",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "item.caverns_and_chasms.tuning_fork.note.7": {
+      "english": "C♯",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "item.caverns_and_chasms.tuning_fork.note.9": {
+      "english": "D♯",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.caverns_and_chasms.chef.author": {
+      "english": "hatsondogs",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.caverns_and_chasms.embedded.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.caverns_and_chasms.exsanguinated.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.caverns_and_chasms.isolation.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.caverns_and_chasms.knight.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.caverns_and_chasms.noir.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.caverns_and_chasms.pit.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.caverns_and_chasms.prototype_701.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.caverns_and_chasms.squirmy.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.caverns_and_chasms.starry_night.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.caverns_and_chasms.the_enigma.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    }
+  },
+  "darkerdepths": {},
+  "endergetic": {},
+  "environmental": {
+    "painting.environmental.archive.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.environmental.bouquet.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.environmental.bouquet2.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.environmental.in_plains_sight.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.environmental.lone_plum.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.environmental.marshpath.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.environmental.optimal_aerodynamics.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.environmental.slabfish.author": {
+      "english": "Musicano",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.environmental.snake_block.author": {
+      "english": "Snake Block",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.environmental.the_place_within_the_pines.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    }
+  },
+  "neapolitan": {
+    "painting.neapolitan.cone.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.neapolitan.dawn.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.neapolitan.neapoleon.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.neapolitan.scream.author": {
+      "english": "five",
+      "reason": "author_credit_musical_note_or_unit"
+    }
+  },
+  "windswept": {
+    "painting.windswept.al-lu_pine.author": {
+      "english": "Yapettoshen",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.windswept.aurorae.author": {
+      "english": "Yapettoshen",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.windswept.cliffside.author": {
+      "english": "Binome",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.windswept.dress_codes.author": {
+      "english": "Yapettoshen",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.windswept.ecotonal_pareidolia.author": {
+      "english": "Yapettoshen",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.windswept.hearth_rug.author": {
+      "english": "Yapettoshen",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "painting.windswept.the_foils.author": {
+      "english": "Yapettoshen",
+      "reason": "author_credit_musical_note_or_unit"
+    }
+  },
+  "farmersdelight": {},
+  "miners_delight": {},
+  "malum": {
+    "malum.gui.book.entry.page.headline.a_personal_note.commendations.alphalilly": {
+      "english": "Alphalilly",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "malum.gui.book.entry.page.headline.a_personal_note.commendations.coalition_of_magic": {
+      "english": "Coalition of Magic",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "malum.gui.book.entry.page.headline.a_personal_note.commendations.kultik": {
+      "english": "Kultik",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "malum.gui.book.entry.page.headline.a_personal_note.commendations.pessi_mysterio": {
+      "english": "Pessi Mysterio",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "malum.gui.book.entry.page.headline.a_personal_note.commendations.wiresegal": {
+      "english": "Wiresegal",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "malum.gui.curio.negative": {
+      "english": "-%s",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "malum.gui.curio.positive": {
+      "english": "+%s",
+      "reason": "author_credit_musical_note_or_unit"
+    }
+  },
+  "tconstruct": {
+    "jei.tconstruct.temperature": {
+      "english": "%s°C",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "tool_stat.tconstruct.energy": {
+      "english": "%s FE",
+      "reason": "author_credit_musical_note_or_unit"
+    }
+  },
+  "undergarden": {},
+  "brewinandchewin": {
+    "generic.unit.millibuckets": {
+      "english": "mB",
+      "reason": "author_credit_musical_note_or_unit"
+    }
+  },
+  "chimes": {},
+  "immersiveengineering": {
+    "desc.immersiveengineering.flavour.fluidStack": {
+      "english": "%1$s: %2$s/%3$smB",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "desc.immersiveengineering.info.fluidStored": {
+      "english": "%1$s %2$s mB",
+      "reason": "author_credit_musical_note_or_unit"
+    },
+    "desc.immersiveengineering.info.percent": {
+      "english": "%1$s%%",
+      "reason": "author_credit_musical_note_or_unit"
+    }
+  },
+  "immersivepetroleum": {}
+}
